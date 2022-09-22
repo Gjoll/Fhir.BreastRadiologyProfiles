@@ -83,14 +83,5 @@ Description: """
     # As future finding modalities become commonly used, sections defines for that finding type may be created.
     #</p>
     # """)
-
-
-    #apply GroupMemberProfile("CommonResources", "%Title%")
-  #end
-  
-  #// -----------------------------------------
-  #// Graph Macros
-  #// -----------------------------------------
-  #use Graph
   #end
 #end

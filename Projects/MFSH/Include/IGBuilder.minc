@@ -6,7 +6,8 @@
   `    "group" : {
   `      "id" : "%ProfileId%",
   `      "name" : "%Name%",
-  `      "description" : "%Description%"
+  `      "description" : "%Description%",
+	     "traceMsg" : "%ApplyStackFrame%"
   `    }
   `  },
 #end
@@ -16,7 +17,8 @@
   `    "member" : {
   `      "groupingId" : "%GroupId%",
   `      "sort": "%Sort%",
-  `      "reference" : "^StructureDefinition/%ProfileId%$"
+  `      "reference" : "^StructureDefinition/%ProfileId%$",
+	     "traceMsg" : "%ApplyStackFrame%"
   `    }
   `  },
 #end
@@ -26,7 +28,8 @@
   `    "member" : {
   `      "groupingId" : "%GroupId%",
   `      "sort": "%Sort%",
-  `      "reference" : "^StructureDefinition/%FragmentId%$"
+  `      "reference" : "^StructureDefinition/%FragmentId%$",
+	     "traceMsg" : "%ApplyStackFrame%"
   `    }
   `  },
 #end
@@ -36,7 +39,8 @@
   `    "member" : {
   `      "groupingId" : "%GroupId%",
   `      "sort": "%Sort%",
-  `      "reference" : "ValueSet/%ValueSetId%"
+  `      "reference" : "^ValueSet/%ValueSetId%$",
+	     "traceMsg" : "%ApplyStackFrame%"
   `    }
   `  },
 #end
@@ -46,7 +50,8 @@
   `    "member" : {
   `      "groupingId" : "%GroupId%",
   `      "sort": "%Sort%",
-  `      "reference" : "CodeSystem/%CodeSystemId%"
+  `      "reference" : "^CodeSystem/%CodeSystemId%$",
+	     "traceMsg" : "%ApplyStackFrame%"
   `    }
   `  },
 #end

@@ -261,13 +261,6 @@ Description:  "ConsistentWith Value Set"
     """
   */
 
-  #// -----------------------------------------
-  #// IG Macros
-  #// -----------------------------------------
-  #use IG
-    #apply GroupMemberCodeSystem("CommonCodesCS", "%Title%")
-  #end
-
 
   #// -----------------------------------------
   #// IG Macros
