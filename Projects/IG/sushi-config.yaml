@@ -82,6 +82,59 @@ groups:
       - StructureDefinition/FindingsLeftBreast   # Profiles/Main/FindingsLeftBreast.mfsh#10/n
       - StructureDefinition/FindingsRightBreast   # Profiles/Main/FindingsRightBreast.mfsh#10/n
       - StructureDefinition/ServiceRecommendation   # Profiles/Common/ServiceRecommendation.mfsh#36/n
+  CommonResources:
+    name: Common Resources
+    description: This section contains resources that are defined in this Breast Imaging Implementation Guide.
+    resources:
+      - StructureDefinition/AssociatedFeature   # Profiles/Common/AssociatedFeature.mfsh#53/n
+      - StructureDefinition/AbnormalityAsymmetry   # Profiles/Common/AbnormalityAsymmetry.mfsh#44/n
+      - StructureDefinition/BreastAssessmentCategory   # Profiles/Common/BreastAssessmentCategory.mfsh#27/n
+      - StructureDefinition/BreastComposition   # Profiles/Common/BreastComposition.mfsh#27/n
+      - StructureDefinition/ConsistentWith   # Profiles/Common/ConsistentWith.mfsh#58/n
+      - StructureDefinition/AbnormalityCyst   # Profiles/Common/AbnormalityCyst.mfsh#58/n
+      - StructureDefinition/AbnormalityDuct   # Profiles/Common/AbnormalityDuct.mfsh#53/n
+      - StructureDefinition/AbnormalityFibroadenoma   # Profiles/Common/AbnormalityFibroadenoma.mfsh#51/n
+      - StructureDefinition/AbnormalityForeignObject   # Profiles/Common/AbnormalityForeignObject.mfsh#52/n
+      - StructureDefinition/AbnormalityLymphNode   # Profiles/Common/AbnormalityLymphNode.mfsh#57/n
+      - StructureDefinition/AbnormalityArchitecturalDistortion   # Profiles/Common/AbnormalityArchitecturalDistortion.mfsh#40/n
+      - StructureDefinition/AbnormalityCalcification   # Profiles/Common/AbnormalityCalcification.mfsh#49/n
+      - StructureDefinition/AbnormalityDensity   # Profiles/Common/AbnormalityDensity.mfsh#58/n
+      - StructureDefinition/AbnormalityFatNecrosis   # Profiles/Common/AbnormalityFatNecrosis.mfsh#48/n
+      - StructureDefinition/AbnormalityMass   # Profiles/Common/AbnormalityMass.mfsh#54/n
+      - StructureDefinition/AbnormalitySkinLesion   # Profiles/Common/AbnormalitySkinLesion.mfsh#45/n
+      - StructureDefinition/TumorSatellite   # Profiles/Common/TumorSatellite.mfsh#60/n
+  MGResources:
+    name: Mammography Resources
+    description: This section contains resources that are defined in this Breast Imaging Implementation Guide specifically in a mammography exam.
+    resources:
+      - StructureDefinition/MGFinding   # Profiles/FindingMG/MGFinding.mfsh#111/n
+  MRIResources:
+    name: MRI Resources
+    description: This section contains resources that are defined in this Breast Imaging Implementation Guide specifically in an MRI exam.
+    resources:
+      - StructureDefinition/MRIFinding   # Profiles/FindingMRI/MRIFinding.mfsh#31/n
+  NMResources:
+    name: Nuclear Medicine Resources
+    description: This section contains resources that are defined in this Breast Imaging Implementation Guide specifically in a nuclear medicine exam.
+    resources:
+      - StructureDefinition/NMFinding   # Profiles/FindingNM/NMFinding.mfsh#32/n
+  USResources:
+    name: Ultrasound Resources
+    description: This section contains resources that are defined in this Breast Imaging Implementation Guide specifically in an ultrasound exam.
+    resources:
+      - StructureDefinition/USFinding   # Profiles/FindingUS/USFinding.mfsh#31/n
+  OtherResources:
+    name: Other Resources
+    description: This section contains resources that are defined in this Breast Imaging Implementation Guide 
+      that are not one of the predefined exam types.
+    resources:
+      - StructureDefinition/OtherModalityFinding   # Profiles/FindingOther/OtherModalityFinding.mfsh#34/n
+  ExtensionResources:
+    name: Extension Resources
+    description: This section contains extension resources that are defined in this Breast Imaging Implementation Guide.
+    resources:
+      - StructureDefinition/BreastBodyLocationExtension   # Extensions/BreastBodyLocationExtension.mfsh#74/n
+      - StructureDefinition/BreastLateralityExtension   # Extensions/BreastLateralityExtension.mfsh#29/n
   CommonCodesCS:
     name: Common CodeSystems
     description: This section contains code systems that are defined in this Breast Imaging Implementation Guide.
@@ -146,33 +199,6 @@ groups:
       - ValueSet/PreviouslyDemonstratedByVS   # Terminology/Completed/PreviouslyDemonstratedBy.mfsh#29/n
       - ValueSet/ServiceRecommendationsVS   # Terminology/ServiceRecommendations.mfsh#12/n
       - ValueSet/ShapeVS   # Terminology/3a. Shape.mfsh#15/n
-  CommonResources:
-    name: Common Resources
-    description: This section contains resources that are defined in this Breast Imaging Implementation Guide.
-    resources:
-      - StructureDefinition/AssociatedFeature   # Profiles/Common/AssociatedFeature.mfsh#53/n
-      - StructureDefinition/AbnormalityAsymmetry   # Profiles/Common/AbnormalityAsymmetry.mfsh#44/n
-      - StructureDefinition/BreastAssessmentCategory   # Profiles/Common/BreastAssessmentCategory.mfsh#27/n
-      - StructureDefinition/BreastComposition   # Profiles/Common/BreastComposition.mfsh#27/n
-      - StructureDefinition/ConsistentWith   # Profiles/Common/ConsistentWith.mfsh#58/n
-      - StructureDefinition/AbnormalityCyst   # Profiles/Common/AbnormalityCyst.mfsh#58/n
-      - StructureDefinition/AbnormalityDuct   # Profiles/Common/AbnormalityDuct.mfsh#53/n
-      - StructureDefinition/AbnormalityFibroadenoma   # Profiles/Common/AbnormalityFibroadenoma.mfsh#51/n
-      - StructureDefinition/AbnormalityForeignObject   # Profiles/Common/AbnormalityForeignObject.mfsh#52/n
-      - StructureDefinition/AbnormalityLymphNode   # Profiles/Common/AbnormalityLymphNode.mfsh#57/n
-      - StructureDefinition/AbnormalityArchitecturalDistortion   # Profiles/Common/AbnormalityArchitecturalDistortion.mfsh#40/n
-      - StructureDefinition/AbnormalityCalcification   # Profiles/Common/AbnormalityCalcification.mfsh#49/n
-      - StructureDefinition/AbnormalityDensity   # Profiles/Common/AbnormalityDensity.mfsh#58/n
-      - StructureDefinition/AbnormalityFatNecrosis   # Profiles/Common/AbnormalityFatNecrosis.mfsh#48/n
-      - StructureDefinition/AbnormalityMass   # Profiles/Common/AbnormalityMass.mfsh#54/n
-      - StructureDefinition/AbnormalitySkinLesion   # Profiles/Common/AbnormalitySkinLesion.mfsh#45/n
-      - StructureDefinition/TumorSatellite   # Profiles/Common/TumorSatellite.mfsh#60/n
-  ExtensionResources:
-    name: Extension Resources
-    description: This section contains extension resources that are defined in this Breast Imaging Implementation Guide.
-    resources:
-      - StructureDefinition/BreastBodyLocationExtension   # Extensions/BreastBodyLocationExtension.mfsh#74/n
-      - StructureDefinition/BreastLateralityExtension   # Extensions/BreastLateralityExtension.mfsh#29/n
   Fragments:
     name: Resource Fragments
     description:  This section contains resource fragments that are used in the construction of the Breast Imaging Profiles.
@@ -205,30 +231,4 @@ groups:
       - StructureDefinition/PreviouslyDemonstratedByFragment   # Include/ObservationMacros/Observation.Component.PreviouslyDemonstratedBy.minc#41/nProfiles/Common/AbnormalityArchitecturalDistortion.mfsh#18/n
       - StructureDefinition/ShapeFragment   # Include/ObservationMacros/Observation.Component.ShapeFragment.minc#43/nProfiles/Common/AbnormalityCyst.mfsh#25/n
       - StructureDefinition/TumorSatelliteFragment   # Include/ObservationMacros/Observation.HasMember.TumorSatelliteFragment.minc#36/nProfiles/Common/AbnormalityCyst.mfsh#38/n
-  MGResources:
-    name: Mammography Resources
-    description: This section contains resources that are defined in this Breast Imaging Implementation Guide specifically in a mammography exam.
-    resources:
-      - StructureDefinition/MGFinding   # Profiles/FindingMG/MGFinding.mfsh#111/n
-  MRIResources:
-    name: MRI Resources
-    description: This section contains resources that are defined in this Breast Imaging Implementation Guide specifically in an MRI exam.
-    resources:
-      - StructureDefinition/MRIFinding   # Profiles/FindingMRI/MRIFinding.mfsh#31/n
-  NMResources:
-    name: Nuclear Medicine Resources
-    description: This section contains resources that are defined in this Breast Imaging Implementation Guide specifically in a nuclear medicine exam.
-    resources:
-      - StructureDefinition/NMFinding   # Profiles/FindingNM/NMFinding.mfsh#32/n
-  OtherResources:
-    name: Other Resources
-    description: This section contains resources that are defined in this Breast Imaging Implementation Guide 
-      that are not one of the predefined exam types.
-    resources:
-      - StructureDefinition/OtherModalityFinding   # Profiles/FindingOther/OtherModalityFinding.mfsh#34/n
-  USResources:
-    name: Ultrasound Resources
-    description: This section contains resources that are defined in this Breast Imaging Implementation Guide specifically in an ultrasound exam.
-    resources:
-      - StructureDefinition/USFinding   # Profiles/FindingUS/USFinding.mfsh#31/n
 #ISBuilderGroups End

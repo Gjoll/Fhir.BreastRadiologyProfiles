@@ -9,6 +9,11 @@
   			        "workingDir": "..",
 					"cmdPath": "MFSH.exe",
 					"cmdArgs": "AutoMate\\mfsh.json"
+				},
+				{
+  			        "workingDir": "..",
+					"cmdPath": "IGBuilder",
+					"cmdArgs": "AutoMate\\igbuilder.json"
 				}
 			]
 		},
@@ -31,11 +36,6 @@
   			        "workingDir": "..",
 					"cmdPath": "FGraph",
 					"cmdArgs": "AutoMate\\fgraph.json"
-				},
-				{
-  			        "workingDir": "..",
-					"cmdPath": "IGBuilder",
-					"cmdArgs": "AutoMate\\igbuilder.json"
 				}
 			]
 		}
