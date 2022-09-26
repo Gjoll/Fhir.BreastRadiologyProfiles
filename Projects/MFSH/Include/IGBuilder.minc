@@ -1,12 +1,13 @@
 //
 // Make a graph node that refers to a profile.
 //
-#macro IG.Group(%ProfileId%, %Name%, %Description%) > "%GraphDir%\\IGFile.cmds"
+#macro IG.Group(%GroupId%, %Name%, %Description%, %Sort%) > "%GraphDir%\\IGFile.cmds"
   `  {
   `    "group" : {
-  `      "id" : "%ProfileId%",
+  `      "id" : "%GroupId%",
   `      "name" : "%Name%",
   `      "description" : "%Description%",
+  `      "sort" : "%Sort%",
 	     "traceMsg" : "%ApplyStackFrame%"
   `    }
   `  },

@@ -5,63 +5,73 @@
   # "Main Resources", 
   # """
   # This section contains the main top level resources that are defined in this Breast Imaging Implementation Guide.
-  # """)
+  # """,
+  # "100")
 
   #apply Group("CommonResources", 
   # "Common Resources", 
   # """
   # This section contains resources that are defined in this Breast Imaging Implementation Guide.
-  # """)
-
-  #apply Group("ExtensionResources", 
-  # "Extension Resources", 
-  # """
-  # This section contains extension resources that are defined in this Breast Imaging Implementation Guide.
-  # """)
+  # """,
+  # "101")
 
   #apply Group("MGResources", 
   # "Mammography Resources", 
   # """
   # This section contains resources that are defined in this Breast Imaging Implementation Guide specifically in a mammography exam.
-  # """)
+  # """,
+  # "110")
 
 
   #apply Group("MRIResources", 
   # "MRI Resources", 
   # """
   # This section contains resources that are defined in this Breast Imaging Implementation Guide specifically in an MRI exam.
-  # """)
-
-  #apply Group("USResources", 
-  # "Ultrasound Resources", 
-  # """
-  # This section contains resources that are defined in this Breast Imaging Implementation Guide specifically in an ultrasound exam.
-  # """)
+  # """,
+  # "111")
 
   #apply Group("NMResources", 
   # "Nuclear Medicine Resources", 
   # """
   # This section contains resources that are defined in this Breast Imaging Implementation Guide specifically in a nuclear medicine exam.
-  # """)
+  # """,
+  # "112")
+
+  #apply Group("USResources", 
+  # "Ultrasound Resources", 
+  # """
+  # This section contains resources that are defined in this Breast Imaging Implementation Guide specifically in an ultrasound exam.
+  # """,
+  # "113")
 
   #apply Group("OtherResources", 
   # "Other Resources", 
   # """
   # This section contains resources that are defined in this Breast Imaging Implementation Guide 
   # that are not one of the predefined exam types.
-  # """)
+  # """,
+  # "119")
 
-  #apply Group("CommonCodesVS", 
-  # "Common ValueSets", 
+  #apply Group("ExtensionResources", 
+  # "Extension Resources", 
   # """
-  # This section contains value sets that are defined in this Breast Imaging Implementation Guide.
-  # """)
+  # This section contains extension resources that are defined in this Breast Imaging Implementation Guide.
+  # """,
+  # "190")
 
   #apply Group("CommonCodesCS", 
   # "Common CodeSystems", 
   # """
   # This section contains code systems that are defined in this Breast Imaging Implementation Guide.
-  # """)
+  # """,
+  # "200")
+
+  #apply Group("CommonCodesVS", 
+  # "Common ValueSets", 
+  # """
+  # This section contains value sets that are defined in this Breast Imaging Implementation Guide.
+  # """,
+  # "250")
 
   #apply Group("Fragments", 
   # "Resource Fragments", 
@@ -70,5 +80,6 @@
   #
   # They are included here only to better convey the structure and composition of the components that are used to create the
   # Breast Imaging Resources.
-  # """)
+  # """,
+  # "900")
 #end
