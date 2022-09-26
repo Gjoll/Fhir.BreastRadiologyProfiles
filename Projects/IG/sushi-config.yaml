@@ -183,7 +183,7 @@ groups:
       - StructureDefinition/AssociatedFeatureFragment   # Include/ObservationMacros/Observation.HasMember.AssociatedFeatureFragment.minc#36/nProfiles/Common/AbnormalityArchitecturalDistortion.mfsh#20/n
       - StructureDefinition/BiRadBreastCompositionFragment   # Include/ObservationMacros/Observation.HasMember.BiRadBreastCompositionFragment.minc#36/nInclude/ObservationMacros/Observation.FindingBreastFragment.minc#23/nProfiles/Main/FindingsBiLateralBreast.mfsh#2/n
       - StructureDefinition/BiRadAssessmentCategoryFragment   # Include/ObservationMacros/Observation.HasMember.BiRadAssessmentCategoryFragment.minc#36/nProfiles/Common/AbnormalityArchitecturalDistortion.mfsh#15/n
-      - StructureDefinition/BreastBodyLocationRequiredFragment   # D:/Development/HL7/Fhir.BreastRadiologyProfiles/Projects/MFSH/FragmentTemplate.txt#12/n
+      - StructureDefinition/BreastBodyLocationRequiredFragment   # C:/Development/HL7/Fhir.BreastRadiologyProfiles/Projects/MFSH/FragmentTemplate.txt#12/n
       - StructureDefinition/BreastBodyLocationRequiredFragment   # Include/ObservationMacros/Observation.BreastBodyLocationRequiredFragment.minc#28/nProfiles/Common/AbnormalityArchitecturalDistortion.mfsh#12/n
       - StructureDefinition/FindingsBiLateralBreastSectionFragment   # Profiles/Main/BreastImagingComposition/BreastImagingComposition.BiLateralBreastSectionFragment.mfsh#46/nProfiles/Main/BreastImagingComposition/BreastImagingComposition.mfsh#16/n
       - StructureDefinition/FindingsLeftBreastSectionFragment   # Profiles/Main/BreastImagingComposition/BreastImagingComposition.FindingsLeftBreastSectionFragment.mfsh#45/nProfiles/Main/BreastImagingComposition/BreastImagingComposition.mfsh#14/n
