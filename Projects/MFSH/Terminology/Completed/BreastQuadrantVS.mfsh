@@ -12,6 +12,7 @@ Description:  """
     Implementer use of SNOMED CT is not covered by this agreement"
     """
 
+* insert ValueSet_Common
 * include $SCT#19100000 "Structure of lower inner quadrant of breast (body structure)"
 * include $SCT#33564002 "Structure of lower outer quadrant of breast (body structure)"
 * include $SCT#77831004 "Structure of upper inner quadrant of breast (body structure)"

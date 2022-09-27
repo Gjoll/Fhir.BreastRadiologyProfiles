@@ -1,5 +1,5 @@
 Profile: AbnormalityCyst
-Parent: Observation
+Parent: us-core-observation-imaging
 Title: "Cyst"
 Description: """
   Cyst

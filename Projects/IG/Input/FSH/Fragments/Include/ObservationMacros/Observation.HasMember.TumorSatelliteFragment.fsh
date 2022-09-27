@@ -1,5 +1,5 @@
 Profile: TumorSatelliteFragment
-Parent: Observation
+Parent: us-core-observation-imaging
 Title: "Tumor Satellite Fragment"
 Description: """
   This fragment adds the references for the Tumor Satellite extension.

@@ -1,5 +1,5 @@
 Profile: NotPreviouslySeenFragment
-Parent: Observation
+Parent: us-core-observation-imaging
 Title: "NotPreviously Seen Fragment"
 Description: """
   Adds NotPreviously Seen Component slice.

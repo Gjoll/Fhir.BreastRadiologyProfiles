@@ -11,6 +11,7 @@ Description:  """
     Implementer use of SNOMED CT is not covered by this agreement"
     """
 
+* insert ValueSet_Common
 * include $SCT#24142002 "Nipple structure (body structure)"
 * include $SCT#78904004 "Chest wall structure (body structure)"
 * include $SCT#39937001 "Skin structure (body structure)"

@@ -3,7 +3,7 @@
 */
  
 Profile: TumorSatellite
-Parent: Observation
+Parent: us-core-observation-imaging
 Title: "Tumor Satellite"
 Description: """
     Tumor Satellite

@@ -6,6 +6,8 @@ ValueSet:  ConsistentWithVS
 Title: "ConsistentWith ValueSet"
 Description:  "ConsistentWith Value Set"
 
+* insert ValueSet_Common
+
 //$FIXME: Ask GG if this should include all children of 399294002
 
 * include $SCT#404057003 "Angiolipoma (Disorder)"

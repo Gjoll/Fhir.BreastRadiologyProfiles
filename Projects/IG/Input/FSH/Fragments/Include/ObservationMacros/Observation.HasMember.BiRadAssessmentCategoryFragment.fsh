@@ -1,5 +1,5 @@
 Profile: BiRadAssessmentCategoryFragment
-Parent: Observation
+Parent: us-core-observation-imaging
 Title: "BiRad Fragment"
 Description: """
   Fragment that adds 'BiRad Assessment Category code' element to profile

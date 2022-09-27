@@ -1,6 +1,7 @@
 ValueSet:  ObservedChangesVS
 Title: "ObservedChanges ValueSet"
 Description:  "ObservedChanges Value Set"
+* insert ValueSet_Common
 * codes from system ObservedChangesCS
   
   

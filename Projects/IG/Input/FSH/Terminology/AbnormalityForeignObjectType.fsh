@@ -2,6 +2,7 @@
 ValueSet:  AbnormalityForeignObjectTypeVS
 Title: "Foreign Object Type ValueSet"
 Description:  "Foreign Object Type Value Set"
+* insert ValueSet_Common
 * codes from system AbnormalityForeignObjectTypeCS
 
 CodeSystem:  AbnormalityForeignObjectTypeCS

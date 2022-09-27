@@ -1,5 +1,5 @@
 Profile: AbnormalityAsymmetry
-Parent: Observation
+Parent: us-core-observation-imaging
 Title: "Asymmetry"
 Description: """
     Asymmetry

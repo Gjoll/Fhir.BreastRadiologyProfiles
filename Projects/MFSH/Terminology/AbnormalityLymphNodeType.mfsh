@@ -2,6 +2,7 @@
 ValueSet:  AbnormalityLymphNodeTypeVS
 Title: "Lymph Node Type ValueSet"
 Description:  "LymphNode Type Value Set"
+* insert ValueSet_Common
 * codes from system AbnormalityLymphNodeTypeCS
 
 

@@ -1,5 +1,5 @@
 Profile: ObservedChangesFragment
-Parent: Observation
+Parent: us-core-observation-imaging
 Title: "Observed Changes Fragment"
 Description: """
   Add Observed Changes Component Slice

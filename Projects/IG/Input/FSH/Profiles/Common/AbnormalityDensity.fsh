@@ -1,5 +1,5 @@
 Profile: AbnormalityDensity
-Parent: Observation
+Parent: us-core-observation-imaging
 Title: "Mammography Density"
 Description: """
     Mammography Density

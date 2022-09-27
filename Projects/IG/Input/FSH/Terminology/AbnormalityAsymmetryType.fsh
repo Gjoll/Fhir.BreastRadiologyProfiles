@@ -2,6 +2,7 @@
 ValueSet:  AbnormalityAsymmetryTypeVS
 Title: "Asymmetry Type ValueSet"
 Description:  "Asymmetry Type Value Set"
+* insert ValueSet_Common
 * codes from system AbnormalityAsymmetryTypeCS
 
 

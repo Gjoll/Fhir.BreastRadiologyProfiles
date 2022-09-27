@@ -1,5 +1,5 @@
 Profile: AbnormalityFatNecrosis
-Parent: Observation
+Parent: us-core-observation-imaging
 Title: "Mammography Fat Necrosis"
 Description: """
     Mammography Fat Necrosis

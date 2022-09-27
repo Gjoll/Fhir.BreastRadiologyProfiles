@@ -1,5 +1,5 @@
 Profile: AssociatedFeature
-Parent: Observation
+Parent: us-core-observation-imaging
 Title: "Associated Feature"
 Description: """
     Associated Feature

@@ -1,5 +1,5 @@
 Profile: ObservedSizeFragment
-Parent: Observation
+Parent: us-core-observation-imaging
 Title: "Observed Size Fragment"
 Description: """
   Fragment that adds 'Observed Size' components to Observation.

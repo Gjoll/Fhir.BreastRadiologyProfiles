@@ -1,5 +1,5 @@
 Profile: DensityFragment
-Parent: Observation
+Parent: us-core-observation-imaging
 Title: "Density Component Fragment"
 Description: """
   Adds Density Component

@@ -1,5 +1,5 @@
 Profile: AbnormalityFibroadenoma
-Parent: Observation
+Parent: us-core-observation-imaging
 Title: "Fibroadenoma"
 Description: """
   Fibroadenoma

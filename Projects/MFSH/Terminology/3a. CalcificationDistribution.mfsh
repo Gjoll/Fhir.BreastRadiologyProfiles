@@ -9,6 +9,7 @@ Description:  "CalcificationDistribution Value Set"
     Implementer use of SNOMED CT is not covered by this agreement"
     """
 
+* insert ValueSet_Common
 // Branching Distribution
 * include $SCT#129762002 "Fine, linear, branching (casting) radiographic calcification (Finding)"
 

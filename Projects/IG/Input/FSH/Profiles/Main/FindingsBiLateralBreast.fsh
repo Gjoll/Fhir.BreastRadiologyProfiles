@@ -1,5 +1,5 @@
 Profile: FindingsBiLateralBreast
-Parent: Observation
+Parent: us-core-observation-imaging
 Title: "Findings BiLateral Breast"
 Description: """
     Findings BiLateral Breast profile.

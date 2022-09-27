@@ -1,5 +1,5 @@
 Profile: BiRadBreastCompositionFragment
-Parent: Observation
+Parent: us-core-observation-imaging
 Title: "BiRad Breast Composition Fragment"
 Description: """
   Fragment that adds 'BiRad Breast Composition code' element to profile

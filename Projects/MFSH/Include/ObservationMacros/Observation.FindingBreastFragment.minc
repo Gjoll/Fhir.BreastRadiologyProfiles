@@ -2,7 +2,7 @@
 // Fragment definition for finding section of left or right breast
 
 #macro Observation.FindingBreastFragment(%Laterality%)
-Parent: Observation
+Parent: us-core-observation-imaging
 Title: "Findings %Laterality% Breast"
 Description: """
     Findings %Laterality% Breast profile.

@@ -1,5 +1,5 @@
 Profile: AbnormalityCalcification
-Parent: Observation
+Parent: us-core-observation-imaging
 Title: "Mammography Calcification"
 Description: """
     Mammography Calcification

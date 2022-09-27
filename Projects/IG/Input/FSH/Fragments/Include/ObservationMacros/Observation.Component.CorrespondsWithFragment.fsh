@@ -1,5 +1,5 @@
 Profile: CorrespondsWithFragment
-Parent: Observation
+Parent: us-core-observation-imaging
 Title: "Corresponds With Fragment"
 Description: """
   'Corresponds With' Component Fragment

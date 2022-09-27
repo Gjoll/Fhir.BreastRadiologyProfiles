@@ -1,5 +1,5 @@
 Profile: BreastBodyLocationRequiredFragment
-Parent: Observation
+Parent: us-core-observation-imaging
 Title: "Breast Body Location (Required) Fragment"
 Description: """
   This fragment adds the references for the breast body location extension.

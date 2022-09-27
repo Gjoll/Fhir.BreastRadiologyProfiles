@@ -1,5 +1,5 @@
 Profile: BreastAssessmentCategory
-Parent: Observation
+Parent: us-core-observation-imaging
 Title: "Breast AssessmentCategory"
 Description: """
     Breast Assessment Category

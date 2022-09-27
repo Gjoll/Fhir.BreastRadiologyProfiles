@@ -1,6 +1,7 @@
 ValueSet:  LesionDensityVS
 Title: "Lesion density ValueSet"
 Description:  "Lesion density ValueSet"
+* insert ValueSet_Common
 * codes from system LesionDensityCS
 
 

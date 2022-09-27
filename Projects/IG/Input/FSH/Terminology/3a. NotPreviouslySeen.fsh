@@ -8,6 +8,7 @@ Description:  "NotPreviouslySeen Value Set"
     and distributed by agreement between IHTSDO and HL7.
     Implementer use of SNOMED CT is not covered by this agreement"
     """
+* insert ValueSet_Common
 
 // Outside exam
 * include $SCT#386053000 "Evaluation procedure (procedure)"

@@ -2,6 +2,7 @@
 ValueSet:  AbnormalityDensityTypeVS
 Title: "Density Type ValueSet"
 Description:  "Density Type Value Set"
+* insert ValueSet_Common
 * codes from system AbnormalityDensityTypeCS
 
 

@@ -12,6 +12,7 @@ Description:  """
     Implementer use of SNOMED CT is not covered by this agreement"
     """
     
+* insert ValueSet_Common
 * $SCT#260318004 "1 o'clock position (Qualifier Value)"
 * $SCT#260328008 "2 o'clock position (Qualifier Value)"
 * $SCT#260330005 "3 o'clock position (Qualifier Value)"

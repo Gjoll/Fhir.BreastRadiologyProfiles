@@ -1,5 +1,5 @@
 Profile: ConsistentWith
-Parent: Observation
+Parent: us-core-observation-imaging
 Title: "Consistent With"
 Description: """
     Consistent With

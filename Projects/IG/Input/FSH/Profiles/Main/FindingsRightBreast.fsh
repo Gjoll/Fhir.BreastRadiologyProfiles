@@ -1,5 +1,5 @@
 Profile: FindingsRightBreast
-Parent: Observation
+Parent: us-core-observation-imaging
 Title: "Findings Right Breast"
 Description: """
     Findings Right Breast profile.

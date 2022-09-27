@@ -14,6 +14,7 @@ Description:  "Breast Assessment Category Value Set"
     Implementer use of SNOMED CT is not covered by this agreement
     """
 
+* insert ValueSet_Common
 * include codes from valueset MammographyAssessmentFindingVS
 * $SCT#470272007 "Implantable lesion localization marker (Object)"
 

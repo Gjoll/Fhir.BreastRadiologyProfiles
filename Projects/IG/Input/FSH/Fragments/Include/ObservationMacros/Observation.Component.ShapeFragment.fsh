@@ -1,5 +1,5 @@
 Profile: ShapeFragment
-Parent: Observation
+Parent: us-core-observation-imaging
 Title: "Shape Component Fragment"
 Description: """
   Adds Shape Component
