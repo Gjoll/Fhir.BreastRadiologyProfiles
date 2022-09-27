@@ -5,7 +5,7 @@ Alias: $UCUM = http://unitsofmeasure.org
 Alias: $UCUM = http://unitsofmeasure.org
 Alias: $RADLEX = http://radlex.org/
 
-Alias: BREASTRADBASEURL = http://hl7.org/fhir/us/breast-radiology
+Alias: BREASTIMGBASEURL = http://hl7.org/fhir/us/breast-radiology
 Alias: COMPOSITIONURL = http://hl7.org/fhir/StructureDefinition/Composition
 Alias: CLINICALIMPRESSIONURL = http://hl7.org/fhir/StructureDefinition/ClinicalImpression
 Alias: DIAGNOSTICREPORTURL = http://hl7.org/fhir/StructureDefinition/DiagnosticReport

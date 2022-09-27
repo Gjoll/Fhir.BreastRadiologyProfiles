@@ -18,7 +18,7 @@ status: active
 publisher:
   name: HL7 International - Clinical Interoperability Council
   url: http://www.hl7.org/Special/committees/cic
-description: Breast Radiology Reporting Implementation Guide
+description: Breast Imaging Reporting Implementation Guide
 license: CC0-1.0
 fhirVersion: 4.0.1
 parameters:
@@ -56,7 +56,7 @@ jurisdiction: urn:iso:std:iso:3166#US "United States of America"
 # │  To control the package-list.json using this config, uncomment and set the "history" property. │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 #history:
-#  title: "HL7 FHIR Profile: Breast Radiology Report (BRR)"
+#  title: "HL7 FHIR Profile: Breast Imaging  Report (BRR)"
 #  current: http://hl7.org/fhir/us/breast-radiology
 #  0.2.0:
 #    fhirversion: 4.0.1

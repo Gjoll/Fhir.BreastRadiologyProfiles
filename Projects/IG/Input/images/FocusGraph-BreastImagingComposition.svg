@@ -39,7 +39,7 @@
 <text x="5.62" y="18.75" text-anchor="left" class="focus">Breast</text>
 </a>
 <a href="StructureDefinition-BreastImagingComposition.html" target="_top">
-<text x="5.62" y="37.5" text-anchor="left" class="focus">Radiology</text>
+<text x="5.62" y="37.5" text-anchor="left" class="focus">Imaging</text>
 </a>
 <a href="StructureDefinition-BreastImagingComposition.html" target="_top">
 <text x="5.62" y="56.25" text-anchor="left" class="focus">Composition</text>
