@@ -13,6 +13,7 @@ Description:  """
     Implementer use of SNOMED CT is not covered by this agreement"
     """
 
+* insert ValueSet_Common
 * include $SCT#287572003 "Diagnostic aspiration of breast cyst (Procedure)"
 * include $SCT#122548005 "Biopsy of breast (Procedure)"
 * include $SCT#241615005 "Magnetic resonance imaging of breast (Procedure)"

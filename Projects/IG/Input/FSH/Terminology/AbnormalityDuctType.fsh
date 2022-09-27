@@ -2,6 +2,7 @@
 ValueSet:  AbnormalityDuctTypeVS
 Title: "Duct Type ValueSet"
 Description: "Duct Type Value Set"
+* insert ValueSet_Common
 * codes from system AbnormalityDuctTypeCS
 
 

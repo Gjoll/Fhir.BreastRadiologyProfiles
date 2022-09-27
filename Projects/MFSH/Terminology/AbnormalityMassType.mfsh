@@ -2,6 +2,7 @@
 ValueSet:  AbnormalityMassTypeVS
 Title: "Mass Type ValueSet"
 Description:  "Mass Type Value Set"
+* insert ValueSet_Common
 * codes from system AbnormalityMassTypeCS
 
 

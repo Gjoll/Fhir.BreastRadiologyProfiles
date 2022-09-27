@@ -1,5 +1,5 @@
 Profile: FindingsLeftBreast
-Parent: Observation
+Parent: us-core-observation-imaging
 Title: "Findings Left Breast"
 Description: """
     Findings Left Breast profile.

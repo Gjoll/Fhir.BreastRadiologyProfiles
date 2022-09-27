@@ -1,5 +1,5 @@
 Profile: AbnormalityArchitecturalDistortion
-Parent: Observation
+Parent: us-core-observation-imaging
 Title: "Mammography Architectural Distortion"
 Description: """
     Mammography Architectural Distortion

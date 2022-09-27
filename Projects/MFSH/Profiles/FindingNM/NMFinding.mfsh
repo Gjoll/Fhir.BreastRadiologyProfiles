@@ -1,5 +1,5 @@
 Profile: NMFinding
-Parent: Observation
+Parent: us-core-observation-imaging
 Title: "Nuclear Medicine Finding"
 Description: """
     NM Finding

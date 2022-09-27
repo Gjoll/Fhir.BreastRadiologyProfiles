@@ -5,6 +5,7 @@ Description:  """
     This value set describes the types of calcification findings that may be found
     during an exam.
     """
+* insert ValueSet_Common
 * codes from system CalcificationTypeCS
 
 

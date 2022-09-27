@@ -6,6 +6,7 @@ Description:
     Codes that describe the observed composition of 
     the breast.
     """
+* insert ValueSet_Common
 * codes from system BreastCompositionCS
 
 

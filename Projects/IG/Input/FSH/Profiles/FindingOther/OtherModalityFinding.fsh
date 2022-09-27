@@ -1,5 +1,5 @@
 Profile: OtherModalityFinding
-Parent: Observation
+Parent: us-core-observation-imaging
 Title: "Other Finding"
 Description: """
     Other Finding.

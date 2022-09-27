@@ -9,6 +9,7 @@ Description:  "Side of the body being examined"
     Implementer use of SNOMED CT is not covered by this agreement"
     """
 
+* insert ValueSet_Common
 * include $SCT#51440002 "Right and Left"
 * include $SCT#399488007 "Midline"
 * include $SCT#85421007 "Structure of right half of body"

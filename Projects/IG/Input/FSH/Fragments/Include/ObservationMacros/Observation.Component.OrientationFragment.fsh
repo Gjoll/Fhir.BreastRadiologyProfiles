@@ -1,5 +1,5 @@
 Profile: OrientationFragment
-Parent: Observation
+Parent: us-core-observation-imaging
 Title: "Orientation Component Fragment"
 Description: """
   Adds Orientation Component

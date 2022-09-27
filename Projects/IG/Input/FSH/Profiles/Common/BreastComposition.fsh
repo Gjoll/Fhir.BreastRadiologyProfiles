@@ -1,5 +1,5 @@
 Profile: BreastComposition
-Parent: Observation
+Parent: us-core-observation-imaging
 Title: "Breast Composition"
 Description: """
     Breast Composition

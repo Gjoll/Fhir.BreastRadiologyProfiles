@@ -1,6 +1,7 @@
 ValueSet:  MarginVS
 Title: "Margin ValueSet"
 Description:  "Margin Value Set"
+* insert ValueSet_Common
 * codes from system MarginCS
 
 

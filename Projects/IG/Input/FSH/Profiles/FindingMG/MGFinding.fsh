@@ -1,5 +1,5 @@
 Profile: MGFinding
-Parent: Observation
+Parent: us-core-observation-imaging
 Title: "Mammography Finding"
 Description: """
     Mammography Finding

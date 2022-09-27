@@ -1,5 +1,5 @@
 Profile: USFinding
-Parent: Observation
+Parent: us-core-observation-imaging
 Title: "Ultrasound Finding"
 Description: """
     Ultrasound Finding

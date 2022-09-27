@@ -2,6 +2,7 @@
 ValueSet:  AbnormalityFibroAdenomaTypeVS
 Title: "FibroAdenoma  Type ValueSet"
 Description:  "FibroAdenoma Type Value Set"
+* insert ValueSet_Common
 * codes from system AbnormalityFibroadenomaTypeCS
 
 

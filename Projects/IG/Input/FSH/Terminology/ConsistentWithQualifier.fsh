@@ -4,6 +4,7 @@
 ValueSet:  ConsistentWithQualifierVS
 Title: "ConsistentWith Qualifier ValueSet"
 Description:  "ConsistentWith Qualifier Value Set"
+* insert ValueSet_Common
 * codes from system ConsistentWithQualifierCS
 
   

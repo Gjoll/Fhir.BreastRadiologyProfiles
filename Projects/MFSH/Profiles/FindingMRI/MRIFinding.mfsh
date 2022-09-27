@@ -1,5 +1,5 @@
 Profile: MRIFinding
-Parent: Observation
+Parent: us-core-observation-imaging
 Title: "MRI Finding"
 Description: """
     MRI Finding

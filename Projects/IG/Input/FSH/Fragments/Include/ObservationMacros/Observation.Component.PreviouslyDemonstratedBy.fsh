@@ -1,5 +1,5 @@
 Profile: PreviouslyDemonstratedByFragment
-Parent: Observation
+Parent: us-core-observation-imaging
 Title: "Previously Demonstrated By Fragment"
 Description: """
   'Demonstrated By' Component Fragment

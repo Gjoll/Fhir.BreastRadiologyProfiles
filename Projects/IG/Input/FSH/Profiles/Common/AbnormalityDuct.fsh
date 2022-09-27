@@ -1,5 +1,5 @@
 Profile: AbnormalityDuct
-Parent: Observation
+Parent: us-core-observation-imaging
 Title: "Duct"
 Description: """
   Duct

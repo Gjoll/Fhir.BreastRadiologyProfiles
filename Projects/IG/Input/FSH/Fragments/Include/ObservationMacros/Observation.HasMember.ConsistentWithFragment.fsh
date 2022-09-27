@@ -1,5 +1,5 @@
 Profile: ConsistentWithFragment
-Parent: Observation
+Parent: us-core-observation-imaging
 Title: "Consistent With Fragment"
 Description: """
   This fragment adds the references for the ConsistentWith HasMember.

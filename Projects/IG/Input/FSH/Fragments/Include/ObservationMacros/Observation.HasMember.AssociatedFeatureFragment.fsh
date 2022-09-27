@@ -1,5 +1,5 @@
 Profile: AssociatedFeatureFragment
-Parent: Observation
+Parent: us-core-observation-imaging
 Title: "Associated Feature Fragment"
 Description: """
   This fragment adds the references for the Associated Feature hasMember slice.

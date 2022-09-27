@@ -1,5 +1,5 @@
 Profile: BreastImagingReport
-Parent: DiagnosticReport
+Parent: us-core-diagnosticreport-note
 Title: "Breast Imaging Report"
 Description: """
     Breast Imaging Diagnostic Report.

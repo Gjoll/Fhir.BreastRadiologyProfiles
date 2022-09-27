@@ -12,7 +12,7 @@ Description:  "Mammography assessment finding Value Set"
     Implementer use of SNOMED CT is not covered by this agreement"
     """
 
-
+* insert ValueSet_Common
 * include $SCT#397138000 "Mammography assessment (Category 0) - Need additional imaging evaluation (finding)"
 * include $SCT#397140005 "Mammography assessment (Category 1) - Negative (finding)"
 * include $SCT#397141009 "Mammography assessment (Category 2) - Benign finding (finding)"

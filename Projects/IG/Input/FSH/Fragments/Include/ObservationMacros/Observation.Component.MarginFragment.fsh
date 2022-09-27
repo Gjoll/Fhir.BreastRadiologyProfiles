@@ -1,5 +1,5 @@
 Profile: MarginFragment
-Parent: Observation
+Parent: us-core-observation-imaging
 Title: "Margin Component Fragment"
 Description: """
   Adds Margin Component

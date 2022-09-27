@@ -27,6 +27,9 @@ copyrightYear: 2020+
 releaseLabel: CI Build
 jurisdiction: urn:iso:std:iso:3166#US "United States of America"
 
+dependencies:
+  hl7.fhir.us.core: 5.0.1
+  
 # ╭─────────────────────────────────────────────ig.ini─────────────────────────────────────────────╮
 # │  To control the ig.ini using this config, uncomment and set the "template" property.           │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
@@ -140,63 +143,63 @@ groups:
     description: This section contains code systems that are defined in this Breast Imaging Implementation Guide.
     resources:
       - CodeSystem/AssociatedFeatureCS   # Terminology/AssociatedFeature.mfsh#361/n
-      - CodeSystem/AbnormalityAsymmetryTypeCS   # Terminology/AbnormalityAsymmetryType.mfsh#76/n
+      - CodeSystem/AbnormalityAsymmetryTypeCS   # Terminology/AbnormalityAsymmetryType.mfsh#77/n
       - CodeSystem/BreastBodyLocationDepthCS   # Terminology/BreastBodyLocationDepth.mfsh#62/n
-      - CodeSystem/BreastBodyLocationRegionCS   # Terminology/BreastBodyLocationRegions.mfsh#104/n
-      - CodeSystem/BreastCompositionCS   # Terminology/BreastCompositonVS.mfsh#62/n
-      - CodeSystem/CalcificationTypeCS   # Terminology/CalcificationType.mfsh#342/n
+      - CodeSystem/BreastBodyLocationRegionCS   # Terminology/BreastBodyLocationRegions.mfsh#105/n
+      - CodeSystem/BreastCompositionCS   # Terminology/BreastCompositonVS.mfsh#63/n
+      - CodeSystem/CalcificationTypeCS   # Terminology/CalcificationType.mfsh#343/n
       - CodeSystem/ObservationComponentSliceCodesCS   # Terminology/ObservationComponentSliceCodes.mfsh#137/n
       - CodeSystem/CompositionSectionSliceCodesCS   # Terminology/CompositionSectionSliceCodes.mfsh#46/n
-      - CodeSystem/ConsistentWithQualifierCS   # Terminology/ConsistentWithQualifier.mfsh#60/n
-      - CodeSystem/CorrespondsWithCS   # Terminology/CorrespondsWith.mfsh#238/n
-      - CodeSystem/AbnormalityCystTypeCS   # Terminology/AbnormalityCystType.mfsh#104/n
-      - CodeSystem/AbnormalityDensityTypeCS   # Terminology/AbnormalityDensityType.mfsh#58/n
+      - CodeSystem/ConsistentWithQualifierCS   # Terminology/ConsistentWithQualifier.mfsh#59/n
+      - CodeSystem/CorrespondsWithCS   # Terminology/CorrespondsWith.mfsh#237/n
+      - CodeSystem/AbnormalityCystTypeCS   # Terminology/AbnormalityCystType.mfsh#103/n
+      - CodeSystem/AbnormalityDensityTypeCS   # Terminology/AbnormalityDensityType.mfsh#57/n
       - CodeSystem/AbnormalityDuctTypeCS   # Terminology/AbnormalityDuctType.mfsh#63/n
-      - CodeSystem/AbnormalityFibroadenomaTypeCS   # Terminology/AbnormalityFibroadenomaType.mfsh#52/n
+      - CodeSystem/AbnormalityFibroadenomaTypeCS   # Terminology/AbnormalityFibroadenomaType.mfsh#51/n
       - CodeSystem/AbnormalityForeignObjectTypeCS   # Terminology/AbnormalityForeignObjectType.mfsh#206/n
-      - CodeSystem/LesionDensityCS   # Terminology/3a. LesionDensity.mfsh#55/n
-      - CodeSystem/AbnormalityLymphNodeTypeCS   # Terminology/AbnormalityLymphNodeType.mfsh#128/n
+      - CodeSystem/LesionDensityCS   # Terminology/3a. LesionDensity.mfsh#54/n
+      - CodeSystem/AbnormalityLymphNodeTypeCS   # Terminology/AbnormalityLymphNodeType.mfsh#129/n
       - CodeSystem/MarginCS   # Terminology/Margin.mfsh#140/n
-      - CodeSystem/AbnormalityMassTypeCS   # Terminology/AbnormalityMassType.mfsh#44/n
+      - CodeSystem/AbnormalityMassTypeCS   # Terminology/AbnormalityMassType.mfsh#45/n
       - CodeSystem/ObservationCodesCS   # Terminology/ObservationCodes.mfsh#136/n
       - CodeSystem/ObservedChangesCS   # Terminology/ObservedChanges.mfsh#108/n
-      - CodeSystem/OrientationCS   # Terminology/Orientation.mfsh#61/n
+      - CodeSystem/OrientationCS   # Terminology/Orientation.mfsh#60/n
       - CodeSystem/ServiceRecommendationsCS   # Terminology/ServiceRecommendations.mfsh#888/n
   CommonCodesVS:
     name: Common ValueSets
     description: This section contains value sets that are defined in this Breast Imaging Implementation Guide.
     resources:
       - ValueSet/AssociatedFeatureVS   # Terminology/AssociatedFeature.mfsh#12/n
-      - ValueSet/AbnormalityAsymmetryTypeVS   # Terminology/AbnormalityAsymmetryType.mfsh#11/n
-      - ValueSet/BreastAssessmentCategoryVS   # Terminology/3a.  BreastAssessmentCategory.mfsh#24/n
+      - ValueSet/AbnormalityAsymmetryTypeVS   # Terminology/AbnormalityAsymmetryType.mfsh#12/n
+      - ValueSet/BreastAssessmentCategoryVS   # Terminology/3a.  BreastAssessmentCategory.mfsh#25/n
       - ValueSet/BreastBodyLocationDepthVS   # Terminology/BreastBodyLocationDepth.mfsh#13/n
-      - ValueSet/BreastBodyLocationRegionVS   # Terminology/BreastBodyLocationRegions.mfsh#12/n
-      - ValueSet/BreastCompositionVS   # Terminology/BreastCompositonVS.mfsh#17/n
-      - ValueSet/BreastImagingReportTypesVS   # Terminology/BreastImagingReportTypes.mfsh#17/n
-      - ValueSet/BreastLateralityVS   # Terminology/Completed/BreastLaterality.mfsh#23/n
-      - ValueSet/BreastQuadrantVS   # Terminology/Completed/BreastQuadrantVS.mfsh#25/n
-      - ValueSet/BreastLandmarkVS   # Terminology/Completed/BreastLandmark.mfsh#23/n
-      - ValueSet/CalcificationTypeVS   # Terminology/CalcificationType.mfsh#15/n
-      - ValueSet/CalcificationDistributionVS   # Terminology/3a. CalcificationDistribution.mfsh#37/n
-      - ValueSet/ClockPositionsVS   # Terminology/Completed/ClockPositions.mfsh#32/n
-      - ValueSet/ConsistentWithQualifierVS   # Terminology/ConsistentWithQualifier.mfsh#15/n
-      - ValueSet/ConsistentWithVS   # Terminology/ConsistentWith.mfsh#269/n
-      - ValueSet/CorrespondsWithVS   # Terminology/CorrespondsWith.mfsh#13/n
-      - ValueSet/AbnormalityCystTypeVS   # Terminology/AbnormalityCystType.mfsh#13/n
-      - ValueSet/AbnormalityDensityTypeVS   # Terminology/AbnormalityDensityType.mfsh#13/n
+      - ValueSet/BreastBodyLocationRegionVS   # Terminology/BreastBodyLocationRegions.mfsh#13/n
+      - ValueSet/BreastCompositionVS   # Terminology/BreastCompositonVS.mfsh#18/n
+      - ValueSet/BreastImagingReportTypesVS   # Terminology/BreastImagingReportTypes.mfsh#18/n
+      - ValueSet/BreastLateralityVS   # Terminology/Completed/BreastLaterality.mfsh#24/n
+      - ValueSet/BreastQuadrantVS   # Terminology/Completed/BreastQuadrantVS.mfsh#26/n
+      - ValueSet/BreastLandmarkVS   # Terminology/Completed/BreastLandmark.mfsh#24/n
+      - ValueSet/CalcificationTypeVS   # Terminology/CalcificationType.mfsh#16/n
+      - ValueSet/CalcificationDistributionVS   # Terminology/3a. CalcificationDistribution.mfsh#38/n
+      - ValueSet/ClockPositionsVS   # Terminology/Completed/ClockPositions.mfsh#33/n
+      - ValueSet/ConsistentWithQualifierVS   # Terminology/ConsistentWithQualifier.mfsh#14/n
+      - ValueSet/ConsistentWithVS   # Terminology/ConsistentWith.mfsh#271/n
+      - ValueSet/CorrespondsWithVS   # Terminology/CorrespondsWith.mfsh#12/n
+      - ValueSet/AbnormalityCystTypeVS   # Terminology/AbnormalityCystType.mfsh#12/n
+      - ValueSet/AbnormalityDensityTypeVS   # Terminology/AbnormalityDensityType.mfsh#12/n
       - ValueSet/AbnormalityDuctTypeVS   # Terminology/AbnormalityDuctType.mfsh#12/n
-      - ValueSet/AbnormalityFibroAdenomaTypeVS   # Terminology/AbnormalityFibroadenomaType.mfsh#13/n
+      - ValueSet/AbnormalityFibroAdenomaTypeVS   # Terminology/AbnormalityFibroadenomaType.mfsh#12/n
       - ValueSet/AbnormalityForeignObjectTypeVS   # Terminology/AbnormalityForeignObjectType.mfsh#12/n
-      - ValueSet/LateralityVS   # Terminology/Completed/Laterality.mfsh#22/n
-      - ValueSet/LesionDensityVS   # Terminology/3a. LesionDensity.mfsh#12/n
-      - ValueSet/AbnormalityLymphNodeTypeVS   # Terminology/AbnormalityLymphNodeType.mfsh#12/n
+      - ValueSet/LateralityVS   # Terminology/Completed/Laterality.mfsh#23/n
+      - ValueSet/LesionDensityVS   # Terminology/3a. LesionDensity.mfsh#11/n
+      - ValueSet/AbnormalityLymphNodeTypeVS   # Terminology/AbnormalityLymphNodeType.mfsh#13/n
       - ValueSet/MammographyAssessmentFindingVS   # Terminology/3a.  MammographyAssessmentFinding.mfsh#28/n
       - ValueSet/MarginVS   # Terminology/Margin.mfsh#11/n
-      - ValueSet/AbnormalityMassTypeVS   # Terminology/AbnormalityMassType.mfsh#12/n
-      - ValueSet/NotPreviouslySeenVS   # Terminology/3a. NotPreviouslySeen.mfsh#32/n
+      - ValueSet/AbnormalityMassTypeVS   # Terminology/AbnormalityMassType.mfsh#13/n
+      - ValueSet/NotPreviouslySeenVS   # Terminology/3a. NotPreviouslySeen.mfsh#33/n
       - ValueSet/ObservedChangesVS   # Terminology/ObservedChanges.mfsh#11/n
-      - ValueSet/OrientationVS   # Terminology/Orientation.mfsh#13/n
-      - ValueSet/PreviouslyDemonstratedByVS   # Terminology/Completed/PreviouslyDemonstratedBy.mfsh#29/n
+      - ValueSet/OrientationVS   # Terminology/Orientation.mfsh#12/n
+      - ValueSet/PreviouslyDemonstratedByVS   # Terminology/Completed/PreviouslyDemonstratedBy.mfsh#30/n
       - ValueSet/ServiceRecommendationsVS   # Terminology/ServiceRecommendations.mfsh#12/n
       - ValueSet/ShapeVS   # Terminology/3a. Shape.mfsh#15/n
   Fragments:

@@ -1,5 +1,5 @@
 Profile: AbnormalityForeignObject
-Parent: Observation
+Parent: us-core-observation-imaging
 Title: "Foreign Object"
 Description: """
   Foreign Object

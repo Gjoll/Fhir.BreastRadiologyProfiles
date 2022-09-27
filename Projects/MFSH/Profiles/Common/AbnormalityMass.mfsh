@@ -1,5 +1,5 @@
 Profile: AbnormalityMass
-Parent: Observation
+Parent: us-core-observation-imaging
 Title: "Mass Abnormality"
 Description: """
   Mass Abnormality

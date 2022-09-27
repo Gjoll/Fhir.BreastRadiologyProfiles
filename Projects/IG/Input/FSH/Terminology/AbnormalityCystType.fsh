@@ -2,6 +2,7 @@
 ValueSet: AbnormalityCystTypeVS
 Title: "Cyst Type Value Set"
 Description: "Cyst type Value Set."
+* insert ValueSet_Common
 * codes from system AbnormalityCystTypeCS
 
 

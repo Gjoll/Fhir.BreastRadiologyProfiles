@@ -1,5 +1,5 @@
 Profile: AbnormalitySkinLesion
-Parent: Observation
+Parent: us-core-observation-imaging
 Title: "Skin Lesion Abnormality"
 Description: """
   Skin Lesion Abnormality

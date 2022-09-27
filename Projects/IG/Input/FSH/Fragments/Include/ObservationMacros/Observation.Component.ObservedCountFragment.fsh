@@ -1,5 +1,5 @@
 Profile: ObservedCountFragment
-Parent: Observation
+Parent: us-core-observation-imaging
 Title: "Observed Count Fragment"
 Description: """
   Fragment that adds 'Observed Count' element to profile.

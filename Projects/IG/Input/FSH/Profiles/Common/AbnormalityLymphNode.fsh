@@ -1,5 +1,5 @@
 Profile: AbnormalityLymphNode
-Parent: Observation
+Parent: us-core-observation-imaging
 Title: "LymphNode Abnormality"
 Description: """
   LymphNode Abnormality

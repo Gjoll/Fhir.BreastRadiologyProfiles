@@ -1,5 +1,5 @@
 Profile: ObservedDistributionFragment
-Parent: Observation
+Parent: us-core-observation-imaging
 Title: "Observed Distribution Fragment"
 Description: """
   Fragment that adds 'Observed Distribution' components to Observation.
