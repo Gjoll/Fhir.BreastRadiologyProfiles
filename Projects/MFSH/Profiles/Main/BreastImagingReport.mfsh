@@ -60,7 +60,7 @@ Description: """
     # </p>
     # """)
     
-    #apply GroupMemberProfile("BaseResources", "C")
+    #apply GroupMemberProfile("MainResources")
   #end
 
 

@@ -19,26 +19,28 @@
   #
   #apply Observation.Component.SetConcept("notPreviouslySeen", "1..1", "NotPreviouslySeenVS")
 
-  #// -----------------------------------------
-  #// Graph Macros
-  #// -----------------------------------------
-  #use Graph
-    #apply once NodeFragment("%FTitle%")
-    #apply LinkByName("frag", "^%FragmentId%/$", "^%ProfileId%/$", "1", "Cmp")
-  #end
+  #if Frags
+    #// -----------------------------------------
+    #// Graph Macros
+    #// -----------------------------------------
+    #use Graph
+      #apply once NodeFragment("%FTitle%")
+      #apply LinkByName("frag", "^%FragmentId%/$", "^%ProfileId%/$", "1", "Cmp")
+    #end
 
-  #// -----------------------------------------
-  #// IG Macros
-  #// -----------------------------------------
-  #use IG
-    #apply once IntroDocFragment("""
-    # <p>
-    # <b>%FTitle%</b>
-    # </p>
-    #""")
-    #apply once GroupMemberFragment("Fragments", "%FTitle%")
+    #// -----------------------------------------
+    #// IG Macros
+    #// -----------------------------------------
+    #use IG
+      #apply once IntroDocFragment("""
+      # <p>
+      # <b>%FTitle%</b>
+      # </p>
+      #""")
+      #apply once GroupMemberFragment("Fragments")
+    #end
   #end
-
+  
   #// -----------------------------------------
   #// Code API Macros
   #// -----------------------------------------

@@ -9,7 +9,7 @@ Description: "Cyst type Value Set."
   #// IG Macros
   #// -----------------------------------------
   #use IG
-    #apply GroupMemberValueSet("CommonCodesVS", "%Title%")
+    #apply GroupMemberValueSet("CommonCodesVS")
   #end
 
 
@@ -100,7 +100,7 @@ Description: "Cyst type CodeSystem."
   #// IG Macros
   #// -----------------------------------------
   #use IG
-    #apply GroupMemberCodeSystem("CommonCodesCS", "%Title%")
+    #apply GroupMemberCodeSystem("CommonCodesCS")
   #end
 
   #// -----------------------------------------

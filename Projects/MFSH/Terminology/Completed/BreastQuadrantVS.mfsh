@@ -23,7 +23,7 @@ Description:  """
   #// IG Macros
   #// -----------------------------------------
   #use IG
-    #apply GroupMemberValueSet("CommonCodesVS", "%Title%")
+    #apply GroupMemberValueSet("CommonCodesVS")
   #end
 
   #// -----------------------------------------

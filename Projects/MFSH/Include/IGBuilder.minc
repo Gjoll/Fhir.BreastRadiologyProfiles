@@ -8,51 +8,47 @@
   `      "name" : "%Name%",
   `      "description" : "%Description%",
   `      "sort" : "%Sort%",
-	     "traceMsg" : "%ApplyStackFrame%"
+  `	     "traceMsg" : "%ApplyStackFrame%"
   `    }
   `  },
 #end
 
-#macro IG.GroupMemberProfile(%GroupId%, %Sort%) > "%GraphDir%\\IGFile.cmds"
+#macro IG.GroupMemberProfile(%GroupId%) > "%GraphDir%\\IGFile.cmds"
   `  {
   `    "member" : {
   `      "groupingId" : "%GroupId%",
-  `      "sort": "%Sort%",
   `      "reference" : "^StructureDefinition/%ProfileId%$",
-	     "traceMsg" : "%ApplyStackFrame%"
+  `	     "traceMsg" : "%ApplyStackFrame%"
   `    }
   `  },
 #end
 
-#macro IG.GroupMemberFragment(%GroupId%, %Sort%) > "%GraphDir%\\IGFile.cmds"
+#macro IG.GroupMemberFragment(%GroupId%) > "%GraphDir%\\IGFile.cmds"
   `  {
   `    "member" : {
   `      "groupingId" : "%GroupId%",
-  `      "sort": "%Sort%",
   `      "reference" : "^StructureDefinition/%FragmentId%$",
-	     "traceMsg" : "%ApplyStackFrame%"
+  `	     "traceMsg" : "%ApplyStackFrame%"
   `    }
   `  },
 #end
 
-#macro IG.GroupMemberValueSet(%GroupId%, %Sort%) > "%GraphDir%\\IGFile.cmds"
+#macro IG.GroupMemberValueSet(%GroupId%) > "%GraphDir%\\IGFile.cmds"
   `  {
   `    "member" : {
   `      "groupingId" : "%GroupId%",
-  `      "sort": "%Sort%",
   `      "reference" : "^ValueSet/%ValueSetId%$",
-	     "traceMsg" : "%ApplyStackFrame%"
+  `	     "traceMsg" : "%ApplyStackFrame%"
   `    }
   `  },
 #end
 
-#macro IG.GroupMemberCodeSystem(%GroupId%, %Sort%) > "%GraphDir%\\IGFile.cmds"
+#macro IG.GroupMemberCodeSystem(%GroupId%) > "%GraphDir%\\IGFile.cmds"
   `  {
   `    "member" : {
   `      "groupingId" : "%GroupId%",
-  `      "sort": "%Sort%",
   `      "reference" : "^CodeSystem/%CodeSystemId%$",
-	     "traceMsg" : "%ApplyStackFrame%"
+  `	     "traceMsg" : "%ApplyStackFrame%"
   `    }
   `  },
 #end

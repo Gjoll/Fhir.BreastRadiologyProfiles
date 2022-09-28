@@ -31,7 +31,7 @@ Description: """
     # </p>
     #""")
 
-    #apply GroupMemberProfile("OtherResources", "%Title%")
+    #apply GroupMemberProfile("OtherResources")
   #end
 
 

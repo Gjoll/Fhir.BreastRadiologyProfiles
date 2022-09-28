@@ -2,13 +2,13 @@
   "implementFragment" : {
     "className" : "FindingsBiLateralBreast",
     "fragmentName" : "BiRadAssessmentCategoryFragment",
-    "traceMsg" : "Include/ObservationMacros/Observation.HasMember.BiRadAssessmentCategoryFragment.minc#44/nInclude/ObservationMacros/Observation.FindingBreastFragment.minc#15/nProfiles/Main/FindingsBiLateralBreast.mfsh#2/n"
+    "traceMsg" : "Include/ObservationMacros/Observation.HasMember.BiRadAssessmentCategoryFragment.minc#45/nInclude/ObservationMacros/Observation.FindingBreastFragment.minc#15/nProfiles/Main/FindingsBiLateralBreast.mfsh#2/n"
   }
 },
 {
   "defineFragment" : {
     "fragmentName" : "BiRadBreastCompositionFragment",
-    "traceMsg" : "Include/ObservationMacros/Observation.HasMember.BiRadBreastCompositionFragment.minc#43/nInclude/ObservationMacros/Observation.FindingBreastFragment.minc#23/nProfiles/Main/FindingsBiLateralBreast.mfsh#2/n"
+    "traceMsg" : "Include/ObservationMacros/Observation.HasMember.BiRadBreastCompositionFragment.minc#44/nInclude/ObservationMacros/Observation.FindingBreastFragment.minc#23/nProfiles/Main/FindingsBiLateralBreast.mfsh#2/n"
   }
 },
 {
@@ -17,14 +17,14 @@
     "fragmentType" : "Observation.HasMember.Fragment",
     "itemName" : "BiRadBreastCompositionFragment",
     "path" : "biRadsBreastComposition",
-    "traceMsg" : "Include/ObservationMacros/Observation.HasMember.BiRadBreastCompositionFragment.minc#43/nInclude/ObservationMacros/Observation.FindingBreastFragment.minc#23/nProfiles/Main/FindingsBiLateralBreast.mfsh#2/n"
+    "traceMsg" : "Include/ObservationMacros/Observation.HasMember.BiRadBreastCompositionFragment.minc#44/nInclude/ObservationMacros/Observation.FindingBreastFragment.minc#23/nProfiles/Main/FindingsBiLateralBreast.mfsh#2/n"
   }
 },
 {
   "implementFragment" : {
     "className" : "FindingsBiLateralBreast",
     "fragmentName" : "BiRadBreastCompositionFragment",
-    "traceMsg" : "Include/ObservationMacros/Observation.HasMember.BiRadBreastCompositionFragment.minc#44/nInclude/ObservationMacros/Observation.FindingBreastFragment.minc#23/nProfiles/Main/FindingsBiLateralBreast.mfsh#2/n"
+    "traceMsg" : "Include/ObservationMacros/Observation.HasMember.BiRadBreastCompositionFragment.minc#45/nInclude/ObservationMacros/Observation.FindingBreastFragment.minc#23/nProfiles/Main/FindingsBiLateralBreast.mfsh#2/n"
   }
 },
 {

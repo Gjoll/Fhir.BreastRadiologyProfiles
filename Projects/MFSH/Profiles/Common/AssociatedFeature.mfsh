@@ -50,7 +50,7 @@ Description: """
     # </p>
     # """)
 
-    #apply GroupMemberProfile("CommonResources", "%Title%")
+    #apply GroupMemberProfile("CommonResources")
   #end
 
   #// -----------------------------------------

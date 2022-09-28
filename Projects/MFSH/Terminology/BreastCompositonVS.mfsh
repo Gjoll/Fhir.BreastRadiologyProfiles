@@ -15,7 +15,7 @@ Description:
   #// IG Macros
   #// -----------------------------------------
   #use IG
-    #apply GroupMemberValueSet("CommonCodesVS", "%Title%")
+    #apply GroupMemberValueSet("CommonCodesVS")
   #end
 
   #// -----------------------------------------
@@ -60,7 +60,7 @@ Description: "Breast composition values code system."
   #// IG Macros
   #// -----------------------------------------
   #use IG
-    #apply GroupMemberCodeSystem("CommonCodesCS", "%Title%")
+    #apply GroupMemberCodeSystem("CommonCodesCS")
   #end
 
   #// -----------------------------------------

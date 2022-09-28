@@ -22,30 +22,32 @@ Breast Composition Recommendations Section Fragment.
 #   "CompositionSectionSliceCodesCS#recommendations",
 #   "BreastMedicationRequest or BreastServiceRequest or ServiceRecommendation")
 
-  #// -----------------------------------------
-  #// Graph Macros
-  #// -----------------------------------------
-  #use Graph
-    #apply once NodeFragment("%FTitle%")
-    #apply LinkByName("frag", "^%FragmentId%/$", "^%ProfileId%/$", "0", "Bas,Ovr")
-    #apply NodeElement("D", "section:recommendations", "Recommendations/Section")
+  #if Frags
+    #// -----------------------------------------
+    #// Graph Macros
+    #// -----------------------------------------
+    #use Graph
+      #apply once NodeFragment("%FTitle%")
+      #apply LinkByName("frag", "^%FragmentId%/$", "^%ProfileId%/$", "0", "Bas,Ovr")
+      #apply NodeElement("D", "section:recommendations", "Recommendations/Section")
 
-    #apply LinkByName("focus", "^%ProfileId%/$", "^%ProfileId%/section:recommendations", "0", "Cmp,Ovr")
-    #apply LinkByReference("focus", "^%ProfileId%/section:recommendations", ".entry", "1", "Cmp,Ovr")
+      #apply LinkByName("focus", "^%ProfileId%/$", "^%ProfileId%/section:recommendations", "0", "Cmp,Ovr")
+      #apply LinkByReference("focus", "^%ProfileId%/section:recommendations", ".entry", "1", "Cmp,Ovr")
+    #end
+  
+    #// -----------------------------------------
+    #// IG Macros
+    #// -----------------------------------------
+    #use IG
+      #apply once IntroDocFragment("""
+      # <p>
+      # <b>%FTitle%</b>
+      # </p>
+      #""")
+      #apply once GroupMemberFragment("Fragments")
+    #end
   #end
   
-  #// -----------------------------------------
-  #// IG Macros
-  #// -----------------------------------------
-  #use IG
-    #apply once IntroDocFragment("""
-    # <p>
-    # <b>%FTitle%</b>
-    # </p>
-    #""")
-    #apply once GroupMemberFragment("Fragments", "%FTitle%")
-  #end
-
   #// -----------------------------------------
   #// Code API Macros
   #// -----------------------------------------

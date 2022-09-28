@@ -2,14 +2,14 @@
   "implementFragment" : {
     "className" : "FindingsRightBreast",
     "fragmentName" : "BiRadAssessmentCategoryFragment",
-    "traceMsg" : "Include/ObservationMacros/Observation.HasMember.BiRadAssessmentCategoryFragment.minc#44/nInclude/ObservationMacros/Observation.FindingBreastFragment.minc#15/nProfiles/Main/FindingsRightBreast.mfsh#2/n"
+    "traceMsg" : "Include/ObservationMacros/Observation.HasMember.BiRadAssessmentCategoryFragment.minc#45/nInclude/ObservationMacros/Observation.FindingBreastFragment.minc#15/nProfiles/Main/FindingsRightBreast.mfsh#2/n"
   }
 },
 {
   "implementFragment" : {
     "className" : "FindingsRightBreast",
     "fragmentName" : "BiRadBreastCompositionFragment",
-    "traceMsg" : "Include/ObservationMacros/Observation.HasMember.BiRadBreastCompositionFragment.minc#44/nInclude/ObservationMacros/Observation.FindingBreastFragment.minc#23/nProfiles/Main/FindingsRightBreast.mfsh#2/n"
+    "traceMsg" : "Include/ObservationMacros/Observation.HasMember.BiRadBreastCompositionFragment.minc#45/nInclude/ObservationMacros/Observation.FindingBreastFragment.minc#23/nProfiles/Main/FindingsRightBreast.mfsh#2/n"
   }
 },
 {

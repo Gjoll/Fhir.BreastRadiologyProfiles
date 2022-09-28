@@ -26,26 +26,27 @@
 * component[observedCount].value[x] 1..1
 * component[observedCount].value[x] only Quantity or Range
 
-  #// -----------------------------------------
-  #// Graph Macros
-  #// -----------------------------------------
-  #use Graph
-    #apply once NodeFragment("%FTitle%")
-    #apply LinkByName("frag", "^%FragmentId%/$", "^%ProfileId%/$", "1", "Cmp")
-  #end
+  #if Frags
+    #// -----------------------------------------
+    #// Graph Macros
+    #// -----------------------------------------
+    #use Graph
+      #apply once NodeFragment("%FTitle%")
+      #apply LinkByName("frag", "^%FragmentId%/$", "^%ProfileId%/$", "1", "Cmp")
+    #end
 
-  #// -----------------------------------------
-  #// IG Macros
-  #// -----------------------------------------
-  #use IG
-    #apply once IntroDocFragment("""
-    # <p>
-    # <b>%FTitle%</b>
-    # </p>
-    #""")
-    #apply once GroupMemberFragment("Fragments", "%FTitle%")
+    #// -----------------------------------------
+    #// IG Macros
+    #// -----------------------------------------
+    #use IG
+      #apply once IntroDocFragment("""
+      # <p>
+      # <b>%FTitle%</b>
+      # </p>
+      #""")
+      #apply once GroupMemberFragment("Fragments")
+    #end
   #end
-
 
   #// -----------------------------------------
   #// Code API Macros

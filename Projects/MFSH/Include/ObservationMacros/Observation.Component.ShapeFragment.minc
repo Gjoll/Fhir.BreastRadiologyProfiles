@@ -22,27 +22,29 @@
   #apply Observation.Component.SetConcept("shape", "1..1", "ShapeVS")
 
 
-  #// -----------------------------------------
-  #// Graph Macros
-  #// -----------------------------------------
-  #use Graph
-    #apply once NodeFragment("%FTitle%")
-    #apply LinkByName("frag", "^%FragmentId%/$", "^%ProfileId%/$", "1", "Cmp")
+  #if Frags
+    #// -----------------------------------------
+    #// Graph Macros
+    #// -----------------------------------------
+    #use Graph
+      #apply once NodeFragment("%FTitle%")
+      #apply LinkByName("frag", "^%FragmentId%/$", "^%ProfileId%/$", "1", "Cmp")
+    #end
+
+    #// -----------------------------------------
+    #// IG Macros
+    #// -----------------------------------------
+    #use IG
+      #apply once IntroDocFragment("""
+      # <p>
+      # <b>%FTitle%</b>
+      # </p>
+      #""")
+
+      #apply once GroupMemberFragment("Fragments")
+    #end
   #end
-
-  #// -----------------------------------------
-  #// IG Macros
-  #// -----------------------------------------
-  #use IG
-    #apply once IntroDocFragment("""
-    # <p>
-    # <b>%FTitle%</b>
-    # </p>
-    #""")
-
-    #apply once GroupMemberFragment("Fragments", "%FTitle%")
-  #end
-
+  
   #// -----------------------------------------
   #// Code API Macros
   #// -----------------------------------------

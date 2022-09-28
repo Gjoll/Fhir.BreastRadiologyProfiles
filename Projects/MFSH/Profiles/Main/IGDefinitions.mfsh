@@ -1,7 +1,7 @@
 // This file sets up the ImplementationGuide groups.
 
 #use IG
-  #apply Group("BaseResources", 
+  #apply Group("MainResources", 
   # "Main Resources", 
   # """
   # This section contains the main top level resources that are defined in this Breast Imaging Implementation Guide.
@@ -73,13 +73,16 @@
   # """,
   # "250")
 
-  #apply Group("Fragments", 
-  # "Resource Fragments", 
-  # """
-  # This section contains resource fragments that are used in the construction of the Breast Imaging Profiles.
-  #
-  # They are included here only to better convey the structure and composition of the components that are used to create the
-  # Breast Imaging Resources.
-  # """,
-  # "900")
+  #if Frags
+    #apply Group("Fragments", 
+    # "Resource Fragments", 
+    # """
+    # This section contains resource fragments that are used in the construction of the Breast Imaging Profiles.
+    #
+    # They are included here only to better convey the structure and composition of the components that are used to create the
+    # Breast Imaging Resources.
+    # """,
+    # "900")
+  #end
+
 #end

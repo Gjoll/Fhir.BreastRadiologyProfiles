@@ -54,7 +54,7 @@ Description: """
     # </P>
     # """)
 
-    #apply GroupMemberProfile("BaseResources", "B")
+    #apply GroupMemberProfile("MainResources")
   #end
 
   #// -----------------------------------------

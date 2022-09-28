@@ -28,17 +28,18 @@
     #apply LinkByName("frag", "^%FragmentId%/$", "^%ProfileId%/$", "1", "Cmp")
   #end
 
-
-  #// -----------------------------------------
-  #// IG Macros
-  #// -----------------------------------------
-  #use IG
-    #apply once IntroDocFragment("""
-    # <p>
-    # <b>%FTitle%</b>
-    # </p>
-    #""")
-    #apply once GroupMemberFragment("Fragments", "%FTitle%")
+  #if Frags
+    #// -----------------------------------------
+    #// IG Macros
+    #// -----------------------------------------
+    #use IG
+      #apply once IntroDocFragment("""
+      # <p>
+      # <b>%FTitle%</b>
+      # </p>
+      #""")
+      #apply once GroupMemberFragment("Fragments")
+    #end
   #end
 
   #// -----------------------------------------

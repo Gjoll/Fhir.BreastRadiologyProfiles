@@ -2,105 +2,105 @@
   "implementFragment" : {
     "className" : "AbnormalityDensity",
     "fragmentName" : "BreastBodyLocationRequiredFragment",
-    "traceMsg" : "Include/ObservationMacros/Observation.BreastBodyLocationRequiredFragment.minc#49/nProfiles/Common/AbnormalityDensity.mfsh#21/n"
+    "traceMsg" : "Include/ObservationMacros/Observation.BreastBodyLocationRequiredFragment.minc#51/nProfiles/Common/AbnormalityDensity.mfsh#21/n"
   }
 },
 {
   "implementFragment" : {
     "className" : "AbnormalityDensity",
     "fragmentName" : "ObservedChangesFragment",
-    "traceMsg" : "Include/ObservationMacros/Observation.Component.ObservedChangesFragment.minc#45/nProfiles/Common/AbnormalityDensity.mfsh#23/n"
+    "traceMsg" : "Include/ObservationMacros/Observation.Component.ObservedChangesFragment.minc#46/nProfiles/Common/AbnormalityDensity.mfsh#23/n"
   }
 },
 {
   "implementFragment" : {
     "className" : "AbnormalityDensity",
     "fragmentName" : "BiRadAssessmentCategoryFragment",
-    "traceMsg" : "Include/ObservationMacros/Observation.HasMember.BiRadAssessmentCategoryFragment.minc#44/nProfiles/Common/AbnormalityDensity.mfsh#24/n"
+    "traceMsg" : "Include/ObservationMacros/Observation.HasMember.BiRadAssessmentCategoryFragment.minc#45/nProfiles/Common/AbnormalityDensity.mfsh#24/n"
   }
 },
 {
   "implementFragment" : {
     "className" : "AbnormalityDensity",
     "fragmentName" : "ShapeFragment",
-    "traceMsg" : "Include/ObservationMacros/Observation.Component.ShapeFragment.minc#51/nProfiles/Common/AbnormalityDensity.mfsh#25/n"
+    "traceMsg" : "Include/ObservationMacros/Observation.Component.ShapeFragment.minc#53/nProfiles/Common/AbnormalityDensity.mfsh#25/n"
   }
 },
 {
   "implementFragment" : {
     "className" : "AbnormalityDensity",
     "fragmentName" : "DensityFragment",
-    "traceMsg" : "Include/ObservationMacros/Observation.Component.DensityFragment.minc#50/nProfiles/Common/AbnormalityDensity.mfsh#26/n"
+    "traceMsg" : "Include/ObservationMacros/Observation.Component.DensityFragment.minc#52/nProfiles/Common/AbnormalityDensity.mfsh#26/n"
   }
 },
 {
   "implementFragment" : {
     "className" : "AbnormalityDensity",
     "fragmentName" : "MarginFragment",
-    "traceMsg" : "Include/ObservationMacros/Observation.Component.MarginFragment.minc#51/nProfiles/Common/AbnormalityDensity.mfsh#27/n"
+    "traceMsg" : "Include/ObservationMacros/Observation.Component.MarginFragment.minc#53/nProfiles/Common/AbnormalityDensity.mfsh#27/n"
   }
 },
 {
   "implementFragment" : {
     "className" : "AbnormalityDensity",
     "fragmentName" : "OrientationFragment",
-    "traceMsg" : "Include/ObservationMacros/Observation.Component.OrientationFragment.minc#51/nProfiles/Common/AbnormalityDensity.mfsh#28/n"
+    "traceMsg" : "Include/ObservationMacros/Observation.Component.OrientationFragment.minc#53/nProfiles/Common/AbnormalityDensity.mfsh#28/n"
   }
 },
 {
   "implementFragment" : {
     "className" : "AbnormalityDensity",
     "fragmentName" : "NotPreviouslySeenFragment",
-    "traceMsg" : "Include/ObservationMacros/Observation.Component.NotPreviouslySeenFragment.minc#47/nProfiles/Common/AbnormalityDensity.mfsh#29/n"
+    "traceMsg" : "Include/ObservationMacros/Observation.Component.NotPreviouslySeenFragment.minc#49/nProfiles/Common/AbnormalityDensity.mfsh#29/n"
   }
 },
 {
   "implementFragment" : {
     "className" : "AbnormalityDensity",
     "fragmentName" : "ObservedCountFragment",
-    "traceMsg" : "Include/ObservationMacros/Observation.Component.ObservedCountFragment.minc#55/nProfiles/Common/AbnormalityDensity.mfsh#30/n"
+    "traceMsg" : "Include/ObservationMacros/Observation.Component.ObservedCountFragment.minc#56/nProfiles/Common/AbnormalityDensity.mfsh#30/n"
   }
 },
 {
   "implementFragment" : {
     "className" : "AbnormalityDensity",
     "fragmentName" : "ObservedSizeFragment",
-    "traceMsg" : "Include/ObservationMacros/Observation.Component.ObservedSizeFragment.minc#62/nProfiles/Common/AbnormalityDensity.mfsh#31/n"
+    "traceMsg" : "Include/ObservationMacros/Observation.Component.ObservedSizeFragment.minc#63/nProfiles/Common/AbnormalityDensity.mfsh#31/n"
   }
 },
 {
   "implementFragment" : {
     "className" : "AbnormalityDensity",
     "fragmentName" : "ObservedDistributionFragment",
-    "traceMsg" : "Include/ObservationMacros/Observation.Component.ObservedDistributionFragment.minc#82/nProfiles/Common/AbnormalityDensity.mfsh#32/n"
+    "traceMsg" : "Include/ObservationMacros/Observation.Component.ObservedDistributionFragment.minc#83/nProfiles/Common/AbnormalityDensity.mfsh#32/n"
   }
 },
 {
   "implementFragment" : {
     "className" : "AbnormalityDensity",
     "fragmentName" : "CorrespondsWithFragment",
-    "traceMsg" : "Include/ObservationMacros/Observation.Component.CorrespondsWithFragment.minc#49/nProfiles/Common/AbnormalityDensity.mfsh#33/n"
+    "traceMsg" : "Include/ObservationMacros/Observation.Component.CorrespondsWithFragment.minc#50/nProfiles/Common/AbnormalityDensity.mfsh#33/n"
   }
 },
 {
   "implementFragment" : {
     "className" : "AbnormalityDensity",
     "fragmentName" : "PreviouslyDemonstratedByFragment",
-    "traceMsg" : "Include/ObservationMacros/Observation.Component.PreviouslyDemonstratedBy.minc#49/nProfiles/Common/AbnormalityDensity.mfsh#34/n"
+    "traceMsg" : "Include/ObservationMacros/Observation.Component.PreviouslyDemonstratedBy.minc#51/nProfiles/Common/AbnormalityDensity.mfsh#34/n"
   }
 },
 {
   "implementFragment" : {
     "className" : "AbnormalityDensity",
     "fragmentName" : "AssociatedFeatureFragment",
-    "traceMsg" : "Include/ObservationMacros/Observation.HasMember.AssociatedFeatureFragment.minc#44/nProfiles/Common/AbnormalityDensity.mfsh#36/n"
+    "traceMsg" : "Include/ObservationMacros/Observation.HasMember.AssociatedFeatureFragment.minc#46/nProfiles/Common/AbnormalityDensity.mfsh#36/n"
   }
 },
 {
   "implementFragment" : {
     "className" : "AbnormalityDensity",
     "fragmentName" : "ConsistentWithFragment",
-    "traceMsg" : "Include/ObservationMacros/Observation.HasMember.ConsistentWithFragment.minc#44/nProfiles/Common/AbnormalityDensity.mfsh#37/n"
+    "traceMsg" : "Include/ObservationMacros/Observation.HasMember.ConsistentWithFragment.minc#46/nProfiles/Common/AbnormalityDensity.mfsh#37/n"
   }
 },
 {

@@ -133,7 +133,7 @@ Description: "Observation Codes code system"
   #// IG Macros
   #// -----------------------------------------
   #use IG
-    #apply GroupMemberCodeSystem("CommonCodesCS", "%Title%")
+    #apply GroupMemberCodeSystem("CommonCodesCS")
   #end
 
   #// -----------------------------------------

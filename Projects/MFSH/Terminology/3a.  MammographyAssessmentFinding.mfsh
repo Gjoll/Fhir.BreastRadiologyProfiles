@@ -25,7 +25,7 @@ Description:  "Mammography assessment finding Value Set"
   #// IG Macros
   #// -----------------------------------------
   #use IG
-    #apply GroupMemberValueSet("CommonCodesVS", "%Title%")
+    #apply GroupMemberValueSet("CommonCodesVS")
   #end
 
   #// -----------------------------------------

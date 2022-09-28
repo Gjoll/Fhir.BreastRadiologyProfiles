@@ -9,7 +9,7 @@ Description: "Duct Type Value Set"
   #// IG Macros
   #// -----------------------------------------
   #use IG
-    #apply GroupMemberValueSet("CommonCodesVS", "%Title%")
+    #apply GroupMemberValueSet("CommonCodesVS")
   #end
 
 
@@ -60,7 +60,7 @@ Description: "Duct types code system."
   #// IG Macros
   #// -----------------------------------------
   #use IG
-    #apply GroupMemberCodeSystem("CommonCodesCS", "%Title%")
+    #apply GroupMemberCodeSystem("CommonCodesCS")
   #end
 
   #// -----------------------------------------

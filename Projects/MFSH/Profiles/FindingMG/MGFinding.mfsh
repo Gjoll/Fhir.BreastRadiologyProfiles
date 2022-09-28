@@ -108,7 +108,7 @@ Description: """
     # </p>
     #""")
 
-    #apply GroupMemberProfile("MGResources", "%Title%")
+    #apply GroupMemberProfile("MGResources")
   #end
   
 

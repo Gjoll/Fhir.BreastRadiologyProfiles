@@ -16,6 +16,7 @@
 * bodySite.extension[breastBodyLocation] ^short = "breastBodyLocation extension."
 * bodySite.extension[breastBodyLocation] ^definition = "This extension slice contains the breastBodyLocation extension."
 
+#if Frags
   #// -----------------------------------------
   #// IG Macros
   #// -----------------------------------------
@@ -25,7 +26,7 @@
     # <b>%FTitle%</b>
     # </p>
     #""")
-    #apply once GroupMemberFragment("Fragments", "%FTitle%")
+    #apply once GroupMemberFragment("Fragments")
   #end
   
   #// -----------------------------------------
@@ -40,6 +41,7 @@
     #apply LinkByName("focus", "^%ProfileId%/bodySite/$", "^%ProfileId%/bodySite.extension/$", "0", "Cmp")
     #apply LinkByName("focus", "^%ProfileId%/bodySite.extension/$", "^BreastBodyLocationExtension/$", "1", "Cmp")
   #end
+#end
 
   #// -----------------------------------------
   #// Code API Macros

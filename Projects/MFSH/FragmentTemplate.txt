@@ -9,6 +9,6 @@ Description: """
   #// IG Macros
   #// -----------------------------------------
   #use IG
-    #apply once GroupMemberFragment("Fragments", "%FTitle%")
+    #apply once GroupMemberFragment("Fragments")
   #end
   

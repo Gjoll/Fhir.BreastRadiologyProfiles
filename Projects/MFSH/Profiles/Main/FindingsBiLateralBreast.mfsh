@@ -7,7 +7,7 @@ Profile: FindingsBiLateralBreast
   #// IG Macros
   #// -----------------------------------------
   #use IG
-   #apply GroupMemberProfile("BaseResources", "%Title%")
+   #apply GroupMemberProfile("MainResources")
   #end
   
   #// -----------------------------------------
