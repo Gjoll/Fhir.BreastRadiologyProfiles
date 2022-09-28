@@ -7,7 +7,7 @@ Profile: FindingsRightBreast
   #// IG Macros
   #// -----------------------------------------
   #use IG
-   #apply GroupMemberProfile("MainResources", "%Title%")
+   #apply GroupMemberProfile("MainResources", "Right Breast Findings")
   #end
   
   #// -----------------------------------------

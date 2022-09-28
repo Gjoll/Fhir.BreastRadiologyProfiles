@@ -76,12 +76,12 @@ groups:
     name: Main Resources
     description: This section contains the main top level resources that are defined in this Breast Imaging Implementation Guide.
     resources:
-      - StructureDefinition/FindingsBiLateralBreast   # ^StructureDefinition/FindingsBiLateralBreast$
-      - StructureDefinition/FindingsLeftBreast   # ^StructureDefinition/FindingsLeftBreast$
-      - StructureDefinition/FindingsRightBreast   # ^StructureDefinition/FindingsRightBreast$
       - StructureDefinition/BreastImagingDocument   # ^StructureDefinition/BreastImagingDocument$
       - StructureDefinition/BreastImagingComposition   # ^StructureDefinition/BreastImagingComposition$
+      - StructureDefinition/FindingsBiLateralBreast   # ^StructureDefinition/FindingsBiLateralBreast$
       - StructureDefinition/BreastImagingReport   # ^StructureDefinition/BreastImagingReport$
+      - StructureDefinition/FindingsLeftBreast   # ^StructureDefinition/FindingsLeftBreast$
+      - StructureDefinition/FindingsRightBreast   # ^StructureDefinition/FindingsRightBreast$
   CommonResources:
     name: Common Resources
     description: This section contains resources that are defined in this Breast Imaging Implementation Guide.
