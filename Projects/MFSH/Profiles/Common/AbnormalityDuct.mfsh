@@ -1,9 +1,9 @@
 
 Profile: AbnormalityDuct
 Parent: us-core-observation-imaging
-Title: "Duct"
+Title: "Duct Abnormality"
 Description: """
-  Duct
+  Duct abnormality observation.
   """
 
   #apply Resource.Fix("1", "code", "ObservationCodesCS#abnormalityDuctObservation", "Code")
@@ -50,7 +50,7 @@ Description: """
     # </p>
     # """)
 
-    #apply GroupMemberProfile("CommonResources")
+    #apply GroupMemberProfile("CommonResources", "%Title%")
   #end
   
   #// -----------------------------------------

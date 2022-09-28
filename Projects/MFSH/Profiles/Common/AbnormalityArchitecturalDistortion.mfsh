@@ -1,8 +1,8 @@
 Profile: AbnormalityArchitecturalDistortion
 Parent: us-core-observation-imaging
-Title: "Mammography Architectural Distortion"
+Title: "Architectural Distortion Abnormality"
 Description: """
-    Mammography Architectural Distortion
+    Architectural Distortion abnormality observation.
     """
 
   #apply Resource.Fix("1", "code", "ObservationCodesCS#abnormalityArchitecturalDistortionObservation", "Code")
@@ -37,7 +37,7 @@ Description: """
     # </p>
     #""")
 
-    #apply GroupMemberProfile("CommonResources")
+    #apply GroupMemberProfile("CommonResources", "%Title%")
   #end
   
   #// -----------------------------------------

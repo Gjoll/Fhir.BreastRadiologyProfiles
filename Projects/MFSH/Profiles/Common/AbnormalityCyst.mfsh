@@ -1,8 +1,8 @@
 Profile: AbnormalityCyst
 Parent: us-core-observation-imaging
-Title: "Cyst"
+Title: "Cyst Abnormality"
 Description: """
-  Cyst
+  Cyst abnormality observation.
   """
 
   #apply Resource.Fix("1", "code", "ObservationCodesCS#abnormalityCyst", "Code")
@@ -55,7 +55,7 @@ Description: """
     #""")
 
 
-    #apply GroupMemberProfile("CommonResources")
+    #apply GroupMemberProfile("CommonResources", "%Title%")
   #end
 
   #// -----------------------------------------

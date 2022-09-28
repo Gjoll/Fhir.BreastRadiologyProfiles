@@ -76,130 +76,130 @@ groups:
     name: Main Resources
     description: This section contains the main top level resources that are defined in this Breast Imaging Implementation Guide.
     resources:
-      - StructureDefinition/BreastImagingComposition   # Profiles/Main/BreastImagingComposition/BreastImagingComposition.mfsh#57/n
-      - StructureDefinition/BreastImagingDocument   # Profiles/Main/BreastImagingDocument.mfsh#45/n
-      - StructureDefinition/BreastImagingReport   # Profiles/Main/BreastImagingReport.mfsh#63/n
-      - StructureDefinition/FindingsBiLateralBreast   # Profiles/Main/FindingsBiLateralBreast.mfsh#10/n
-      - StructureDefinition/FindingsLeftBreast   # Profiles/Main/FindingsLeftBreast.mfsh#10/n
-      - StructureDefinition/FindingsRightBreast   # Profiles/Main/FindingsRightBreast.mfsh#10/n
+      - StructureDefinition/FindingsBiLateralBreast   # ^StructureDefinition/FindingsBiLateralBreast$
+      - StructureDefinition/FindingsLeftBreast   # ^StructureDefinition/FindingsLeftBreast$
+      - StructureDefinition/FindingsRightBreast   # ^StructureDefinition/FindingsRightBreast$
+      - StructureDefinition/BreastImagingDocument   # ^StructureDefinition/BreastImagingDocument$
+      - StructureDefinition/BreastImagingComposition   # ^StructureDefinition/BreastImagingComposition$
+      - StructureDefinition/BreastImagingReport   # ^StructureDefinition/BreastImagingReport$
   CommonResources:
     name: Common Resources
     description: This section contains resources that are defined in this Breast Imaging Implementation Guide.
     resources:
-      - StructureDefinition/AbnormalityArchitecturalDistortion   # Profiles/Common/AbnormalityArchitecturalDistortion.mfsh#40/n
-      - StructureDefinition/AbnormalityAsymmetry   # Profiles/Common/AbnormalityAsymmetry.mfsh#44/n
-      - StructureDefinition/AbnormalityCalcification   # Profiles/Common/AbnormalityCalcification.mfsh#49/n
-      - StructureDefinition/AbnormalityCyst   # Profiles/Common/AbnormalityCyst.mfsh#58/n
-      - StructureDefinition/AbnormalityDensity   # Profiles/Common/AbnormalityDensity.mfsh#58/n
-      - StructureDefinition/AbnormalityDuct   # Profiles/Common/AbnormalityDuct.mfsh#53/n
-      - StructureDefinition/AbnormalityFatNecrosis   # Profiles/Common/AbnormalityFatNecrosis.mfsh#48/n
-      - StructureDefinition/AbnormalityFibroadenoma   # Profiles/Common/AbnormalityFibroadenoma.mfsh#51/n
-      - StructureDefinition/AbnormalityForeignObject   # Profiles/Common/AbnormalityForeignObject.mfsh#52/n
-      - StructureDefinition/AbnormalityLymphNode   # Profiles/Common/AbnormalityLymphNode.mfsh#57/n
-      - StructureDefinition/AbnormalityMass   # Profiles/Common/AbnormalityMass.mfsh#54/n
-      - StructureDefinition/AbnormalitySkinLesion   # Profiles/Common/AbnormalitySkinLesion.mfsh#45/n
-      - StructureDefinition/AssociatedFeature   # Profiles/Common/AssociatedFeature.mfsh#53/n
-      - StructureDefinition/BreastAssessmentCategory   # Profiles/Common/BreastAssessmentCategory.mfsh#27/n
-      - StructureDefinition/BreastComposition   # Profiles/Common/BreastComposition.mfsh#27/n
-      - StructureDefinition/BreastMedicationRequest   # Profiles/Common/BreastMedicationRequest.mfsh#22/n
-      - StructureDefinition/BreastServiceRequest   # Profiles/Common/BreastServiceRequest.mfsh#22/n
-      - StructureDefinition/ConsistentWith   # Profiles/Common/ConsistentWith.mfsh#58/n
-      - StructureDefinition/ServiceRecommendation   # Profiles/Common/ServiceRecommendation.mfsh#36/n
-      - StructureDefinition/TumorSatellite   # Profiles/Common/TumorSatellite.mfsh#60/n
+      - StructureDefinition/AbnormalityArchitecturalDistortion   # ^StructureDefinition/AbnormalityArchitecturalDistortion$
+      - StructureDefinition/AssociatedFeature   # ^StructureDefinition/AssociatedFeature$
+      - StructureDefinition/AbnormalityAsymmetry   # ^StructureDefinition/AbnormalityAsymmetry$
+      - StructureDefinition/BreastAssessmentCategory   # ^StructureDefinition/BreastAssessmentCategory$
+      - StructureDefinition/BreastComposition   # ^StructureDefinition/BreastComposition$
+      - StructureDefinition/BreastMedicationRequest   # ^StructureDefinition/BreastMedicationRequest$
+      - StructureDefinition/BreastServiceRequest   # ^StructureDefinition/BreastServiceRequest$
+      - StructureDefinition/AbnormalityCalcification   # ^StructureDefinition/AbnormalityCalcification$
+      - StructureDefinition/ConsistentWith   # ^StructureDefinition/ConsistentWith$
+      - StructureDefinition/AbnormalityCyst   # ^StructureDefinition/AbnormalityCyst$
+      - StructureDefinition/AbnormalityDensity   # ^StructureDefinition/AbnormalityDensity$
+      - StructureDefinition/AbnormalityDuct   # ^StructureDefinition/AbnormalityDuct$
+      - StructureDefinition/AbnormalityFatNecrosis   # ^StructureDefinition/AbnormalityFatNecrosis$
+      - StructureDefinition/AbnormalityFibroadenoma   # ^StructureDefinition/AbnormalityFibroadenoma$
+      - StructureDefinition/AbnormalityForeignObject   # ^StructureDefinition/AbnormalityForeignObject$
+      - StructureDefinition/AbnormalityLymphNode   # ^StructureDefinition/AbnormalityLymphNode$
+      - StructureDefinition/AbnormalityMass   # ^StructureDefinition/AbnormalityMass$
+      - StructureDefinition/ServiceRecommendation   # ^StructureDefinition/ServiceRecommendation$
+      - StructureDefinition/AbnormalitySkinLesion   # ^StructureDefinition/AbnormalitySkinLesion$
+      - StructureDefinition/TumorSatellite   # ^StructureDefinition/TumorSatellite$
   MGResources:
     name: Mammography Resources
     description: This section contains resources that are defined in this Breast Imaging Implementation Guide specifically in a mammography exam.
     resources:
-      - StructureDefinition/MGFinding   # Profiles/FindingMG/MGFinding.mfsh#111/n
+      - StructureDefinition/MGFinding   # ^StructureDefinition/MGFinding$
   MRIResources:
     name: MRI Resources
     description: This section contains resources that are defined in this Breast Imaging Implementation Guide specifically in an MRI exam.
     resources:
-      - StructureDefinition/MRIFinding   # Profiles/FindingMRI/MRIFinding.mfsh#31/n
+      - StructureDefinition/MRIFinding   # ^StructureDefinition/MRIFinding$
   NMResources:
     name: Nuclear Medicine Resources
     description: This section contains resources that are defined in this Breast Imaging Implementation Guide specifically in a nuclear medicine exam.
     resources:
-      - StructureDefinition/NMFinding   # Profiles/FindingNM/NMFinding.mfsh#32/n
+      - StructureDefinition/NMFinding   # ^StructureDefinition/NMFinding$
   USResources:
     name: Ultrasound Resources
     description: This section contains resources that are defined in this Breast Imaging Implementation Guide specifically in an ultrasound exam.
     resources:
-      - StructureDefinition/USFinding   # Profiles/FindingUS/USFinding.mfsh#31/n
+      - StructureDefinition/USFinding   # ^StructureDefinition/USFinding$
   OtherResources:
     name: Other Resources
     description: This section contains resources that are defined in this Breast Imaging Implementation Guide 
       that are not one of the predefined exam types.
     resources:
-      - StructureDefinition/OtherModalityFinding   # Profiles/FindingOther/OtherModalityFinding.mfsh#34/n
+      - StructureDefinition/OtherModalityFinding   # ^StructureDefinition/OtherModalityFinding$
   ExtensionResources:
     name: Extension Resources
     description: This section contains extension resources that are defined in this Breast Imaging Implementation Guide.
     resources:
-      - StructureDefinition/BreastBodyLocationExtension   # Extensions/BreastBodyLocationExtension.mfsh#74/n
-      - StructureDefinition/BreastLateralityExtension   # Extensions/BreastLateralityExtension.mfsh#29/n
+      - StructureDefinition/BreastBodyLocationExtension   # ^StructureDefinition/BreastBodyLocationExtension$
+      - StructureDefinition/BreastLateralityExtension   # ^StructureDefinition/BreastLateralityExtension$
   CommonCodesCS:
     name: Common CodeSystems
     description: This section contains code systems that are defined in this Breast Imaging Implementation Guide.
     resources:
-      - CodeSystem/AbnormalityAsymmetryTypeCS   # Terminology/AbnormalityAsymmetryType.mfsh#77/n
-      - CodeSystem/AbnormalityCystTypeCS   # Terminology/AbnormalityCystType.mfsh#103/n
-      - CodeSystem/AbnormalityDensityTypeCS   # Terminology/AbnormalityDensityType.mfsh#57/n
-      - CodeSystem/AbnormalityDuctTypeCS   # Terminology/AbnormalityDuctType.mfsh#63/n
-      - CodeSystem/AbnormalityFibroadenomaTypeCS   # Terminology/AbnormalityFibroadenomaType.mfsh#51/n
-      - CodeSystem/AbnormalityForeignObjectTypeCS   # Terminology/AbnormalityForeignObjectType.mfsh#206/n
-      - CodeSystem/AbnormalityLymphNodeTypeCS   # Terminology/AbnormalityLymphNodeType.mfsh#129/n
-      - CodeSystem/AbnormalityMassTypeCS   # Terminology/AbnormalityMassType.mfsh#45/n
-      - CodeSystem/AssociatedFeatureCS   # Terminology/AssociatedFeature.mfsh#361/n
-      - CodeSystem/BreastBodyLocationDepthCS   # Terminology/BreastBodyLocationDepth.mfsh#62/n
-      - CodeSystem/BreastBodyLocationRegionCS   # Terminology/BreastBodyLocationRegions.mfsh#105/n
-      - CodeSystem/BreastCompositionCS   # Terminology/BreastCompositonVS.mfsh#63/n
-      - CodeSystem/CalcificationTypeCS   # Terminology/CalcificationType.mfsh#343/n
-      - CodeSystem/CompositionSectionSliceCodesCS   # Terminology/CompositionSectionSliceCodes.mfsh#46/n
-      - CodeSystem/ConsistentWithQualifierCS   # Terminology/ConsistentWithQualifier.mfsh#59/n
-      - CodeSystem/CorrespondsWithCS   # Terminology/CorrespondsWith.mfsh#237/n
-      - CodeSystem/LesionDensityCS   # Terminology/3a. LesionDensity.mfsh#54/n
-      - CodeSystem/MarginCS   # Terminology/Margin.mfsh#140/n
-      - CodeSystem/ObservationCodesCS   # Terminology/ObservationCodes.mfsh#136/n
-      - CodeSystem/ObservationComponentSliceCodesCS   # Terminology/ObservationComponentSliceCodes.mfsh#137/n
-      - CodeSystem/ObservedChangesCS   # Terminology/ObservedChanges.mfsh#108/n
-      - CodeSystem/OrientationCS   # Terminology/Orientation.mfsh#60/n
-      - CodeSystem/ServiceRecommendationsCS   # Terminology/ServiceRecommendations.mfsh#888/n
+      - CodeSystem/AssociatedFeatureCS   # ^CodeSystem/AssociatedFeatureCS$
+      - CodeSystem/AbnormalityAsymmetryTypeCS   # ^CodeSystem/AbnormalityAsymmetryTypeCS$
+      - CodeSystem/BreastBodyLocationDepthCS   # ^CodeSystem/BreastBodyLocationDepthCS$
+      - CodeSystem/BreastBodyLocationRegionCS   # ^CodeSystem/BreastBodyLocationRegionCS$
+      - CodeSystem/BreastCompositionCS   # ^CodeSystem/BreastCompositionCS$
+      - CodeSystem/CalcificationTypeCS   # ^CodeSystem/CalcificationTypeCS$
+      - CodeSystem/ObservationComponentSliceCodesCS   # ^CodeSystem/ObservationComponentSliceCodesCS$
+      - CodeSystem/CompositionSectionSliceCodesCS   # ^CodeSystem/CompositionSectionSliceCodesCS$
+      - CodeSystem/ConsistentWithQualifierCS   # ^CodeSystem/ConsistentWithQualifierCS$
+      - CodeSystem/CorrespondsWithCS   # ^CodeSystem/CorrespondsWithCS$
+      - CodeSystem/AbnormalityCystTypeCS   # ^CodeSystem/AbnormalityCystTypeCS$
+      - CodeSystem/AbnormalityDensityTypeCS   # ^CodeSystem/AbnormalityDensityTypeCS$
+      - CodeSystem/AbnormalityDuctTypeCS   # ^CodeSystem/AbnormalityDuctTypeCS$
+      - CodeSystem/AbnormalityFibroadenomaTypeCS   # ^CodeSystem/AbnormalityFibroadenomaTypeCS$
+      - CodeSystem/AbnormalityForeignObjectTypeCS   # ^CodeSystem/AbnormalityForeignObjectTypeCS$
+      - CodeSystem/LesionDensityCS   # ^CodeSystem/LesionDensityCS$
+      - CodeSystem/AbnormalityLymphNodeTypeCS   # ^CodeSystem/AbnormalityLymphNodeTypeCS$
+      - CodeSystem/MarginCS   # ^CodeSystem/MarginCS$
+      - CodeSystem/AbnormalityMassTypeCS   # ^CodeSystem/AbnormalityMassTypeCS$
+      - CodeSystem/ObservationCodesCS   # ^CodeSystem/ObservationCodesCS$
+      - CodeSystem/ObservedChangesCS   # ^CodeSystem/ObservedChangesCS$
+      - CodeSystem/OrientationCS   # ^CodeSystem/OrientationCS$
+      - CodeSystem/ServiceRecommendationsCS   # ^CodeSystem/ServiceRecommendationsCS$
   CommonCodesVS:
     name: Common ValueSets
     description: This section contains value sets that are defined in this Breast Imaging Implementation Guide.
     resources:
-      - ValueSet/AbnormalityAsymmetryTypeVS   # Terminology/AbnormalityAsymmetryType.mfsh#12/n
-      - ValueSet/AbnormalityCystTypeVS   # Terminology/AbnormalityCystType.mfsh#12/n
-      - ValueSet/AbnormalityDensityTypeVS   # Terminology/AbnormalityDensityType.mfsh#12/n
-      - ValueSet/AbnormalityDuctTypeVS   # Terminology/AbnormalityDuctType.mfsh#12/n
-      - ValueSet/AbnormalityFibroAdenomaTypeVS   # Terminology/AbnormalityFibroadenomaType.mfsh#12/n
-      - ValueSet/AbnormalityForeignObjectTypeVS   # Terminology/AbnormalityForeignObjectType.mfsh#12/n
-      - ValueSet/AbnormalityLymphNodeTypeVS   # Terminology/AbnormalityLymphNodeType.mfsh#13/n
-      - ValueSet/AbnormalityMassTypeVS   # Terminology/AbnormalityMassType.mfsh#13/n
-      - ValueSet/AssociatedFeatureVS   # Terminology/AssociatedFeature.mfsh#12/n
-      - ValueSet/BreastAssessmentCategoryVS   # Terminology/3a.  BreastAssessmentCategory.mfsh#25/n
-      - ValueSet/BreastBodyLocationDepthVS   # Terminology/BreastBodyLocationDepth.mfsh#13/n
-      - ValueSet/BreastBodyLocationRegionVS   # Terminology/BreastBodyLocationRegions.mfsh#13/n
-      - ValueSet/BreastCompositionVS   # Terminology/BreastCompositonVS.mfsh#18/n
-      - ValueSet/BreastImagingReportTypesVS   # Terminology/BreastImagingReportTypes.mfsh#18/n
-      - ValueSet/BreastLandmarkVS   # Terminology/Completed/BreastLandmark.mfsh#24/n
-      - ValueSet/BreastLateralityVS   # Terminology/Completed/BreastLaterality.mfsh#24/n
-      - ValueSet/BreastQuadrantVS   # Terminology/Completed/BreastQuadrantVS.mfsh#26/n
-      - ValueSet/CalcificationDistributionVS   # Terminology/3a. CalcificationDistribution.mfsh#38/n
-      - ValueSet/CalcificationTypeVS   # Terminology/CalcificationType.mfsh#16/n
-      - ValueSet/ClockPositionsVS   # Terminology/Completed/ClockPositions.mfsh#33/n
-      - ValueSet/ConsistentWithQualifierVS   # Terminology/ConsistentWithQualifier.mfsh#14/n
-      - ValueSet/ConsistentWithVS   # Terminology/ConsistentWith.mfsh#271/n
-      - ValueSet/CorrespondsWithVS   # Terminology/CorrespondsWith.mfsh#12/n
-      - ValueSet/LateralityVS   # Terminology/Completed/Laterality.mfsh#23/n
-      - ValueSet/LesionDensityVS   # Terminology/3a. LesionDensity.mfsh#11/n
-      - ValueSet/MammographyAssessmentFindingVS   # Terminology/3a.  MammographyAssessmentFinding.mfsh#28/n
-      - ValueSet/MarginVS   # Terminology/Margin.mfsh#11/n
-      - ValueSet/NotPreviouslySeenVS   # Terminology/3a. NotPreviouslySeen.mfsh#33/n
-      - ValueSet/ObservedChangesVS   # Terminology/ObservedChanges.mfsh#11/n
-      - ValueSet/OrientationVS   # Terminology/Orientation.mfsh#12/n
-      - ValueSet/PreviouslyDemonstratedByVS   # Terminology/Completed/PreviouslyDemonstratedBy.mfsh#30/n
-      - ValueSet/ServiceRecommendationsVS   # Terminology/ServiceRecommendations.mfsh#12/n
-      - ValueSet/ShapeVS   # Terminology/3a. Shape.mfsh#15/n
+      - ValueSet/AssociatedFeatureVS   # ^ValueSet/AssociatedFeatureVS$
+      - ValueSet/AbnormalityAsymmetryTypeVS   # ^ValueSet/AbnormalityAsymmetryTypeVS$
+      - ValueSet/BreastAssessmentCategoryVS   # ^ValueSet/BreastAssessmentCategoryVS$
+      - ValueSet/BreastBodyLocationDepthVS   # ^ValueSet/BreastBodyLocationDepthVS$
+      - ValueSet/BreastBodyLocationRegionVS   # ^ValueSet/BreastBodyLocationRegionVS$
+      - ValueSet/BreastCompositionVS   # ^ValueSet/BreastCompositionVS$
+      - ValueSet/BreastImagingReportTypesVS   # ^ValueSet/BreastImagingReportTypesVS$
+      - ValueSet/BreastLateralityVS   # ^ValueSet/BreastLateralityVS$
+      - ValueSet/BreastQuadrantVS   # ^ValueSet/BreastQuadrantVS$
+      - ValueSet/BreastLandmarkVS   # ^ValueSet/BreastLandmarkVS$
+      - ValueSet/CalcificationTypeVS   # ^ValueSet/CalcificationTypeVS$
+      - ValueSet/CalcificationDistributionVS   # ^ValueSet/CalcificationDistributionVS$
+      - ValueSet/ClockPositionsVS   # ^ValueSet/ClockPositionsVS$
+      - ValueSet/ConsistentWithQualifierVS   # ^ValueSet/ConsistentWithQualifierVS$
+      - ValueSet/ConsistentWithVS   # ^ValueSet/ConsistentWithVS$
+      - ValueSet/CorrespondsWithVS   # ^ValueSet/CorrespondsWithVS$
+      - ValueSet/AbnormalityCystTypeVS   # ^ValueSet/AbnormalityCystTypeVS$
+      - ValueSet/AbnormalityDensityTypeVS   # ^ValueSet/AbnormalityDensityTypeVS$
+      - ValueSet/AbnormalityDuctTypeVS   # ^ValueSet/AbnormalityDuctTypeVS$
+      - ValueSet/AbnormalityFibroAdenomaTypeVS   # ^ValueSet/AbnormalityFibroAdenomaTypeVS$
+      - ValueSet/AbnormalityForeignObjectTypeVS   # ^ValueSet/AbnormalityForeignObjectTypeVS$
+      - ValueSet/LateralityVS   # ^ValueSet/LateralityVS$
+      - ValueSet/LesionDensityVS   # ^ValueSet/LesionDensityVS$
+      - ValueSet/AbnormalityLymphNodeTypeVS   # ^ValueSet/AbnormalityLymphNodeTypeVS$
+      - ValueSet/MammographyAssessmentFindingVS   # ^ValueSet/MammographyAssessmentFindingVS$
+      - ValueSet/MarginVS   # ^ValueSet/MarginVS$
+      - ValueSet/AbnormalityMassTypeVS   # ^ValueSet/AbnormalityMassTypeVS$
+      - ValueSet/NotPreviouslySeenVS   # ^ValueSet/NotPreviouslySeenVS$
+      - ValueSet/ObservedChangesVS   # ^ValueSet/ObservedChangesVS$
+      - ValueSet/OrientationVS   # ^ValueSet/OrientationVS$
+      - ValueSet/PreviouslyDemonstratedByVS   # ^ValueSet/PreviouslyDemonstratedByVS$
+      - ValueSet/ServiceRecommendationsVS   # ^ValueSet/ServiceRecommendationsVS$
+      - ValueSet/ShapeVS   # ^ValueSet/ShapeVS$
 #ISBuilderGroups End

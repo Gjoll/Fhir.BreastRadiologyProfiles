@@ -3,9 +3,9 @@
 
 #macro Observation.FindingBreastFragment(%Laterality%)
 Parent: us-core-observation-imaging
-Title: "Findings %Laterality% Breast"
+Title: "%Laterality% Breast Findings"
 Description: """
-    Findings %Laterality% Breast profile.
+    %Laterality% breast findings profile.
     """  
   #apply HeaderFragment()
   #apply Observation.Device.Zero()

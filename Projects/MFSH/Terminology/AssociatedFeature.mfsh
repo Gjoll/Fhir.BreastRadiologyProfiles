@@ -9,7 +9,7 @@ Description:  "AssociatedFeature Value Set"
   #// IG Macros
   #// -----------------------------------------
   #use IG
-    #apply GroupMemberValueSet("CommonCodesVS")
+    #apply GroupMemberValueSet("CommonCodesVS", "%Title%")
   #end
 
   #// -----------------------------------------
@@ -358,7 +358,7 @@ Description: "Associated Feature seen during a breast examination."
   #// IG Macros
   #// -----------------------------------------
   #use IG
-    #apply GroupMemberCodeSystem("CommonCodesCS")
+    #apply GroupMemberCodeSystem("CommonCodesCS", "%Title%")
   #end
 
   #// -----------------------------------------

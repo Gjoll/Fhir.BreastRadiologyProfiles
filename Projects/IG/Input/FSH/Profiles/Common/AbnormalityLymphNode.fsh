@@ -1,8 +1,8 @@
 Profile: AbnormalityLymphNode
 Parent: us-core-observation-imaging
-Title: "LymphNode Abnormality"
+Title: "LymphNode Abnormality Abnormality"
 Description: """
-  LymphNode Abnormality
+  Lymph node abnormality observation.
   """
 * code = ObservationCodesCS#abnormalityLymphNodeObservation
 * code 1..1

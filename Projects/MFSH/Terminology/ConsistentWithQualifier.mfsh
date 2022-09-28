@@ -11,7 +11,7 @@ Description:  "ConsistentWith Qualifier Value Set"
   #// IG Macros
   #// -----------------------------------------
   #use IG
-    #apply GroupMemberValueSet("CommonCodesVS")
+    #apply GroupMemberValueSet("CommonCodesVS", "%Title%")
   #end
 
   #// -----------------------------------------
@@ -56,7 +56,7 @@ Description: "ConsistentWithQualifier  code system"
   #// IG Macros
   #// -----------------------------------------
   #use IG
-    #apply GroupMemberCodeSystem("CommonCodesCS")
+    #apply GroupMemberCodeSystem("CommonCodesCS", "%Title%")
   #end
 
   #// -----------------------------------------

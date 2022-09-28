@@ -44,7 +44,7 @@ Breast Composition Recommendations Section Fragment.
       # <b>%FTitle%</b>
       # </p>
       #""")
-      #apply once GroupMemberFragment("Fragments")
+      #apply once GroupMemberFragment("Fragments", "%FTitle%")
     #end
   #end
   

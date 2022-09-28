@@ -1,8 +1,8 @@
 Profile: AbnormalityFatNecrosis
 Parent: us-core-observation-imaging
-Title: "Mammography Fat Necrosis"
+Title: "Fat Necrosis Abnormality"
 Description: """
-    Mammography Fat Necrosis
+    Fat necrosis abnormality observation.
     """
 * code = ObservationCodesCS#abnormalityFatNecrosisObservation
 * code 1..1

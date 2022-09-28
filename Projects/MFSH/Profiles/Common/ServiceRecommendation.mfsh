@@ -33,7 +33,7 @@ Description: """
     # </p>
     #""")
     
-    #apply GroupMemberProfile("CommonResources")
+    #apply GroupMemberProfile("CommonResources", "%Title%")
   #end
   
   #// -----------------------------------------

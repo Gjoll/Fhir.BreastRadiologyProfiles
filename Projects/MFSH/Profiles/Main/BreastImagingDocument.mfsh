@@ -42,7 +42,7 @@ Description: """
     # </P>
     # """)
 
-    #apply GroupMemberProfile("MainResources")
+    #apply GroupMemberProfile("MainResources", "A")
   #end
 
 

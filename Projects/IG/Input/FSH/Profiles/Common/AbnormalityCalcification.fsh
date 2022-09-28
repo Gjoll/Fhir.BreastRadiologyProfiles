@@ -1,8 +1,8 @@
 Profile: AbnormalityCalcification
 Parent: us-core-observation-imaging
-Title: "Mammography Calcification"
+Title: "Calcification Abnormality"
 Description: """
-    Mammography Calcification
+    Calcification abnormality observation.
     """
 * code = ObservationCodesCS#abnormalityCalcificationObservation
 * code 1..1

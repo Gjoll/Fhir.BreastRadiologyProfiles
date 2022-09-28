@@ -1,8 +1,8 @@
 Profile: AbnormalityArchitecturalDistortion
 Parent: us-core-observation-imaging
-Title: "Mammography Architectural Distortion"
+Title: "Architectural Distortion Abnormality"
 Description: """
-    Mammography Architectural Distortion
+    Architectural Distortion abnormality observation.
     """
 * code = ObservationCodesCS#abnormalityArchitecturalDistortionObservation
 * code 1..1

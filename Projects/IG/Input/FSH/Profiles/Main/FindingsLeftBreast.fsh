@@ -1,8 +1,8 @@
 Profile: FindingsLeftBreast
 Parent: us-core-observation-imaging
-Title: "Findings Left Breast"
+Title: "Left Breast Findings"
 Description: """
-    Findings Left Breast profile.
+    Left breast findings profile.
     """  
 * ^contact[0].telecom.system = http://hl7.org/fhir/contact-point-system#url
 * ^contact[0].telecom.value = "http://hl7.org/Special/committees/cic"

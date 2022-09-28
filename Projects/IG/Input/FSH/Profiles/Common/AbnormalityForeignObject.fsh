@@ -1,8 +1,8 @@
 Profile: AbnormalityForeignObject
 Parent: us-core-observation-imaging
-Title: "Foreign Object"
+Title: "Foreign Object Abnormality"
 Description: """
-  Foreign Object
+  Foreign Object abnormality observation.
   """
 * code = ObservationCodesCS#abnormalityForeignObjectObservation
 * code 1..1

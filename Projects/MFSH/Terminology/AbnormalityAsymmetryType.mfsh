@@ -9,7 +9,7 @@ Description:  "Asymmetry Type Value Set"
   #// IG Macros
   #// -----------------------------------------
   #use IG
-    #apply GroupMemberValueSet("CommonCodesVS")
+    #apply GroupMemberValueSet("CommonCodesVS", "%Title%")
   #end
 
   #// -----------------------------------------
@@ -74,7 +74,7 @@ Description: "Asymmetry type code system."
   #// IG Macros
   #// -----------------------------------------
   #use IG
-    #apply GroupMemberCodeSystem("CommonCodesCS")
+    #apply GroupMemberCodeSystem("CommonCodesCS", "%Title%")
   #end
   
   #// -----------------------------------------

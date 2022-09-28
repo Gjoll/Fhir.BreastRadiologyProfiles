@@ -2,7 +2,7 @@ Profile: AbnormalityMass
 Parent: us-core-observation-imaging
 Title: "Mass Abnormality"
 Description: """
-  Mass Abnormality
+  Mass Abnormality abnormality observation.
   """
 
   #apply Resource.Fix("1", "code", "ObservationCodesCS#abnormalityMassObservation", "Code")
@@ -51,7 +51,7 @@ Description: """
     # </p>
     #""")
 
-    #apply GroupMemberProfile("CommonResources")
+    #apply GroupMemberProfile("CommonResources", "%Title%")
   #end
   
   #// -----------------------------------------

@@ -1,8 +1,8 @@
 Profile: AbnormalityAsymmetry
 Parent: us-core-observation-imaging
-Title: "Asymmetry"
+Title: "Asymmetry Abnormality"
 Description: """
-    Asymmetry
+    Asymmetry abnormality observation.
     """
 * code = ObservationCodesCS#abnormalityAsymmetryObservation
 * code 1..1

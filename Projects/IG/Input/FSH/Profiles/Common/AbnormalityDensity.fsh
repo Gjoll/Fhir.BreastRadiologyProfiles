@@ -1,8 +1,8 @@
 Profile: AbnormalityDensity
 Parent: us-core-observation-imaging
-Title: "Mammography Density"
+Title: "Density Abnormality"
 Description: """
-    Mammography Density
+    Density abnormality observation.
     """
 * code = ObservationCodesCS#abnormalityDensityObservation
 * code 1..1

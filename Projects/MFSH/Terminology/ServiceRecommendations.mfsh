@@ -9,7 +9,7 @@ Description:  "ServiceRecommendations Value Set"
   #// IG Macros
   #// -----------------------------------------
   #use IG
-    #apply GroupMemberValueSet("CommonCodesVS")
+    #apply GroupMemberValueSet("CommonCodesVS", "%Title%")
   #end
 
 
@@ -885,7 +885,7 @@ Description:  "ServiceRecommendations CodeSystem"
   #// IG Macros
   #// -----------------------------------------
   #use IG
-    #apply GroupMemberCodeSystem("CommonCodesCS")
+    #apply GroupMemberCodeSystem("CommonCodesCS", "%Title%")
   #end
 
 

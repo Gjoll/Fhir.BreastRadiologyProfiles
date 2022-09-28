@@ -28,7 +28,7 @@ Description: """
     # </p>
     #""")
 
-    #apply GroupMemberProfile("USResources")
+    #apply GroupMemberProfile("USResources", "%Title%")
   #end
 
 

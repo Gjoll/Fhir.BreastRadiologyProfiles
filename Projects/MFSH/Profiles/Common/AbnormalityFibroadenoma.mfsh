@@ -1,9 +1,9 @@
 
 Profile: AbnormalityFibroadenoma
 Parent: us-core-observation-imaging
-Title: "Fibroadenoma"
+Title: "Fibroadenoma Abnormality"
 Description: """
-  Fibroadenoma
+  Fibroadenoma abnormality observation.
   """
 
   #apply Resource.Fix("1", "code", "ObservationCodesCS#abnormalityFibroadenomaObservation", "Code")
@@ -48,7 +48,7 @@ Description: """
     # </p>
     #""")
 
-    #apply GroupMemberProfile("CommonResources")
+    #apply GroupMemberProfile("CommonResources", "%Title%")
   #end
   
   #// -----------------------------------------

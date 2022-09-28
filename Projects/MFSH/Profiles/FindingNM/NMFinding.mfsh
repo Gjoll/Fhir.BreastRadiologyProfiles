@@ -29,7 +29,7 @@ Description: """
     # </p>
     #""")
 
-    #apply GroupMemberProfile("NMResources")
+    #apply GroupMemberProfile("NMResources", "%Title%")
   #end
 
 

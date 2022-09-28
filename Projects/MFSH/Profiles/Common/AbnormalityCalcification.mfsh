@@ -1,8 +1,8 @@
 Profile: AbnormalityCalcification
 Parent: us-core-observation-imaging
-Title: "Mammography Calcification"
+Title: "Calcification Abnormality"
 Description: """
-    Mammography Calcification
+    Calcification abnormality observation.
     """
 
   #apply Resource.Fix("1", "code", "ObservationCodesCS#abnormalityCalcificationObservation", "Code")
@@ -46,7 +46,7 @@ Description: """
     # </p>
     #""")
 
-    #apply GroupMemberProfile("CommonResources")
+    #apply GroupMemberProfile("CommonResources", "%Title%")
   #end
 
   #// -----------------------------------------

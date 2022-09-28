@@ -1,8 +1,8 @@
 Profile: AbnormalityCyst
 Parent: us-core-observation-imaging
-Title: "Cyst"
+Title: "Cyst Abnormality"
 Description: """
-  Cyst
+  Cyst abnormality observation.
   """
 * code = ObservationCodesCS#abnormalityCyst
 * code 1..1

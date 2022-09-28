@@ -2,7 +2,7 @@ Profile: AbnormalitySkinLesion
 Parent: us-core-observation-imaging
 Title: "Skin Lesion Abnormality"
 Description: """
-  Skin Lesion Abnormality
+  Skin Lesion abnormality observation.
   """
 * code = ObservationCodesCS#abnormalitySkinLesionObservation
 * code 1..1

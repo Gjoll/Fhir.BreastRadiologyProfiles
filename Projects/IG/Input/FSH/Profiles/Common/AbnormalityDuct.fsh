@@ -1,8 +1,8 @@
 Profile: AbnormalityDuct
 Parent: us-core-observation-imaging
-Title: "Duct"
+Title: "Duct Abnormality"
 Description: """
-  Duct
+  Duct abnormality observation.
   """
 * code = ObservationCodesCS#abnormalityDuctObservation
 * code 1..1

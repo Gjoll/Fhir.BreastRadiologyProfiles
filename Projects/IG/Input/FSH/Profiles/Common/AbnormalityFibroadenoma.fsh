@@ -1,8 +1,8 @@
 Profile: AbnormalityFibroadenoma
 Parent: us-core-observation-imaging
-Title: "Fibroadenoma"
+Title: "Fibroadenoma Abnormality"
 Description: """
-  Fibroadenoma
+  Fibroadenoma abnormality observation.
   """
 * code = ObservationCodesCS#abnormalityFibroadenomaObservation
 * code 1..1

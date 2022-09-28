@@ -1,9 +1,9 @@
 
 Profile: AbnormalityForeignObject
 Parent: us-core-observation-imaging
-Title: "Foreign Object"
+Title: "Foreign Object Abnormality"
 Description: """
-  Foreign Object
+  Foreign Object abnormality observation.
   """
 
   #apply Resource.Fix("1", "code", "ObservationCodesCS#abnormalityForeignObjectObservation", "Code")
@@ -49,7 +49,7 @@ Description: """
     # </p>
     #""")
 
-    #apply GroupMemberProfile("CommonResources")
+    #apply GroupMemberProfile("CommonResources", "%Title%")
   #end
   
   #// -----------------------------------------

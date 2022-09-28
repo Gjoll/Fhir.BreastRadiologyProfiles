@@ -1,9 +1,9 @@
 
 Profile: AbnormalityAsymmetry
 Parent: us-core-observation-imaging
-Title: "Asymmetry"
+Title: "Asymmetry Abnormality"
 Description: """
-    Asymmetry
+    Asymmetry abnormality observation.
     """
 
   #apply Resource.Fix("1", "code", "ObservationCodesCS#abnormalityAsymmetryObservation", "Code")
@@ -41,7 +41,7 @@ Description: """
     # </p>
     #""")
 
-    #apply GroupMemberProfile("CommonResources")
+    #apply GroupMemberProfile("CommonResources", "%Title%")
   #end
 
   #// -----------------------------------------

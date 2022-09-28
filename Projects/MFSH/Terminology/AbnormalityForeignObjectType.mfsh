@@ -9,7 +9,7 @@ Description:  "Foreign Object Type Value Set"
   #// IG Macros
   #// -----------------------------------------
   #use IG
-    #apply GroupMemberValueSet("CommonCodesVS")
+    #apply GroupMemberValueSet("CommonCodesVS", "%Title%")
   #end
 
   #// -----------------------------------------
@@ -203,7 +203,7 @@ Description:  "Foreign Object Type CodeSystem"
   #// IG Macros
   #// -----------------------------------------
   #use IG
-    #apply GroupMemberCodeSystem("CommonCodesCS")
+    #apply GroupMemberCodeSystem("CommonCodesCS", "%Title%")
   #end
 
   #// -----------------------------------------

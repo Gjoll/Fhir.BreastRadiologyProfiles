@@ -134,7 +134,7 @@ Description: "Component Slice Codes code system"
   #// IG Macros
   #// -----------------------------------------
   #use IG
-    #apply GroupMemberCodeSystem("CommonCodesCS")
+    #apply GroupMemberCodeSystem("CommonCodesCS", "%Title%")
   #end
 
   #// -----------------------------------------

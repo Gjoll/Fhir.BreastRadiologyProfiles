@@ -1,8 +1,8 @@
 Profile: AbnormalityFatNecrosis
 Parent: us-core-observation-imaging
-Title: "Mammography Fat Necrosis"
+Title: "Fat Necrosis Abnormality"
 Description: """
-    Mammography Fat Necrosis
+    Fat necrosis abnormality observation.
     """
 
   #apply Resource.Fix("1", "code", "ObservationCodesCS#abnormalityFatNecrosisObservation", "Code")
@@ -45,7 +45,7 @@ Description: """
     # </p>
     #""")
 
-    #apply GroupMemberProfile("CommonResources")
+    #apply GroupMemberProfile("CommonResources", "%Title%")
   #end
   
   #// -----------------------------------------

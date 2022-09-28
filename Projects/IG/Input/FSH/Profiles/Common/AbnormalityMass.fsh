@@ -2,7 +2,7 @@ Profile: AbnormalityMass
 Parent: us-core-observation-imaging
 Title: "Mass Abnormality"
 Description: """
-  Mass Abnormality
+  Mass Abnormality abnormality observation.
   """
 * code = ObservationCodesCS#abnormalityMassObservation
 * code 1..1

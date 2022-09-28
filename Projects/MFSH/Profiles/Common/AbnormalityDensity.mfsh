@@ -1,8 +1,8 @@
 Profile: AbnormalityDensity
 Parent: us-core-observation-imaging
-Title: "Mammography Density"
+Title: "Density Abnormality"
 Description: """
-    Mammography Density
+    Density abnormality observation.
     """
 
   #apply Resource.Fix("1", "code", "ObservationCodesCS#abnormalityDensityObservation", "Code")
@@ -55,7 +55,7 @@ Description: """
     # </p>
     #""")
 
-    #apply GroupMemberProfile("CommonResources")
+    #apply GroupMemberProfile("CommonResources", "%Title%")
   #end
   
   

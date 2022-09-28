@@ -13,41 +13,45 @@
   `  },
 #end
 
-#macro IG.GroupMemberProfile(%GroupId%) > "%GraphDir%\\IGFile.cmds"
+#macro IG.GroupMemberProfile(%GroupId%, %Sort%) > "%GraphDir%\\IGFile.cmds"
   `  {
   `    "member" : {
   `      "groupingId" : "%GroupId%",
   `      "reference" : "^StructureDefinition/%ProfileId%$",
+  `	     "sort" : "%Sort%",
   `	     "traceMsg" : "%ApplyStackFrame%"
   `    }
   `  },
 #end
 
-#macro IG.GroupMemberFragment(%GroupId%) > "%GraphDir%\\IGFile.cmds"
+#macro IG.GroupMemberFragment(%GroupId%, %Sort%) > "%GraphDir%\\IGFile.cmds"
   `  {
   `    "member" : {
   `      "groupingId" : "%GroupId%",
   `      "reference" : "^StructureDefinition/%FragmentId%$",
+  `	     "sort" : "%Sort%",
   `	     "traceMsg" : "%ApplyStackFrame%"
   `    }
   `  },
 #end
 
-#macro IG.GroupMemberValueSet(%GroupId%) > "%GraphDir%\\IGFile.cmds"
+#macro IG.GroupMemberValueSet(%GroupId%, %Sort%) > "%GraphDir%\\IGFile.cmds"
   `  {
   `    "member" : {
   `      "groupingId" : "%GroupId%",
   `      "reference" : "^ValueSet/%ValueSetId%$",
+  `	     "sort" : "%Sort%",
   `	     "traceMsg" : "%ApplyStackFrame%"
   `    }
   `  },
 #end
 
-#macro IG.GroupMemberCodeSystem(%GroupId%) > "%GraphDir%\\IGFile.cmds"
+#macro IG.GroupMemberCodeSystem(%GroupId%, %Sort%) > "%GraphDir%\\IGFile.cmds"
   `  {
   `    "member" : {
   `      "groupingId" : "%GroupId%",
   `      "reference" : "^CodeSystem/%CodeSystemId%$",
+  `	     "sort" : "%Sort%",
   `	     "traceMsg" : "%ApplyStackFrame%"
   `    }
   `  },
