@@ -1,0 +1,105 @@
+{
+  "implementFragment" : {
+    "className" : "DuctAbnormality",
+    "fragmentName" : "BreastBodyLocationRequiredFragment",
+    "traceMsg" : "Include/ObservationMacros/Observation.BreastBodyLocationRequiredFragment.minc#51/nProfiles/Common/DuctAbnormality.mfsh#21/n"
+  }
+},
+{
+  "implementFragment" : {
+    "className" : "DuctAbnormality",
+    "fragmentName" : "ObservedChangesFragment",
+    "traceMsg" : "Include/ObservationMacros/Observation.Component.ObservedChangesFragment.minc#46/nProfiles/Common/DuctAbnormality.mfsh#23/n"
+  }
+},
+{
+  "implementFragment" : {
+    "className" : "DuctAbnormality",
+    "fragmentName" : "BiRadAssessmentCategoryFragment",
+    "traceMsg" : "Include/ObservationMacros/Observation.HasMember.BiRadAssessmentCategoryFragment.minc#45/nProfiles/Common/DuctAbnormality.mfsh#24/n"
+  }
+},
+{
+  "implementFragment" : {
+    "className" : "DuctAbnormality",
+    "fragmentName" : "ShapeFragment",
+    "traceMsg" : "Include/ObservationMacros/Observation.Component.ShapeFragment.minc#53/nProfiles/Common/DuctAbnormality.mfsh#25/n"
+  }
+},
+{
+  "implementFragment" : {
+    "className" : "DuctAbnormality",
+    "fragmentName" : "DensityFragment",
+    "traceMsg" : "Include/ObservationMacros/Observation.Component.DensityFragment.minc#52/nProfiles/Common/DuctAbnormality.mfsh#26/n"
+  }
+},
+{
+  "implementFragment" : {
+    "className" : "DuctAbnormality",
+    "fragmentName" : "MarginFragment",
+    "traceMsg" : "Include/ObservationMacros/Observation.Component.MarginFragment.minc#53/nProfiles/Common/DuctAbnormality.mfsh#27/n"
+  }
+},
+{
+  "implementFragment" : {
+    "className" : "DuctAbnormality",
+    "fragmentName" : "OrientationFragment",
+    "traceMsg" : "Include/ObservationMacros/Observation.Component.OrientationFragment.minc#53/nProfiles/Common/DuctAbnormality.mfsh#28/n"
+  }
+},
+{
+  "implementFragment" : {
+    "className" : "DuctAbnormality",
+    "fragmentName" : "ObservedCountFragment",
+    "traceMsg" : "Include/ObservationMacros/Observation.Component.ObservedCountFragment.minc#56/nProfiles/Common/DuctAbnormality.mfsh#29/n"
+  }
+},
+{
+  "implementFragment" : {
+    "className" : "DuctAbnormality",
+    "fragmentName" : "ObservedDistributionFragment",
+    "traceMsg" : "Include/ObservationMacros/Observation.Component.ObservedDistributionFragment.minc#83/nProfiles/Common/DuctAbnormality.mfsh#30/n"
+  }
+},
+{
+  "implementFragment" : {
+    "className" : "DuctAbnormality",
+    "fragmentName" : "ObservedSizeFragment",
+    "traceMsg" : "Include/ObservationMacros/Observation.Component.ObservedSizeFragment.minc#63/nProfiles/Common/DuctAbnormality.mfsh#31/n"
+  }
+},
+{
+  "implementFragment" : {
+    "className" : "DuctAbnormality",
+    "fragmentName" : "NotPreviouslySeenFragment",
+    "traceMsg" : "Include/ObservationMacros/Observation.Component.NotPreviouslySeenFragment.minc#49/nProfiles/Common/DuctAbnormality.mfsh#32/n"
+  }
+},
+{
+  "implementFragment" : {
+    "className" : "DuctAbnormality",
+    "fragmentName" : "CorrespondsWithFragment",
+    "traceMsg" : "Include/ObservationMacros/Observation.Component.CorrespondsWithFragment.minc#50/nProfiles/Common/DuctAbnormality.mfsh#33/n"
+  }
+},
+{
+  "implementFragment" : {
+    "className" : "DuctAbnormality",
+    "fragmentName" : "PreviouslyDemonstratedByFragment",
+    "traceMsg" : "Include/ObservationMacros/Observation.Component.PreviouslyDemonstratedBy.minc#51/nProfiles/Common/DuctAbnormality.mfsh#34/n"
+  }
+},
+{
+  "implementFragment" : {
+    "className" : "DuctAbnormality",
+    "fragmentName" : "ConsistentWithFragment",
+    "traceMsg" : "Include/ObservationMacros/Observation.HasMember.ConsistentWithFragment.minc#46/nProfiles/Common/DuctAbnormality.mfsh#36/n"
+  }
+},
+{
+  "defineClass" : {
+    "className" : "DuctAbnormality",
+    "classType" : "DomainResource",
+    "traceMsg" : "Profiles/Common/DuctAbnormality.mfsh#67/n"
+  }
+},

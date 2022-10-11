@@ -1,0 +1,12 @@
+{
+  "defineValueSet" : {
+    "valueSetName" : "FibroAdenomaAbnormalityTypeVS",
+    "traceMsg" : "Terminology/FibroadenomaAbnormalityType.mfsh#19/n"
+  }
+},
+{
+  "defineCodeSystem" : {
+    "codeSystemName" : "AbnormalityFibroadenomaTypeCS",
+    "traceMsg" : "Terminology/FibroadenomaAbnormalityType.mfsh#58/n"
+  }
+},

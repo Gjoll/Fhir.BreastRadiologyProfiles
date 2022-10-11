@@ -1,0 +1,183 @@
+{
+  "defineFragment" : {
+    "fragmentName" : "BreastBodyLocationRequiredFragment",
+    "traceMsg" : "Include/ObservationMacros/Observation.BreastBodyLocationRequiredFragment.minc#50/nProfiles/Common/ArchitecturalDistortionAbnormality.mfsh#12/n"
+  }
+},
+{
+  "defineFragmentItem" : {
+    "fragmentName" : "BreastBodyLocationRequiredFragment",
+    "fragmentType" : "Custom",
+    "itemName" : "BreastBodyLocationRequiredFragment",
+    "path" : "",
+    "traceMsg" : "Include/ObservationMacros/Observation.BreastBodyLocationRequiredFragment.minc#50/nProfiles/Common/ArchitecturalDistortionAbnormality.mfsh#12/n"
+  }
+},
+{
+  "implementFragment" : {
+    "className" : "ArchitecturalDistortionAbnormality",
+    "fragmentName" : "BreastBodyLocationRequiredFragment",
+    "traceMsg" : "Include/ObservationMacros/Observation.BreastBodyLocationRequiredFragment.minc#51/nProfiles/Common/ArchitecturalDistortionAbnormality.mfsh#12/n"
+  }
+},
+{
+  "defineFragment" : {
+    "fragmentName" : "ObservedChangesFragment",
+    "traceMsg" : "Include/ObservationMacros/Observation.Component.ObservedChangesFragment.minc#45/nProfiles/Common/ArchitecturalDistortionAbnormality.mfsh#14/n"
+  }
+},
+{
+  "defineFragmentItem" : {
+    "fragmentName" : "ObservedChangesFragment",
+    "fragmentType" : "Observation.Components.Fragment",
+    "itemName" : "ObservedChangesFragment",
+    "path" : "component:obsChanges",
+    "traceMsg" : "Include/ObservationMacros/Observation.Component.ObservedChangesFragment.minc#45/nProfiles/Common/ArchitecturalDistortionAbnormality.mfsh#14/n"
+  }
+},
+{
+  "implementFragment" : {
+    "className" : "ArchitecturalDistortionAbnormality",
+    "fragmentName" : "ObservedChangesFragment",
+    "traceMsg" : "Include/ObservationMacros/Observation.Component.ObservedChangesFragment.minc#46/nProfiles/Common/ArchitecturalDistortionAbnormality.mfsh#14/n"
+  }
+},
+{
+  "defineFragment" : {
+    "fragmentName" : "BiRadAssessmentCategoryFragment",
+    "traceMsg" : "Include/ObservationMacros/Observation.HasMember.BiRadAssessmentCategoryFragment.minc#44/nProfiles/Common/ArchitecturalDistortionAbnormality.mfsh#15/n"
+  }
+},
+{
+  "defineFragmentItem" : {
+    "fragmentName" : "BiRadAssessmentCategoryFragment",
+    "fragmentType" : "Observation.HasMember.Fragment",
+    "itemName" : "BiRadAssessmentCategoryFragment",
+    "path" : "biRadAssessmentCategory",
+    "traceMsg" : "Include/ObservationMacros/Observation.HasMember.BiRadAssessmentCategoryFragment.minc#44/nProfiles/Common/ArchitecturalDistortionAbnormality.mfsh#15/n"
+  }
+},
+{
+  "implementFragment" : {
+    "className" : "ArchitecturalDistortionAbnormality",
+    "fragmentName" : "BiRadAssessmentCategoryFragment",
+    "traceMsg" : "Include/ObservationMacros/Observation.HasMember.BiRadAssessmentCategoryFragment.minc#45/nProfiles/Common/ArchitecturalDistortionAbnormality.mfsh#15/n"
+  }
+},
+{
+  "defineFragment" : {
+    "fragmentName" : "NotPreviouslySeenFragment",
+    "traceMsg" : "Include/ObservationMacros/Observation.Component.NotPreviouslySeenFragment.minc#48/nProfiles/Common/ArchitecturalDistortionAbnormality.mfsh#16/n"
+  }
+},
+{
+  "defineFragmentItem" : {
+    "fragmentName" : "NotPreviouslySeenFragment",
+    "fragmentType" : "Observation.Components.Fragment",
+    "itemName" : "NotPreviouslySeenFragment",
+    "path" : "component:notPreviouslySeen",
+    "traceMsg" : "Include/ObservationMacros/Observation.Component.NotPreviouslySeenFragment.minc#48/nProfiles/Common/ArchitecturalDistortionAbnormality.mfsh#16/n"
+  }
+},
+{
+  "implementFragment" : {
+    "className" : "ArchitecturalDistortionAbnormality",
+    "fragmentName" : "NotPreviouslySeenFragment",
+    "traceMsg" : "Include/ObservationMacros/Observation.Component.NotPreviouslySeenFragment.minc#49/nProfiles/Common/ArchitecturalDistortionAbnormality.mfsh#16/n"
+  }
+},
+{
+  "defineFragment" : {
+    "fragmentName" : "CorrespondsWithFragment",
+    "traceMsg" : "Include/ObservationMacros/Observation.Component.CorrespondsWithFragment.minc#49/nProfiles/Common/ArchitecturalDistortionAbnormality.mfsh#17/n"
+  }
+},
+{
+  "defineFragmentItem" : {
+    "fragmentName" : "CorrespondsWithFragment",
+    "fragmentType" : "Observation.Components.Fragment",
+    "itemName" : "CorrespondsWithFragment",
+    "path" : "component:correspondsWith",
+    "traceMsg" : "Include/ObservationMacros/Observation.Component.CorrespondsWithFragment.minc#49/nProfiles/Common/ArchitecturalDistortionAbnormality.mfsh#17/n"
+  }
+},
+{
+  "implementFragment" : {
+    "className" : "ArchitecturalDistortionAbnormality",
+    "fragmentName" : "CorrespondsWithFragment",
+    "traceMsg" : "Include/ObservationMacros/Observation.Component.CorrespondsWithFragment.minc#50/nProfiles/Common/ArchitecturalDistortionAbnormality.mfsh#17/n"
+  }
+},
+{
+  "defineFragment" : {
+    "fragmentName" : "PreviouslyDemonstratedByFragment",
+    "traceMsg" : "Include/ObservationMacros/Observation.Component.PreviouslyDemonstratedBy.minc#50/nProfiles/Common/ArchitecturalDistortionAbnormality.mfsh#18/n"
+  }
+},
+{
+  "defineFragmentItem" : {
+    "fragmentName" : "PreviouslyDemonstratedByFragment",
+    "fragmentType" : "Observation.Components.Fragment",
+    "itemName" : "PreviouslyDemonstratedByFragment",
+    "path" : "component:prevDemBy",
+    "traceMsg" : "Include/ObservationMacros/Observation.Component.PreviouslyDemonstratedBy.minc#50/nProfiles/Common/ArchitecturalDistortionAbnormality.mfsh#18/n"
+  }
+},
+{
+  "implementFragment" : {
+    "className" : "ArchitecturalDistortionAbnormality",
+    "fragmentName" : "PreviouslyDemonstratedByFragment",
+    "traceMsg" : "Include/ObservationMacros/Observation.Component.PreviouslyDemonstratedBy.minc#51/nProfiles/Common/ArchitecturalDistortionAbnormality.mfsh#18/n"
+  }
+},
+{
+  "defineFragment" : {
+    "fragmentName" : "AssociatedFeatureFragment",
+    "traceMsg" : "Include/ObservationMacros/Observation.HasMember.AssociatedFeatureFragment.minc#45/nProfiles/Common/ArchitecturalDistortionAbnormality.mfsh#20/n"
+  }
+},
+{
+  "defineFragmentItem" : {
+    "fragmentName" : "AssociatedFeatureFragment",
+    "fragmentType" : "Observation.HasMember.Fragment",
+    "itemName" : "AssociatedFeatureFragment",
+    "path" : "associatedFeature",
+    "traceMsg" : "Include/ObservationMacros/Observation.HasMember.AssociatedFeatureFragment.minc#45/nProfiles/Common/ArchitecturalDistortionAbnormality.mfsh#20/n"
+  }
+},
+{
+  "implementFragment" : {
+    "className" : "ArchitecturalDistortionAbnormality",
+    "fragmentName" : "AssociatedFeatureFragment",
+    "traceMsg" : "Include/ObservationMacros/Observation.HasMember.AssociatedFeatureFragment.minc#46/nProfiles/Common/ArchitecturalDistortionAbnormality.mfsh#20/n"
+  }
+},
+{
+  "defineFragment" : {
+    "fragmentName" : "ConsistentWithFragment",
+    "traceMsg" : "Include/ObservationMacros/Observation.HasMember.ConsistentWithFragment.minc#45/nProfiles/Common/ArchitecturalDistortionAbnormality.mfsh#21/n"
+  }
+},
+{
+  "defineFragmentItem" : {
+    "fragmentName" : "ConsistentWithFragment",
+    "fragmentType" : "Observation.HasMember.Fragment",
+    "itemName" : "ConsistentWithFragment",
+    "path" : "consistentWith",
+    "traceMsg" : "Include/ObservationMacros/Observation.HasMember.ConsistentWithFragment.minc#45/nProfiles/Common/ArchitecturalDistortionAbnormality.mfsh#21/n"
+  }
+},
+{
+  "implementFragment" : {
+    "className" : "ArchitecturalDistortionAbnormality",
+    "fragmentName" : "ConsistentWithFragment",
+    "traceMsg" : "Include/ObservationMacros/Observation.HasMember.ConsistentWithFragment.minc#46/nProfiles/Common/ArchitecturalDistortionAbnormality.mfsh#21/n"
+  }
+},
+{
+  "defineClass" : {
+    "className" : "ArchitecturalDistortionAbnormality",
+    "classType" : "DomainResource",
+    "traceMsg" : "Profiles/Common/ArchitecturalDistortionAbnormality.mfsh#54/n"
+  }
+},

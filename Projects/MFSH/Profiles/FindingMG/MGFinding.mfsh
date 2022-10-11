@@ -9,40 +9,40 @@ Description: """
 
   #apply Observation.SectionFragment()
 
-  #apply Observation.HasMember.Add("abnormalityCyst", "0..*", "AbnormalityCyst", 
+  #apply Observation.HasMember.Add("abnormalityCyst", "0..*", "CystAbnormality", 
   #  "'Cyst' reference.",
   #  """
   #  This slice references the target 'Cyst'.
   #  """)
 
-  #apply Observation.HasMember.Add("abnormalityDuct", "0..*", "AbnormalityDuct", 
+  #apply Observation.HasMember.Add("abnormalityDuct", "0..*", "DuctAbnormality", 
   #  "'Duct' reference.",
   #  """
   #  This slice references the target 'Duct'.
   #  """)
 
 
-  #apply Observation.HasMember.Add("abnormalityForeignObject", "0..*", "AbnormalityForeignObject", 
+  #apply Observation.HasMember.Add("abnormalityForeignObject", "0..*", "ForeignObjectAbnormality", 
   #  "'Foreign Object' reference.",
   #  """
   #  This slice references the target 'Foreign Object'.
   #  """)
 
 
-  #apply Observation.HasMember.Add("abnormalityLymphNode", "0..*", "AbnormalityLymphNode", 
+  #apply Observation.HasMember.Add("abnormalityLymphNode", "0..*", "LymphNodeAbnormality", 
   #  "'Lymph Node' reference.",
   #  """
   #  This slice references the target 'Lymph Node'.
   #  """)
 
 
-  #apply Observation.HasMember.Add("abnormalityMass", "0..*", "AbnormalityMass", 
+  #apply Observation.HasMember.Add("abnormalityMass", "0..*", "MassAbnormality", 
   #  "'Mass' reference.",
   #  """
   #  This slice references the target 'Mass'.
   #  """)
 
-  #apply Observation.HasMember.Add("abnormalitySkinLesion", "0..*", "AbnormalitySkinLesion", 
+  #apply Observation.HasMember.Add("abnormalitySkinLesion", "0..*", "SkinLesionAbnormality", 
   #  "'Skin Lesion' reference.",
   #  """
   #  This slice references the target 'Skin Lesion'.
@@ -55,40 +55,40 @@ Description: """
   #  """)
 
 
-  #apply Observation.HasMember.Add("abnormalityFibroadenoma", "0..*", "AbnormalityFibroadenoma", 
+  #apply Observation.HasMember.Add("abnormalityFibroadenoma", "0..*", "FibroadenomaAbnormality", 
   #  "'Fibroadenoma' reference.",
   #  """
   #  This slice references the target 'Fibroadenoma'.
   #  """)
 
 
-  #apply Observation.HasMember.Add("abnormalityArchDist", "0..*", "AbnormalityArchitecturalDistortion", 
+  #apply Observation.HasMember.Add("abnormalityArchDist", "0..*", "ArchitecturalDistortionAbnormality", 
   #  "'Architectural Distortion' reference.",
   #  """
   #  This slice references the target 'Architectural Distortion'.
   #  """)
 
 
-  #apply Observation.HasMember.Add("abnormalityAsymmetry", "0..*", "AbnormalityAsymmetry", 
+  #apply Observation.HasMember.Add("abnormalityAsymmetry", "0..*", "AsymmetryAbnormality", 
   #  "'Asymmetry' reference.",
   #  """
   #  This slice references the target 'Asymmetry'.
   #  """)
 
 
-  #apply Observation.HasMember.Add("abnormalityCalcification", "0..*", "AbnormalityCalcification", 
+  #apply Observation.HasMember.Add("abnormalityCalcification", "0..*", "CalcificationAbnormality", 
   #  "'Calcification' reference.",
   #  """
   #  This slice references the target 'Calcification'.
   #  """)
 
-  #apply Observation.HasMember.Add("abnormalityDensity", "0..*", "AbnormalityDensity", 
+  #apply Observation.HasMember.Add("abnormalityDensity", "0..*", "DensityAbnormality", 
   #  "'Density' reference.",
   #  """
   #  This slice references the target 'Density'.
   #  """)
 
-  #apply Observation.HasMember.Add("abnormalityFatNecrosis", "0..*", "AbnormalityFatNecrosis", 
+  #apply Observation.HasMember.Add("abnormalityFatNecrosis", "0..*", "FatNecrosisAbnormality", 
   #  "'FatNecrosis' reference.",
   #  """
   #  This slice references the target 'FatNecrosis'.

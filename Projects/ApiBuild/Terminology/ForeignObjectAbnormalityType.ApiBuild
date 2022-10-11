@@ -1,0 +1,12 @@
+{
+  "defineValueSet" : {
+    "valueSetName" : "ForeignObjectAbnormalityTypeVS",
+    "traceMsg" : "Terminology/ForeignObjectAbnormalityType.mfsh#19/n"
+  }
+},
+{
+  "defineCodeSystem" : {
+    "codeSystemName" : "ForeignObjectAbnormalityTypeCS",
+    "traceMsg" : "Terminology/ForeignObjectAbnormalityType.mfsh#213/n"
+  }
+},
