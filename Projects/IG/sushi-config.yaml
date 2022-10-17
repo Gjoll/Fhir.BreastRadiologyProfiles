@@ -86,25 +86,25 @@ groups:
     name: Common Resources
     description: This section contains resources that are defined in this Breast Imaging Implementation Guide.
     resources:
-      - StructureDefinition/AbnormalityArchitecturalDistortion   # ^StructureDefinition/AbnormalityArchitecturalDistortion$
+      - StructureDefinition/ArchitecturalDistortionAbnormality   # ^StructureDefinition/ArchitecturalDistortionAbnormality$
       - StructureDefinition/AssociatedFeature   # ^StructureDefinition/AssociatedFeature$
-      - StructureDefinition/AbnormalityAsymmetry   # ^StructureDefinition/AbnormalityAsymmetry$
+      - StructureDefinition/AsymmetryAbnormality   # ^StructureDefinition/AsymmetryAbnormality$
       - StructureDefinition/BreastAssessmentCategory   # ^StructureDefinition/BreastAssessmentCategory$
       - StructureDefinition/BreastComposition   # ^StructureDefinition/BreastComposition$
       - StructureDefinition/BreastMedicationRequest   # ^StructureDefinition/BreastMedicationRequest$
       - StructureDefinition/BreastServiceRequest   # ^StructureDefinition/BreastServiceRequest$
-      - StructureDefinition/AbnormalityCalcification   # ^StructureDefinition/AbnormalityCalcification$
+      - StructureDefinition/CalcificationAbnormality   # ^StructureDefinition/CalcificationAbnormality$
       - StructureDefinition/ConsistentWith   # ^StructureDefinition/ConsistentWith$
-      - StructureDefinition/AbnormalityCyst   # ^StructureDefinition/AbnormalityCyst$
-      - StructureDefinition/AbnormalityDensity   # ^StructureDefinition/AbnormalityDensity$
-      - StructureDefinition/AbnormalityDuct   # ^StructureDefinition/AbnormalityDuct$
-      - StructureDefinition/AbnormalityFatNecrosis   # ^StructureDefinition/AbnormalityFatNecrosis$
-      - StructureDefinition/AbnormalityFibroadenoma   # ^StructureDefinition/AbnormalityFibroadenoma$
-      - StructureDefinition/AbnormalityForeignObject   # ^StructureDefinition/AbnormalityForeignObject$
-      - StructureDefinition/AbnormalityLymphNode   # ^StructureDefinition/AbnormalityLymphNode$
-      - StructureDefinition/AbnormalityMass   # ^StructureDefinition/AbnormalityMass$
+      - StructureDefinition/CystAbnormality   # ^StructureDefinition/CystAbnormality$
+      - StructureDefinition/DensityAbnormality   # ^StructureDefinition/DensityAbnormality$
+      - StructureDefinition/DuctAbnormality   # ^StructureDefinition/DuctAbnormality$
+      - StructureDefinition/FatNecrosisAbnormality   # ^StructureDefinition/FatNecrosisAbnormality$
+      - StructureDefinition/FibroadenomaAbnormality   # ^StructureDefinition/FibroadenomaAbnormality$
+      - StructureDefinition/ForeignObjectAbnormality   # ^StructureDefinition/ForeignObjectAbnormality$
+      - StructureDefinition/LymphNodeAbnormality   # ^StructureDefinition/LymphNodeAbnormality$
+      - StructureDefinition/MassAbnormality   # ^StructureDefinition/MassAbnormality$
       - StructureDefinition/ServiceRecommendation   # ^StructureDefinition/ServiceRecommendation$
-      - StructureDefinition/AbnormalitySkinLesion   # ^StructureDefinition/AbnormalitySkinLesion$
+      - StructureDefinition/SkinLesionAbnormality   # ^StructureDefinition/SkinLesionAbnormality$
       - StructureDefinition/TumorSatellite   # ^StructureDefinition/TumorSatellite$
   MGResources:
     name: Mammography Resources
@@ -143,7 +143,7 @@ groups:
     description: This section contains code systems that are defined in this Breast Imaging Implementation Guide.
     resources:
       - CodeSystem/AssociatedFeatureCS   # ^CodeSystem/AssociatedFeatureCS$
-      - CodeSystem/AbnormalityAsymmetryTypeCS   # ^CodeSystem/AbnormalityAsymmetryTypeCS$
+      - CodeSystem/AsymmetryAbnormalityTypeCS   # ^CodeSystem/AsymmetryAbnormalityTypeCS$
       - CodeSystem/BreastBodyLocationDepthCS   # ^CodeSystem/BreastBodyLocationDepthCS$
       - CodeSystem/BreastBodyLocationRegionCS   # ^CodeSystem/BreastBodyLocationRegionCS$
       - CodeSystem/BreastCompositionCS   # ^CodeSystem/BreastCompositionCS$
@@ -152,15 +152,15 @@ groups:
       - CodeSystem/CompositionSectionSliceCodesCS   # ^CodeSystem/CompositionSectionSliceCodesCS$
       - CodeSystem/ConsistentWithQualifierCS   # ^CodeSystem/ConsistentWithQualifierCS$
       - CodeSystem/CorrespondsWithCS   # ^CodeSystem/CorrespondsWithCS$
-      - CodeSystem/AbnormalityCystTypeCS   # ^CodeSystem/AbnormalityCystTypeCS$
-      - CodeSystem/AbnormalityDensityTypeCS   # ^CodeSystem/AbnormalityDensityTypeCS$
-      - CodeSystem/AbnormalityDuctTypeCS   # ^CodeSystem/AbnormalityDuctTypeCS$
+      - CodeSystem/CystAbnormalityTypeCS   # ^CodeSystem/CystAbnormalityTypeCS$
+      - CodeSystem/DensityAbnormalityTypeCS   # ^CodeSystem/DensityAbnormalityTypeCS$
+      - CodeSystem/DuctAbnormalityTypeCS   # ^CodeSystem/DuctAbnormalityTypeCS$
       - CodeSystem/AbnormalityFibroadenomaTypeCS   # ^CodeSystem/AbnormalityFibroadenomaTypeCS$
-      - CodeSystem/AbnormalityForeignObjectTypeCS   # ^CodeSystem/AbnormalityForeignObjectTypeCS$
+      - CodeSystem/ForeignObjectAbnormalityTypeCS   # ^CodeSystem/ForeignObjectAbnormalityTypeCS$
       - CodeSystem/LesionDensityCS   # ^CodeSystem/LesionDensityCS$
-      - CodeSystem/AbnormalityLymphNodeTypeCS   # ^CodeSystem/AbnormalityLymphNodeTypeCS$
+      - CodeSystem/LymphNodeAbnormalityTypeCS   # ^CodeSystem/LymphNodeAbnormalityTypeCS$
       - CodeSystem/MarginCS   # ^CodeSystem/MarginCS$
-      - CodeSystem/AbnormalityMassTypeCS   # ^CodeSystem/AbnormalityMassTypeCS$
+      - CodeSystem/MassAbnormalityTypeCS   # ^CodeSystem/MassAbnormalityTypeCS$
       - CodeSystem/ObservationCodesCS   # ^CodeSystem/ObservationCodesCS$
       - CodeSystem/ObservedChangesCS   # ^CodeSystem/ObservedChangesCS$
       - CodeSystem/OrientationCS   # ^CodeSystem/OrientationCS$
@@ -170,7 +170,7 @@ groups:
     description: This section contains value sets that are defined in this Breast Imaging Implementation Guide.
     resources:
       - ValueSet/AssociatedFeatureVS   # ^ValueSet/AssociatedFeatureVS$
-      - ValueSet/AbnormalityAsymmetryTypeVS   # ^ValueSet/AbnormalityAsymmetryTypeVS$
+      - ValueSet/AsymmetryAbnormalityTypeVS   # ^ValueSet/AsymmetryAbnormalityTypeVS$
       - ValueSet/BreastAssessmentCategoryVS   # ^ValueSet/BreastAssessmentCategoryVS$
       - ValueSet/BreastBodyLocationDepthVS   # ^ValueSet/BreastBodyLocationDepthVS$
       - ValueSet/BreastBodyLocationRegionVS   # ^ValueSet/BreastBodyLocationRegionVS$
@@ -185,17 +185,17 @@ groups:
       - ValueSet/ConsistentWithQualifierVS   # ^ValueSet/ConsistentWithQualifierVS$
       - ValueSet/ConsistentWithVS   # ^ValueSet/ConsistentWithVS$
       - ValueSet/CorrespondsWithVS   # ^ValueSet/CorrespondsWithVS$
-      - ValueSet/AbnormalityCystTypeVS   # ^ValueSet/AbnormalityCystTypeVS$
-      - ValueSet/AbnormalityDensityTypeVS   # ^ValueSet/AbnormalityDensityTypeVS$
-      - ValueSet/AbnormalityDuctTypeVS   # ^ValueSet/AbnormalityDuctTypeVS$
-      - ValueSet/AbnormalityFibroAdenomaTypeVS   # ^ValueSet/AbnormalityFibroAdenomaTypeVS$
-      - ValueSet/AbnormalityForeignObjectTypeVS   # ^ValueSet/AbnormalityForeignObjectTypeVS$
+      - ValueSet/CystAbnormalityTypeVS   # ^ValueSet/CystAbnormalityTypeVS$
+      - ValueSet/DensityAbnormalityTypeVS   # ^ValueSet/DensityAbnormalityTypeVS$
+      - ValueSet/DuctAbnormalityTypeVS   # ^ValueSet/DuctAbnormalityTypeVS$
+      - ValueSet/FibroAdenomaAbnormalityTypeVS   # ^ValueSet/FibroAdenomaAbnormalityTypeVS$
+      - ValueSet/ForeignObjectAbnormalityTypeVS   # ^ValueSet/ForeignObjectAbnormalityTypeVS$
       - ValueSet/LateralityVS   # ^ValueSet/LateralityVS$
       - ValueSet/LesionDensityVS   # ^ValueSet/LesionDensityVS$
-      - ValueSet/AbnormalityLymphNodeTypeVS   # ^ValueSet/AbnormalityLymphNodeTypeVS$
+      - ValueSet/LymphNodeAbnormalityTypeVS   # ^ValueSet/LymphNodeAbnormalityTypeVS$
       - ValueSet/MammographyAssessmentFindingVS   # ^ValueSet/MammographyAssessmentFindingVS$
       - ValueSet/MarginVS   # ^ValueSet/MarginVS$
-      - ValueSet/AbnormalityMassTypeVS   # ^ValueSet/AbnormalityMassTypeVS$
+      - ValueSet/MassAbnormalityTypeVS   # ^ValueSet/MassAbnormalityTypeVS$
       - ValueSet/NotPreviouslySeenVS   # ^ValueSet/NotPreviouslySeenVS$
       - ValueSet/ObservedChangesVS   # ^ValueSet/ObservedChangesVS$
       - ValueSet/OrientationVS   # ^ValueSet/OrientationVS$

@@ -1,0 +1,91 @@
+{
+  "implementFragment" : {
+    "className" : "FibroadenomaAbnormality",
+    "fragmentName" : "BreastBodyLocationRequiredFragment",
+    "traceMsg" : "Include/ObservationMacros/Observation.BreastBodyLocationRequiredFragment.minc#51/nProfiles/Common/FibroadenomaAbnormality.mfsh#21/n"
+  }
+},
+{
+  "implementFragment" : {
+    "className" : "FibroadenomaAbnormality",
+    "fragmentName" : "ObservedChangesFragment",
+    "traceMsg" : "Include/ObservationMacros/Observation.Component.ObservedChangesFragment.minc#46/nProfiles/Common/FibroadenomaAbnormality.mfsh#23/n"
+  }
+},
+{
+  "implementFragment" : {
+    "className" : "FibroadenomaAbnormality",
+    "fragmentName" : "BiRadAssessmentCategoryFragment",
+    "traceMsg" : "Include/ObservationMacros/Observation.HasMember.BiRadAssessmentCategoryFragment.minc#45/nProfiles/Common/FibroadenomaAbnormality.mfsh#24/n"
+  }
+},
+{
+  "implementFragment" : {
+    "className" : "FibroadenomaAbnormality",
+    "fragmentName" : "ShapeFragment",
+    "traceMsg" : "Include/ObservationMacros/Observation.Component.ShapeFragment.minc#53/nProfiles/Common/FibroadenomaAbnormality.mfsh#25/n"
+  }
+},
+{
+  "implementFragment" : {
+    "className" : "FibroadenomaAbnormality",
+    "fragmentName" : "DensityFragment",
+    "traceMsg" : "Include/ObservationMacros/Observation.Component.DensityFragment.minc#52/nProfiles/Common/FibroadenomaAbnormality.mfsh#26/n"
+  }
+},
+{
+  "implementFragment" : {
+    "className" : "FibroadenomaAbnormality",
+    "fragmentName" : "MarginFragment",
+    "traceMsg" : "Include/ObservationMacros/Observation.Component.MarginFragment.minc#53/nProfiles/Common/FibroadenomaAbnormality.mfsh#27/n"
+  }
+},
+{
+  "implementFragment" : {
+    "className" : "FibroadenomaAbnormality",
+    "fragmentName" : "OrientationFragment",
+    "traceMsg" : "Include/ObservationMacros/Observation.Component.OrientationFragment.minc#53/nProfiles/Common/FibroadenomaAbnormality.mfsh#28/n"
+  }
+},
+{
+  "implementFragment" : {
+    "className" : "FibroadenomaAbnormality",
+    "fragmentName" : "ObservedCountFragment",
+    "traceMsg" : "Include/ObservationMacros/Observation.Component.ObservedCountFragment.minc#56/nProfiles/Common/FibroadenomaAbnormality.mfsh#29/n"
+  }
+},
+{
+  "implementFragment" : {
+    "className" : "FibroadenomaAbnormality",
+    "fragmentName" : "ObservedDistributionFragment",
+    "traceMsg" : "Include/ObservationMacros/Observation.Component.ObservedDistributionFragment.minc#83/nProfiles/Common/FibroadenomaAbnormality.mfsh#30/n"
+  }
+},
+{
+  "implementFragment" : {
+    "className" : "FibroadenomaAbnormality",
+    "fragmentName" : "ObservedSizeFragment",
+    "traceMsg" : "Include/ObservationMacros/Observation.Component.ObservedSizeFragment.minc#63/nProfiles/Common/FibroadenomaAbnormality.mfsh#31/n"
+  }
+},
+{
+  "implementFragment" : {
+    "className" : "FibroadenomaAbnormality",
+    "fragmentName" : "PreviouslyDemonstratedByFragment",
+    "traceMsg" : "Include/ObservationMacros/Observation.Component.PreviouslyDemonstratedBy.minc#51/nProfiles/Common/FibroadenomaAbnormality.mfsh#32/n"
+  }
+},
+{
+  "implementFragment" : {
+    "className" : "FibroadenomaAbnormality",
+    "fragmentName" : "AssociatedFeatureFragment",
+    "traceMsg" : "Include/ObservationMacros/Observation.HasMember.AssociatedFeatureFragment.minc#46/nProfiles/Common/FibroadenomaAbnormality.mfsh#34/n"
+  }
+},
+{
+  "defineClass" : {
+    "className" : "FibroadenomaAbnormality",
+    "classType" : "DomainResource",
+    "traceMsg" : "Profiles/Common/FibroadenomaAbnormality.mfsh#64/n"
+  }
+},

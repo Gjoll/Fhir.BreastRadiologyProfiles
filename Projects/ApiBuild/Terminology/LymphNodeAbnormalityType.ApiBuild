@@ -1,0 +1,12 @@
+{
+  "defineValueSet" : {
+    "valueSetName" : "LymphNodeAbnormalityTypeVS",
+    "traceMsg" : "Terminology/LymphNodeAbnormalityType.mfsh#22/n"
+  }
+},
+{
+  "defineCodeSystem" : {
+    "codeSystemName" : "LymphNodeAbnormalityTypeCS",
+    "traceMsg" : "Terminology/LymphNodeAbnormalityType.mfsh#136/n"
+  }
+},

@@ -11,7 +11,7 @@
 # 'Corresponds With' Component Fragment
 # Adds CorrespondsWith component
 # """
-  #apply Observation.Component.Add("correspondsWith", "0..*", "Corresponds With", "Abnormality Corresponds With",
+  #apply Observation.Component.Add("correspondsWith", "0..*", "Corresponds With", "Corresponds With Abnormality",
   #  """
   #  This slice contains the optional components that define what this observation corresponds with.
   #  The value of this component is a codeable concept chosen from the CorrespondsWithVS valueset.

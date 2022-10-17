@@ -1,0 +1,194 @@
+{
+  "implementFragment" : {
+    "className" : "CystAbnormality",
+    "fragmentName" : "BreastBodyLocationRequiredFragment",
+    "traceMsg" : "Include/ObservationMacros/Observation.BreastBodyLocationRequiredFragment.minc#51/nProfiles/Common/CystAbnormality.mfsh#21/n"
+  }
+},
+{
+  "implementFragment" : {
+    "className" : "CystAbnormality",
+    "fragmentName" : "ObservedChangesFragment",
+    "traceMsg" : "Include/ObservationMacros/Observation.Component.ObservedChangesFragment.minc#46/nProfiles/Common/CystAbnormality.mfsh#23/n"
+  }
+},
+{
+  "implementFragment" : {
+    "className" : "CystAbnormality",
+    "fragmentName" : "BiRadAssessmentCategoryFragment",
+    "traceMsg" : "Include/ObservationMacros/Observation.HasMember.BiRadAssessmentCategoryFragment.minc#45/nProfiles/Common/CystAbnormality.mfsh#24/n"
+  }
+},
+{
+  "defineFragment" : {
+    "fragmentName" : "ShapeFragment",
+    "traceMsg" : "Include/ObservationMacros/Observation.Component.ShapeFragment.minc#52/nProfiles/Common/CystAbnormality.mfsh#25/n"
+  }
+},
+{
+  "defineFragmentItem" : {
+    "fragmentName" : "ShapeFragment",
+    "fragmentType" : "Observation.Components.Fragment",
+    "itemName" : "ShapeFragment",
+    "path" : "component:shape",
+    "traceMsg" : "Include/ObservationMacros/Observation.Component.ShapeFragment.minc#52/nProfiles/Common/CystAbnormality.mfsh#25/n"
+  }
+},
+{
+  "implementFragment" : {
+    "className" : "CystAbnormality",
+    "fragmentName" : "ShapeFragment",
+    "traceMsg" : "Include/ObservationMacros/Observation.Component.ShapeFragment.minc#53/nProfiles/Common/CystAbnormality.mfsh#25/n"
+  }
+},
+{
+  "defineFragment" : {
+    "fragmentName" : "DensityFragment",
+    "traceMsg" : "Include/ObservationMacros/Observation.Component.DensityFragment.minc#51/nProfiles/Common/CystAbnormality.mfsh#26/n"
+  }
+},
+{
+  "defineFragmentItem" : {
+    "fragmentName" : "DensityFragment",
+    "fragmentType" : "Observation.Components.Fragment",
+    "itemName" : "DensityFragment",
+    "path" : "component:density",
+    "traceMsg" : "Include/ObservationMacros/Observation.Component.DensityFragment.minc#51/nProfiles/Common/CystAbnormality.mfsh#26/n"
+  }
+},
+{
+  "implementFragment" : {
+    "className" : "CystAbnormality",
+    "fragmentName" : "DensityFragment",
+    "traceMsg" : "Include/ObservationMacros/Observation.Component.DensityFragment.minc#52/nProfiles/Common/CystAbnormality.mfsh#26/n"
+  }
+},
+{
+  "defineFragment" : {
+    "fragmentName" : "MarginFragment",
+    "traceMsg" : "Include/ObservationMacros/Observation.Component.MarginFragment.minc#52/nProfiles/Common/CystAbnormality.mfsh#27/n"
+  }
+},
+{
+  "defineFragmentItem" : {
+    "fragmentName" : "MarginFragment",
+    "fragmentType" : "Observation.Components.Fragment",
+    "itemName" : "MarginFragment",
+    "path" : "component:margin",
+    "traceMsg" : "Include/ObservationMacros/Observation.Component.MarginFragment.minc#52/nProfiles/Common/CystAbnormality.mfsh#27/n"
+  }
+},
+{
+  "implementFragment" : {
+    "className" : "CystAbnormality",
+    "fragmentName" : "MarginFragment",
+    "traceMsg" : "Include/ObservationMacros/Observation.Component.MarginFragment.minc#53/nProfiles/Common/CystAbnormality.mfsh#27/n"
+  }
+},
+{
+  "defineFragment" : {
+    "fragmentName" : "OrientationFragment",
+    "traceMsg" : "Include/ObservationMacros/Observation.Component.OrientationFragment.minc#52/nProfiles/Common/CystAbnormality.mfsh#28/n"
+  }
+},
+{
+  "defineFragmentItem" : {
+    "fragmentName" : "OrientationFragment",
+    "fragmentType" : "Observation.Components.Fragment",
+    "itemName" : "OrientationFragment",
+    "path" : "component:orientation",
+    "traceMsg" : "Include/ObservationMacros/Observation.Component.OrientationFragment.minc#52/nProfiles/Common/CystAbnormality.mfsh#28/n"
+  }
+},
+{
+  "implementFragment" : {
+    "className" : "CystAbnormality",
+    "fragmentName" : "OrientationFragment",
+    "traceMsg" : "Include/ObservationMacros/Observation.Component.OrientationFragment.minc#53/nProfiles/Common/CystAbnormality.mfsh#28/n"
+  }
+},
+{
+  "implementFragment" : {
+    "className" : "CystAbnormality",
+    "fragmentName" : "ObservedCountFragment",
+    "traceMsg" : "Include/ObservationMacros/Observation.Component.ObservedCountFragment.minc#56/nProfiles/Common/CystAbnormality.mfsh#29/n"
+  }
+},
+{
+  "implementFragment" : {
+    "className" : "CystAbnormality",
+    "fragmentName" : "ObservedDistributionFragment",
+    "traceMsg" : "Include/ObservationMacros/Observation.Component.ObservedDistributionFragment.minc#83/nProfiles/Common/CystAbnormality.mfsh#30/n"
+  }
+},
+{
+  "implementFragment" : {
+    "className" : "CystAbnormality",
+    "fragmentName" : "ObservedSizeFragment",
+    "traceMsg" : "Include/ObservationMacros/Observation.Component.ObservedSizeFragment.minc#63/nProfiles/Common/CystAbnormality.mfsh#31/n"
+  }
+},
+{
+  "implementFragment" : {
+    "className" : "CystAbnormality",
+    "fragmentName" : "NotPreviouslySeenFragment",
+    "traceMsg" : "Include/ObservationMacros/Observation.Component.NotPreviouslySeenFragment.minc#49/nProfiles/Common/CystAbnormality.mfsh#32/n"
+  }
+},
+{
+  "implementFragment" : {
+    "className" : "CystAbnormality",
+    "fragmentName" : "CorrespondsWithFragment",
+    "traceMsg" : "Include/ObservationMacros/Observation.Component.CorrespondsWithFragment.minc#50/nProfiles/Common/CystAbnormality.mfsh#33/n"
+  }
+},
+{
+  "implementFragment" : {
+    "className" : "CystAbnormality",
+    "fragmentName" : "PreviouslyDemonstratedByFragment",
+    "traceMsg" : "Include/ObservationMacros/Observation.Component.PreviouslyDemonstratedBy.minc#51/nProfiles/Common/CystAbnormality.mfsh#34/n"
+  }
+},
+{
+  "implementFragment" : {
+    "className" : "CystAbnormality",
+    "fragmentName" : "AssociatedFeatureFragment",
+    "traceMsg" : "Include/ObservationMacros/Observation.HasMember.AssociatedFeatureFragment.minc#46/nProfiles/Common/CystAbnormality.mfsh#36/n"
+  }
+},
+{
+  "implementFragment" : {
+    "className" : "CystAbnormality",
+    "fragmentName" : "ConsistentWithFragment",
+    "traceMsg" : "Include/ObservationMacros/Observation.HasMember.ConsistentWithFragment.minc#46/nProfiles/Common/CystAbnormality.mfsh#37/n"
+  }
+},
+{
+  "defineFragment" : {
+    "fragmentName" : "TumorSatelliteFragment",
+    "traceMsg" : "Include/ObservationMacros/Observation.HasMember.TumorSatelliteFragment.minc#45/nProfiles/Common/CystAbnormality.mfsh#38/n"
+  }
+},
+{
+  "defineFragmentItem" : {
+    "fragmentName" : "TumorSatelliteFragment",
+    "fragmentType" : "Observation.HasMember.Fragment",
+    "itemName" : "TumorSatelliteFragment",
+    "path" : "tumorSatellite",
+    "traceMsg" : "Include/ObservationMacros/Observation.HasMember.TumorSatelliteFragment.minc#45/nProfiles/Common/CystAbnormality.mfsh#38/n"
+  }
+},
+{
+  "implementFragment" : {
+    "className" : "CystAbnormality",
+    "fragmentName" : "TumorSatelliteFragment",
+    "traceMsg" : "Include/ObservationMacros/Observation.HasMember.TumorSatelliteFragment.minc#46/nProfiles/Common/CystAbnormality.mfsh#38/n"
+  }
+},
+{
+  "defineClass" : {
+    "className" : "CystAbnormality",
+    "classType" : "DomainResource",
+    "traceMsg" : "Profiles/Common/CystAbnormality.mfsh#73/n"
+  }
+},

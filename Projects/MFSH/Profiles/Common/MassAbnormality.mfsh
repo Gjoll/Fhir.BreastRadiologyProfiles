@@ -1,0 +1,69 @@
+Profile: MassAbnormality
+Parent: us-core-observation-imaging
+Title: "Mass Abnormality"
+Description: """
+  Mass Abnormality abnormality observation.
+  """
+
+  #apply Resource.Fix("1", "code", "ObservationCodesCS#abnormalityMassObservation", "Code")
+
+  #apply Observation.Component.Add("massType", "1..1", "Mass Abnormality Type", "Mass Abnormality Type",
+  #  """
+  #  This slice contains the optional component that refine the Mass Abnormality type.
+  #  The value of this component is a codeable concept chosen from the MassAbnormalityTypeVS valueset.
+  #  """,
+  #  "ObservationComponentSliceCodesCS#abnormalityMassType")
+
+  #apply Observation.Component.SetConcept("massType", "1..1", "MassAbnormalityTypeVS")
+
+  #apply Observation.Device.Zero()
+  #apply Observation.Value.Zero()
+  #apply Observation.BreastBodyLocationRequiredFragment()
+
+  #apply Observation.Component.ObservedChangesFragment()
+  #apply Observation.Hasmember.BiRadAssessmentCategoryFragment()
+  #apply Observation.Component.ShapeFragment()
+  #apply Observation.Component.DensityFragment()
+  #apply Observation.Component.MarginFragment()
+  #apply Observation.Component.OrientationFragment()
+  #apply Observation.Component.ObservedCountFragment()
+  #apply Observation.Component.ObservedSizeFragment()
+  #apply Observation.Component.ObservedDistributionFragment()
+  #apply Observation.Component.NotPreviouslySeenFragment()
+  #apply Observation.Component.CorrespondsWithFragment()
+  #apply Observation.Component.PreviouslyDemonstratedByFragment()
+
+  #apply Observation.HasMember.AssociatedFeatureFragment()
+  #apply Observation.HasMember.ConsistentWithFragment()
+  #apply Observation.HasMember.TumorSatelliteFragment()
+
+
+  #// -----------------------------------------
+  #// IG Macros
+  #// -----------------------------------------
+  #use IG
+    #apply IntroDocProfile("""
+    # <p>
+    # <b>Mass Abnormality Observation</b>
+    # </p>
+    # <p>
+    # This resource contains information about a mass abnormality observation.
+    # </p>
+    #""")
+
+    #apply GroupMemberProfile("CommonResources", "%Title%")
+  #end
+  
+  #// -----------------------------------------
+  #// Graph Macros
+  #// -----------------------------------------
+  #use Graph
+    #apply NodeProfile("", "Mass")
+  #end
+
+  #// -----------------------------------------
+  #// Code API Macros
+  #// -----------------------------------------
+  #use ApiBuild
+    #apply DefineClass("DomainResource")
+  #end
