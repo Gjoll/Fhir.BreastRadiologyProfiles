@@ -21,21 +21,27 @@
 #   "CompositionSectionSliceCodesCS#impressions",
 #   "ClinicalImpression")
 
-  #if Frags
     #// -----------------------------------------
     #// Graph Macros
     #// -----------------------------------------
     #use Graph
-      #apply once NodeFragment("%FTitle%")
-      #apply LinkByName("frag", "^%FragmentId%/$", "^%ProfileId%/$", "0", "Bas,Ovr")
       #apply NodeElement("B", "section:impressions", "Impressions Section")
-
       #apply LinkByName("focus", "^%ProfileId%/$", "^%ProfileId%/section:impressions", "0", "Bas,Ovr")
       #apply LinkByReference("focus", "^%ProfileId%/section:impressions", ".entry", "1", "Bas")
      #end
+
+  #// The following section should be compiled only if we are displaying fragments in the Implementation Guide.
+  #if Frags
+    #// -----------------------------------------
+    #// Graph Macros [Fragment]
+    #// -----------------------------------------
+    #use Graph
+      #apply once NodeFragment("%FTitle%")
+      #apply LinkByName("frag", "^%FragmentId%/$", "^%ProfileId%/$", "0", "Bas,Ovr")
+     #end
   
     #// -----------------------------------------
-    #// IG Macros
+    #// IG Macros [Fragment]
     #// -----------------------------------------
     #use IG
       #apply once IntroDocFragment("""

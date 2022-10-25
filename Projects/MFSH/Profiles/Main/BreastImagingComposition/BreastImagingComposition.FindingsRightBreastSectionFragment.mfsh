@@ -21,6 +21,16 @@
 #   "CompositionSectionSliceCodesCS#findingsRightBreast",
 #   "FindingsRightBreast")
 
+  #// -----------------------------------------
+  #// Graph Macros
+  #// -----------------------------------------
+  #use Graph
+    #apply NodeElement("C", "section:findingsRightBreast", "Findings/Right Breast/Section")
+    #apply LinkByName("focus", "^%ProfileId%/$", "^%ProfileId%/section:findingsRightBreast", "0", "Cmp,Ovr")
+    #apply LinkByReference("focus", "^%ProfileId%/section:findingsRightBreast", ".entry", "1", "Cmp,Ovr")
+   #end
+
+  #// The following section should be compiled only if we are displaying fragments in the Implementation Guide.
   #if Frags
     #// -----------------------------------------
     #// Graph Macros
@@ -28,10 +38,6 @@
     #use Graph
       #apply once NodeFragment("%FTitle%")
       #apply LinkByName("frag", "^%FragmentId%/$", "^%ProfileId%/$", "0", "Bas,Ovr")
-      #apply NodeElement("C", "section:findingsRightBreast", "Findings/Right Breast/Section")
-
-      #apply LinkByName("focus", "^%ProfileId%/$", "^%ProfileId%/section:findingsRightBreast", "0", "Cmp,Ovr")
-      #apply LinkByReference("focus", "^%ProfileId%/section:findingsRightBreast", ".entry", "1", "Cmp,Ovr")
      #end
   
     #// -----------------------------------------
