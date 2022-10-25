@@ -20,15 +20,15 @@
   #
   #apply Observation.Component.SetConcept("correspondsWith", "1..1", "CorrespondsWithVS")
 
-  #// -----------------------------------------
-  #// Graph Macros
-  #// -----------------------------------------
-  #use Graph
-    #apply once NodeFragment("%FTitle%")
-    #apply LinkByName("frag", "^%FragmentId%/$", "^%ProfileId%/$", "1", "Cmp")
-  #end
+    #if Frags
+    #// -----------------------------------------
+    #// Graph Macros
+    #// -----------------------------------------
+    #use Graph
+      #apply once NodeFragment("%FTitle%")
+      #apply LinkByName("frag", "^%FragmentId%/$", "^%ProfileId%/$", "1", "Cmp")
+    #end
 
-  #if Frags
     #// -----------------------------------------
     #// IG Macros
     #// -----------------------------------------

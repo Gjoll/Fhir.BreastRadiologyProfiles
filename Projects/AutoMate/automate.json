@@ -30,7 +30,7 @@
 		} ,
 		{
 			"name": "FGraph",
-			"watchPaths": ["..\\IG\\fsh-generated", "..\\GraphFiles"],
+			"watchPaths": ["..\\GraphFiles"],
 			"commands": [
 				{
   			        "workingDir": "..",
