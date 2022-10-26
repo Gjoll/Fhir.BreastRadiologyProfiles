@@ -54,7 +54,7 @@ Description: """
   #// Graph Macros
   #// -----------------------------------------
   #use Graph
-    #apply NodeProfile("", "Fibroadenoma")
+    #apply NodeProfile("", "Fibroadenoma", "!Top")
   #end
 
   #// -----------------------------------------

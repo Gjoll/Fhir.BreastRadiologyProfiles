@@ -39,7 +39,7 @@ Description: """
   #// Graph Macros
   #// -----------------------------------------
   #use Graph
-    #apply NodeProfile("Z", "Other Modality Findings")
+    #apply NodeProfile("Z", "Other Modality Findings", "")
   #end
 
   #// -----------------------------------------

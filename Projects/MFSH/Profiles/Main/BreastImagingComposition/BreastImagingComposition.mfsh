@@ -61,7 +61,7 @@ Description: """
   #// Graph Macros
   #// -----------------------------------------
   #use Graph
-    #apply NodeProfile("", "Breast/Imaging/Composition")
+    #apply NodeProfile("", "Breast/Imaging/Composition", "")
 
   #end
 

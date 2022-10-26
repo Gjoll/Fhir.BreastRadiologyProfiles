@@ -63,7 +63,7 @@ Description: """
   #// Graph Macros
   #// -----------------------------------------
   #use Graph
-    #apply NodeProfile("", "Consistent With")
+    #apply NodeProfile("", "Consistent With", "!Top")
   #end
 
   #// -----------------------------------------

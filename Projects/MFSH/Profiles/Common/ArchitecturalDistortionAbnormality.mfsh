@@ -44,7 +44,7 @@ Description: """
   #// Graph Macros
   #// -----------------------------------------
   #use Graph
-    #apply NodeProfile("", "Architectural Distortion")
+    #apply NodeProfile("", "Architectural Distortion", "!Top")
   #end
   
   #// -----------------------------------------

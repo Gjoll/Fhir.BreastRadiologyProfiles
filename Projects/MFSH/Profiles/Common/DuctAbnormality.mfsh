@@ -56,7 +56,7 @@ Description: """
   #// Graph Macros
   #// -----------------------------------------
   #use Graph
-    #apply NodeProfile("", "Duct")
+    #apply NodeProfile("", "Duct", "!Top")
   #end
 
 

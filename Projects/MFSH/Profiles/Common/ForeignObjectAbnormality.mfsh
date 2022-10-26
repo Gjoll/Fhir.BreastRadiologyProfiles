@@ -55,7 +55,7 @@ Description: """
   #// Graph Macros
   #// -----------------------------------------
   #use Graph
-    #apply NodeProfile("", "Foreign Object")
+    #apply NodeProfile("", "Foreign Object", "!Top")
   #end
   
   #// -----------------------------------------

@@ -61,7 +61,7 @@ Description: """
   #// Graph Macros
   #// -----------------------------------------
   #use Graph
-    #apply NodeProfile("", "Lymph Node")
+    #apply NodeProfile("", "Lymph Node", "!Top")
   #end
 
   #// -----------------------------------------

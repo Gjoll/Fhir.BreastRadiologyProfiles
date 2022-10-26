@@ -32,7 +32,7 @@ Description: """
   #// Graph Macros
   #// -----------------------------------------
   #use Graph
-    #apply NodeProfile("A", "Breast Assessment Category")
+    #apply NodeProfile("A", "Breast Assessment Category", "!Top")
   #end
 
   #// -----------------------------------------

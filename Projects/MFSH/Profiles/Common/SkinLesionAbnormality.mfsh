@@ -49,7 +49,7 @@ Description: """
   #// Graph Macros
   #// -----------------------------------------
   #use Graph
-    #apply NodeProfile("", "Skin Lesion")
+    #apply NodeProfile("", "Skin Lesion", "!Top")
   #end
 
   #// -----------------------------------------

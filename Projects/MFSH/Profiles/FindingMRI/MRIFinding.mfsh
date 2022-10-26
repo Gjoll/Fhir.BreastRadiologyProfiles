@@ -36,7 +36,7 @@ Description: """
   #// Graph Macros
   #// -----------------------------------------
   #use Graph
-    #apply NodeProfile("C", "MRI Findings")
+    #apply NodeProfile("C", "MRI Findings", "")
   #end
 
   #// -----------------------------------------

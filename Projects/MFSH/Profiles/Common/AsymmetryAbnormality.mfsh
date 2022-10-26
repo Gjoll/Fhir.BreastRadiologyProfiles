@@ -47,7 +47,7 @@ Description: """
   #// Graph Macros
   #// -----------------------------------------
   #use Graph
-    #apply NodeProfile("", "Asymmetry")
+    #apply NodeProfile("", "Asymmetry", "!Top")
   #end
   
   #// -----------------------------------------

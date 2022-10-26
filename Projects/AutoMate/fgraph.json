@@ -12,34 +12,34 @@
 	"traversals": [
 		{
 			"name": "single",
+			"keys": "Top,Ovr",
 			"cssFile": "FocusGraph.css",
 			"param1": "BreastImagingDocument/",
 			"param2": "ProfileOverview",
-			"param3": "Ovr",
 			"depth": 10000
 		},
 		{
 			"name": "single",
+			"keys": "Top,Bas",
 			"cssFile": "FocusGraph.css",
 			"param1": "BreastImagingDocument/",
 			"param2": "TotalGraph.Basic",
-			"param3": "Bas",
 			"depth": 10000
 		},
 		{
 			"name": "single",
+			"keys": "Top,Bas,Enh",
 			"cssFile": "FocusGraph.css",
 			"param1": "BreastImagingDocument/",
 			"param2": "TotalGraph.Enhanced",
-			"param3": "Bas,Enh",
 			"depth": 10000
 		},
 		{
 			"name": "single",
+			"keys": "Top,Bas,Enh,Cmp",
 			"cssFile": "FocusGraph.css",
 			"param1": "BreastImagingDocument/",
 			"param2": "TotalGraph.Comprehensive",
-			"param3": "Bas,Enh,Cmp",
 			"depth": 10000
 		},
 		{

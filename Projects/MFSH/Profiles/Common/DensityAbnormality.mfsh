@@ -41,7 +41,7 @@ Description: """
   #// Graph Macros
   #// -----------------------------------------
   #use Graph
-    #apply NodeProfile("", "Density")
+    #apply NodeProfile("", "Density", "!Top")
   #end
 
 

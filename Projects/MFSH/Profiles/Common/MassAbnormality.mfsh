@@ -58,7 +58,7 @@ Description: """
   #// Graph Macros
   #// -----------------------------------------
   #use Graph
-    #apply NodeProfile("", "Mass")
+    #apply NodeProfile("", "Mass", "!Top")
   #end
 
   #// -----------------------------------------

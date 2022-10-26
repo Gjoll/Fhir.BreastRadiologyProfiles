@@ -62,7 +62,7 @@ Description: """
   #// Graph Macros
   #// -----------------------------------------
   #use Graph
-    #apply NodeProfile("", "Cyst")
+    #apply NodeProfile("", "Cyst", "!Top")
   #end
 
 

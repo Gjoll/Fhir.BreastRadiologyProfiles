@@ -14,7 +14,7 @@ Profile: FindingsRightBreast
   #// Graph Macros
   #// -----------------------------------------
   #use Graph
-    #apply NodeProfile("", "Findings/Right Breast")
+    #apply NodeProfile("", "Findings/Right Breast", "")
     #apply LinkByName("focus", "^%ProfileId%/$", "^%ProfileId%/.+", "0", "Cmp")
   #end
 

@@ -116,7 +116,7 @@ Description: """
   #// Graph Macros
   #// -----------------------------------------
   #use Graph
-    #apply NodeProfile("B", "Mg Findings")
+    #apply NodeProfile("B", "Mg Findings", "")
   #end
 
   #// -----------------------------------------

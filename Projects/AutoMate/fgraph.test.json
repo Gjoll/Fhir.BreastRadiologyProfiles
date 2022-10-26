@@ -1,0 +1,22 @@
+{
+	"baseUrl": "http://hl7.org/fhir/us/breast-radiology/",
+	"graphName": "focus",
+	"inputPath": "GraphFiles",
+	"outputDir": "IG\\Input\\images",
+	"cssBinding": "valueSet",
+	"cssFix": "value",
+	"cssPattern": "value",
+	"resourcePaths": [
+		"IG\\fsh-generated\\Resources"
+	],
+	"traversals": [
+		{
+			"name": "single",
+			"keys": "Top,Bas,Enh,Cmp",
+			"cssFile": "FocusGraph.css",
+			"param1": "BreastImagingDocument/",
+			"param2": "TotalGraph.Comprehensive",
+			"depth": 10000
+		}
+	]
+}

@@ -52,7 +52,7 @@ Description: """
   #// Graph Macros
   #// -----------------------------------------
   #use Graph
-    #apply NodeProfile("", "Fat Necrosis")
+    #apply NodeProfile("", "Fat Necrosis", "!Top")
   #end
 
   #// -----------------------------------------

@@ -37,7 +37,7 @@ Description: """
   #// Graph Macros
   #// -----------------------------------------
   #use Graph
-    #apply NodeProfile("D", "Nuclear Medicine/Findings")
+    #apply NodeProfile("D", "Nuclear Medicine/Findings", "")
   #end
 
   #// -----------------------------------------

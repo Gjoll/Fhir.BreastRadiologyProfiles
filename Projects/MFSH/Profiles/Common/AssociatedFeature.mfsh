@@ -57,7 +57,7 @@ Description: """
   #// Graph Macros
   #// -----------------------------------------
   #use Graph
-    #apply NodeProfile("", "Associated Feature")
+    #apply NodeProfile("", "Associated Feature", "!Top")
   #end
 
   #// -----------------------------------------
