@@ -1,8 +1,11 @@
-ValueSet: MarginVS
-Id: RDE1579VS
+ValueSet: RDE1579
 Title: "Margin"
+Description: """
+    ACR Common Data Element (CDE) {element.Id} value set"
+    """
 * ^date = 2022-10-25
 * ^status = #draft
+* insert ACRValueSetCommon
 * RadLexCDE#Angular
 * RadLexCDE#Circumscribed
 * RadLexCDE#Indistinct

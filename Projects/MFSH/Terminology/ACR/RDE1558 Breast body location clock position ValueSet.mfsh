@@ -1,11 +1,11 @@
-ValueSet: BreastBodyLocationClockPositionVS
-Id: RDE1558VS
+ValueSet: RDE1558
 Title: "Breast body location clock position"
 Description: """
     Clockpositionsoftheabnormalityobserved
     """
 * ^date = 2022-10-27
 * ^status = #draft
+* insert ACRValueSetCommon
 * RadLexCDE#OneOclockPosition
 * RadLexCDE#TwoOclockPosition
 * RadLexCDE#ThreeOclockPosition
