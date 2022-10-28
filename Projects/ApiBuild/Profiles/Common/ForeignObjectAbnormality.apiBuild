@@ -16,7 +16,7 @@
   "implementFragment" : {
     "className" : "ForeignObjectAbnormality",
     "fragmentName" : "ObservedSizeFragment",
-    "traceMsg" : "Include/ObservationMacros/Observation.Component.ObservedSizeFragment.minc#63/nProfiles/Common/ForeignObjectAbnormality.mfsh#23/n"
+    "traceMsg" : "Include/ObservationMacros/1. Observation.Component.ObservedSizeFragment.minc#63/nProfiles/Common/ForeignObjectAbnormality.mfsh#23/n"
   }
 },
 {

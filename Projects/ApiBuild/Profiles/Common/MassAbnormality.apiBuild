@@ -58,7 +58,7 @@
   "implementFragment" : {
     "className" : "MassAbnormality",
     "fragmentName" : "ObservedSizeFragment",
-    "traceMsg" : "Include/ObservationMacros/Observation.Component.ObservedSizeFragment.minc#63/nProfiles/Common/MassAbnormality.mfsh#30/n"
+    "traceMsg" : "Include/ObservationMacros/1. Observation.Component.ObservedSizeFragment.minc#63/nProfiles/Common/MassAbnormality.mfsh#30/n"
   }
 },
 {

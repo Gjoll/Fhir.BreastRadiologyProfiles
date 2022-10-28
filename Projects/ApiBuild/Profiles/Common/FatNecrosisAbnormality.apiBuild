@@ -65,7 +65,7 @@
   "implementFragment" : {
     "className" : "FatNecrosisAbnormality",
     "fragmentName" : "ObservedSizeFragment",
-    "traceMsg" : "Include/ObservationMacros/Observation.Component.ObservedSizeFragment.minc#63/nProfiles/Common/FatNecrosisAbnormality.mfsh#22/n"
+    "traceMsg" : "Include/ObservationMacros/1. Observation.Component.ObservedSizeFragment.minc#63/nProfiles/Common/FatNecrosisAbnormality.mfsh#22/n"
   }
 },
 {

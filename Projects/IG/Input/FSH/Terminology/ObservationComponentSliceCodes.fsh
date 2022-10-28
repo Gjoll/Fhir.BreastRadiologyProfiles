@@ -79,11 +79,6 @@ Description: "Component Slice Codes code system"
     Code to identify the component slice Observed Changes.
     """
 
-* #obsSize "Component code for 'Observed Size' slice"
-    """
-    Code to identify the component slice ObservedSize.
-    """
-
 * #obsDistribution "Component code for 'Observed Distribution' slice"
     """
     Code to identify the component slice ObservedDistribution.

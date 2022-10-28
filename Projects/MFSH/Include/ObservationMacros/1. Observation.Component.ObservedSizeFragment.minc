@@ -26,7 +26,7 @@
   #  If the upper bound of the range is set but not the lower bound,
   #  then the size is {upper bound} or less.
   #  """,
-  # "ObservationComponentSliceCodesCS#obsSize")
+  # "RadLexCDE#RDE1570")
   #
 * component[obsSize].value[x] 1..1
 * component[obsSize].value[x] only Quantity or Range

@@ -109,6 +109,28 @@
   }
 },
 {
+  "defineFragment" : {
+    "fragmentName" : "ObservedSizeFragment",
+    "traceMsg" : "Include/ObservationMacros/1. Observation.Component.ObservedSizeFragment.minc#62/nProfiles/Common/2. CystAbnormality.mfsh#38/n"
+  }
+},
+{
+  "defineFragmentItem" : {
+    "fragmentName" : "ObservedSizeFragment",
+    "fragmentType" : "Observation.Components.Fragment",
+    "itemName" : "ObservedSizeFragment",
+    "path" : "component:obsSize",
+    "traceMsg" : "Include/ObservationMacros/1. Observation.Component.ObservedSizeFragment.minc#62/nProfiles/Common/2. CystAbnormality.mfsh#38/n"
+  }
+},
+{
+  "implementFragment" : {
+    "className" : "CystAbnormality",
+    "fragmentName" : "ObservedSizeFragment",
+    "traceMsg" : "Include/ObservationMacros/1. Observation.Component.ObservedSizeFragment.minc#63/nProfiles/Common/2. CystAbnormality.mfsh#38/n"
+  }
+},
+{
   "defineClass" : {
     "className" : "CystAbnormality",
     "classType" : "DomainResource",
