@@ -72,28 +72,28 @@
   "implementFragment" : {
     "className" : "LymphNodeAbnormality",
     "fragmentName" : "NotPreviouslySeenFragment",
-    "traceMsg" : "Include/ObservationMacros/Observation.Component.NotPreviouslySeenFragment.minc#49/nProfiles/Common/LymphNodeAbnormality.mfsh#32/n"
+    "traceMsg" : "Include/ObservationMacros/2. Observation.Component.NotPreviouslySeenFragment.minc#49/nProfiles/Common/LymphNodeAbnormality.mfsh#32/n"
   }
 },
 {
   "implementFragment" : {
     "className" : "LymphNodeAbnormality",
     "fragmentName" : "CorrespondsWithFragment",
-    "traceMsg" : "Include/ObservationMacros/Observation.Component.CorrespondsWithFragment.minc#50/nProfiles/Common/LymphNodeAbnormality.mfsh#33/n"
+    "traceMsg" : "Include/ObservationMacros/2. Observation.Component.CorrespondsWithFragment.minc#50/nProfiles/Common/LymphNodeAbnormality.mfsh#33/n"
   }
 },
 {
   "implementFragment" : {
     "className" : "LymphNodeAbnormality",
     "fragmentName" : "PreviouslyDemonstratedByFragment",
-    "traceMsg" : "Include/ObservationMacros/Observation.Component.PreviouslyDemonstratedBy.minc#51/nProfiles/Common/LymphNodeAbnormality.mfsh#34/n"
+    "traceMsg" : "Include/ObservationMacros/2. Observation.Component.PreviouslyDemonstratedBy.minc#51/nProfiles/Common/LymphNodeAbnormality.mfsh#34/n"
   }
 },
 {
   "implementFragment" : {
     "className" : "LymphNodeAbnormality",
     "fragmentName" : "AssociatedFeatureFragment",
-    "traceMsg" : "Include/ObservationMacros/Observation.HasMember.AssociatedFeatureFragment.minc#46/nProfiles/Common/LymphNodeAbnormality.mfsh#36/n"
+    "traceMsg" : "Include/ObservationMacros/1. Observation.HasMember.AssociatedFeatureFragment.minc#46/nProfiles/Common/LymphNodeAbnormality.mfsh#36/n"
   }
 },
 {

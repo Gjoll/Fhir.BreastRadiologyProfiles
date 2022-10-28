@@ -72,14 +72,14 @@
   "implementFragment" : {
     "className" : "FibroadenomaAbnormality",
     "fragmentName" : "PreviouslyDemonstratedByFragment",
-    "traceMsg" : "Include/ObservationMacros/Observation.Component.PreviouslyDemonstratedBy.minc#51/nProfiles/Common/FibroadenomaAbnormality.mfsh#32/n"
+    "traceMsg" : "Include/ObservationMacros/2. Observation.Component.PreviouslyDemonstratedBy.minc#51/nProfiles/Common/FibroadenomaAbnormality.mfsh#32/n"
   }
 },
 {
   "implementFragment" : {
     "className" : "FibroadenomaAbnormality",
     "fragmentName" : "AssociatedFeatureFragment",
-    "traceMsg" : "Include/ObservationMacros/Observation.HasMember.AssociatedFeatureFragment.minc#46/nProfiles/Common/FibroadenomaAbnormality.mfsh#34/n"
+    "traceMsg" : "Include/ObservationMacros/1. Observation.HasMember.AssociatedFeatureFragment.minc#46/nProfiles/Common/FibroadenomaAbnormality.mfsh#34/n"
   }
 },
 {

@@ -36,11 +36,11 @@ Description: """
   #apply Observation.Component.ObservedCountFragment()
   #apply Observation.Component.ObservedDistributionFragment()
   #apply Observation.Component.ObservedSizeFragment()
-  //$#apply Observation.Component.NotPreviouslySeenFragment()
-  //$#apply Observation.Component.CorrespondsWithFragment()
-  //$#apply Observation.Component.PreviouslyDemonstratedByFragment()
+  #apply Observation.Component.NotPreviouslySeenFragment()
+  #apply Observation.Component.CorrespondsWithFragment()
+  #apply Observation.Component.PreviouslyDemonstratedByFragment()
 
-  //$#apply Observation.HasMember.AssociatedFeatureFragment()
+  #apply Observation.HasMember.AssociatedFeatureFragment()
   //$#apply Observation.HasMember.ConsistentWithFragment()
   //$#apply Observation.HasMember.TumorSatelliteFragment()
 

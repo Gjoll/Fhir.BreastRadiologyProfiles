@@ -51,7 +51,7 @@
   "implementFragment" : {
     "className" : "DensityAbnormality",
     "fragmentName" : "NotPreviouslySeenFragment",
-    "traceMsg" : "Include/ObservationMacros/Observation.Component.NotPreviouslySeenFragment.minc#49/nProfiles/Common/DensityAbnormality.mfsh#29/n"
+    "traceMsg" : "Include/ObservationMacros/2. Observation.Component.NotPreviouslySeenFragment.minc#49/nProfiles/Common/DensityAbnormality.mfsh#29/n"
   }
 },
 {
@@ -79,21 +79,21 @@
   "implementFragment" : {
     "className" : "DensityAbnormality",
     "fragmentName" : "CorrespondsWithFragment",
-    "traceMsg" : "Include/ObservationMacros/Observation.Component.CorrespondsWithFragment.minc#50/nProfiles/Common/DensityAbnormality.mfsh#33/n"
+    "traceMsg" : "Include/ObservationMacros/2. Observation.Component.CorrespondsWithFragment.minc#50/nProfiles/Common/DensityAbnormality.mfsh#33/n"
   }
 },
 {
   "implementFragment" : {
     "className" : "DensityAbnormality",
     "fragmentName" : "PreviouslyDemonstratedByFragment",
-    "traceMsg" : "Include/ObservationMacros/Observation.Component.PreviouslyDemonstratedBy.minc#51/nProfiles/Common/DensityAbnormality.mfsh#34/n"
+    "traceMsg" : "Include/ObservationMacros/2. Observation.Component.PreviouslyDemonstratedBy.minc#51/nProfiles/Common/DensityAbnormality.mfsh#34/n"
   }
 },
 {
   "implementFragment" : {
     "className" : "DensityAbnormality",
     "fragmentName" : "AssociatedFeatureFragment",
-    "traceMsg" : "Include/ObservationMacros/Observation.HasMember.AssociatedFeatureFragment.minc#46/nProfiles/Common/DensityAbnormality.mfsh#36/n"
+    "traceMsg" : "Include/ObservationMacros/1. Observation.HasMember.AssociatedFeatureFragment.minc#46/nProfiles/Common/DensityAbnormality.mfsh#36/n"
   }
 },
 {

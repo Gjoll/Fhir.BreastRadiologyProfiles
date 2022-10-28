@@ -12,7 +12,7 @@ Description: """
     """
 * component 1..2
   
-  #apply Resource.Fix("1", "code", "ObservationCodesCS#associatedFeaturesObservation", "Code")
+  #apply Resource.Fix("1", "code", "RadLexCDE#RDE1571", "Code")
 
   #apply Observation.Component.Add("featureType", "1..1", "Feature Type", "Associated Feature Type",
   #  """
@@ -21,9 +21,9 @@ Description: """
   #  component is a codeable concept chosen from the 
   #  AssociatedFeatureVS valueset.",
   #  """,
-  #   "ObservationComponentSliceCodesCS#featureType")
+  #   "RadLexCDE#RDE1571")
   
-  #apply Observation.Component.SetConcept("featureType", "1..1", "AssociatedFeatureVS")
+  #apply Observation.Component.SetConcept("featureType", "1..1", "rde1571-associated-feature")
 
 
   #apply Observation.LeafFragment()

@@ -9,11 +9,6 @@ Description: "Observation Codes code system"
     Observation.code to identify a Fibroadenoma observation.
     """
 
-* #associatedFeaturesObservation "Associated Features observation"
-    """
-    Observation.code to identify an AssociatedFeatures observation.
-    """
-
 * #abnormalityArchitecturalDistortionObservation "Abnormality Architectural Distortion observation"
     """
     Observation.code to identify an MGAbnormalityArchitecturalDistortion observation.

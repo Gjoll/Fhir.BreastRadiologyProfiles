@@ -23,7 +23,7 @@
   "implementFragment" : {
     "className" : "AsymmetryAbnormality",
     "fragmentName" : "NotPreviouslySeenFragment",
-    "traceMsg" : "Include/ObservationMacros/Observation.Component.NotPreviouslySeenFragment.minc#49/nProfiles/Common/AsymmetryAbnormality.mfsh#25/n"
+    "traceMsg" : "Include/ObservationMacros/2. Observation.Component.NotPreviouslySeenFragment.minc#49/nProfiles/Common/AsymmetryAbnormality.mfsh#25/n"
   }
 },
 {
@@ -37,21 +37,21 @@
   "implementFragment" : {
     "className" : "AsymmetryAbnormality",
     "fragmentName" : "CorrespondsWithFragment",
-    "traceMsg" : "Include/ObservationMacros/Observation.Component.CorrespondsWithFragment.minc#50/nProfiles/Common/AsymmetryAbnormality.mfsh#27/n"
+    "traceMsg" : "Include/ObservationMacros/2. Observation.Component.CorrespondsWithFragment.minc#50/nProfiles/Common/AsymmetryAbnormality.mfsh#27/n"
   }
 },
 {
   "implementFragment" : {
     "className" : "AsymmetryAbnormality",
     "fragmentName" : "PreviouslyDemonstratedByFragment",
-    "traceMsg" : "Include/ObservationMacros/Observation.Component.PreviouslyDemonstratedBy.minc#51/nProfiles/Common/AsymmetryAbnormality.mfsh#28/n"
+    "traceMsg" : "Include/ObservationMacros/2. Observation.Component.PreviouslyDemonstratedBy.minc#51/nProfiles/Common/AsymmetryAbnormality.mfsh#28/n"
   }
 },
 {
   "implementFragment" : {
     "className" : "AsymmetryAbnormality",
     "fragmentName" : "AssociatedFeatureFragment",
-    "traceMsg" : "Include/ObservationMacros/Observation.HasMember.AssociatedFeatureFragment.minc#46/nProfiles/Common/AsymmetryAbnormality.mfsh#30/n"
+    "traceMsg" : "Include/ObservationMacros/1. Observation.HasMember.AssociatedFeatureFragment.minc#46/nProfiles/Common/AsymmetryAbnormality.mfsh#30/n"
   }
 },
 {
