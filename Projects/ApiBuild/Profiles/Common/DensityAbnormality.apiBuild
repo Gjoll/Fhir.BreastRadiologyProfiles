@@ -72,7 +72,7 @@
   "implementFragment" : {
     "className" : "DensityAbnormality",
     "fragmentName" : "ObservedDistributionFragment",
-    "traceMsg" : "Include/ObservationMacros/Observation.Component.ObservedDistributionFragment.minc#83/nProfiles/Common/DensityAbnormality.mfsh#32/n"
+    "traceMsg" : "Include/ObservationMacros/1. Observation.Component.ObservedDistributionFragment.minc#83/nProfiles/Common/DensityAbnormality.mfsh#32/n"
   }
 },
 {

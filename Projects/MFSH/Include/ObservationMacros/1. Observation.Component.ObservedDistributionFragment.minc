@@ -18,11 +18,11 @@
   #  This slice contains the optional components that describe the distribution of
   #  a group of abnormalities.
   #  The value of this component is a codeable concept chosen from the 
-  #  CalcificationDistributionVS valueset.
+  #  "RDE1568 Observed Distribution"  valueset.
   #  """,
-  #  "ObservationComponentSliceCodesCS#obsDistribution")
+  #  "RadLexCDE#RDE1568")
   #
-  #apply Observation.Component.SetConcept("obsDistribution", "1..1", "CalcificationDistributionVS")
+  #apply Observation.Component.SetConcept("obsDistribution", "1..1", "rde1568-observed-distribution")
   #
   // Define distribution region size.
   #apply Observation.Component.Add("obsDistRegionSize", "0..1", "Observed Distribution Region Size", "Observed size of distribution region.",
@@ -43,7 +43,7 @@
   #  
   #  then the size is {upper bound} or less.
   #   """,
-  #  "ObservationComponentSliceCodesCS#obsDistRegionSize")
+  #  "RadLexCDE#RDE1569")
   #
 
 * component[obsDistRegionSize].value[x] 1..1

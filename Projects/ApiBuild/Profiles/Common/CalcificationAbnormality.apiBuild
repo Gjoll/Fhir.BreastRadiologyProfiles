@@ -41,25 +41,10 @@
   }
 },
 {
-  "defineFragment" : {
-    "fragmentName" : "ObservedDistributionFragment",
-    "traceMsg" : "Include/ObservationMacros/Observation.Component.ObservedDistributionFragment.minc#82/nProfiles/Common/CalcificationAbnormality.mfsh#28/n"
-  }
-},
-{
-  "defineFragmentItem" : {
-    "fragmentName" : "ObservedDistributionFragment",
-    "fragmentType" : "Observation.Components.Fragment",
-    "itemName" : "ObservedDistributionFragment",
-    "path" : "component:obsDistRegionSize",
-    "traceMsg" : "Include/ObservationMacros/Observation.Component.ObservedDistributionFragment.minc#82/nProfiles/Common/CalcificationAbnormality.mfsh#28/n"
-  }
-},
-{
   "implementFragment" : {
     "className" : "CalcificationAbnormality",
     "fragmentName" : "ObservedDistributionFragment",
-    "traceMsg" : "Include/ObservationMacros/Observation.Component.ObservedDistributionFragment.minc#83/nProfiles/Common/CalcificationAbnormality.mfsh#28/n"
+    "traceMsg" : "Include/ObservationMacros/1. Observation.Component.ObservedDistributionFragment.minc#83/nProfiles/Common/CalcificationAbnormality.mfsh#28/n"
   }
 },
 {

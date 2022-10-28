@@ -34,7 +34,7 @@ Description: """
   #apply Observation.Component.MarginFragment()
   #apply Observation.Component.OrientationFragment()
   #apply Observation.Component.ObservedCountFragment()
-  //$#apply Observation.Component.ObservedDistributionFragment()
+  #apply Observation.Component.ObservedDistributionFragment()
   #apply Observation.Component.ObservedSizeFragment()
   //$#apply Observation.Component.NotPreviouslySeenFragment()
   //$#apply Observation.Component.CorrespondsWithFragment()

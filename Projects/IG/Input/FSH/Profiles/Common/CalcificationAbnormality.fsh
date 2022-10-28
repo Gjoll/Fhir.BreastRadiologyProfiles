@@ -163,17 +163,17 @@ Description: """
     This slice contains the optional components that describe the distribution of
     a group of abnormalities.
     The value of this component is a codeable concept chosen from the 
-    CalcificationDistributionVS valueset.
+    "RDE1568 Observed Distribution"  valueset.
     """
 * component[obsDistribution].code 1..1
 * component[obsDistribution].code ^short = "Observed distribution of abnormalities component code."
 * component[obsDistribution].code ^definition = """
     This code identifies the Observed distribution of abnormalities component.
     """
-* component[obsDistribution].code = ObservationComponentSliceCodesCS#obsDistribution
+* component[obsDistribution].code = RadLexCDE#RDE1568
 * component[obsDistribution].value[x] 1..1
 * component[obsDistribution].value[x] only CodeableConcept
-* component[obsDistribution].value[x] from CalcificationDistributionVS
+* component[obsDistribution].value[x] from rde1568-observed-distribution
   // Define distribution region size.
 * component contains obsDistRegionSize 0..1
 * component[obsDistRegionSize] ^short = "Observed size of distribution region. component."
@@ -202,7 +202,7 @@ Description: """
 * component[obsDistRegionSize].code ^definition = """
     This code identifies the Observed size of distribution region. component.
     """
-* component[obsDistRegionSize].code = ObservationComponentSliceCodesCS#obsDistRegionSize
+* component[obsDistRegionSize].code = RadLexCDE#RDE1569
 
 * component[obsDistRegionSize].value[x] 1..1
 * component[obsDistRegionSize].value[x] only Quantity or Range
