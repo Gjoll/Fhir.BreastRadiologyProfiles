@@ -6,21 +6,6 @@
   }
 },
 {
-  "defineFragment" : {
-    "fragmentName" : "ObservedChangesFragment",
-    "traceMsg" : "Include/ObservationMacros/Observation.Component.ObservedChangesFragment.minc#45/nProfiles/Common/ArchitecturalDistortionAbnormality.mfsh#14/n"
-  }
-},
-{
-  "defineFragmentItem" : {
-    "fragmentName" : "ObservedChangesFragment",
-    "fragmentType" : "Observation.Components.Fragment",
-    "itemName" : "ObservedChangesFragment",
-    "path" : "component:obsChanges",
-    "traceMsg" : "Include/ObservationMacros/Observation.Component.ObservedChangesFragment.minc#45/nProfiles/Common/ArchitecturalDistortionAbnormality.mfsh#14/n"
-  }
-},
-{
   "implementFragment" : {
     "className" : "ArchitecturalDistortionAbnormality",
     "fragmentName" : "ObservedChangesFragment",

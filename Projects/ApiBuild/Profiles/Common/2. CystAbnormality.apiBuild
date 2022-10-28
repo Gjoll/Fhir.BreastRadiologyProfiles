@@ -1,5 +1,27 @@
 {
   "defineFragment" : {
+    "fragmentName" : "ObservedChangesFragment",
+    "traceMsg" : "Include/ObservationMacros/Observation.Component.ObservedChangesFragment.minc#45/nProfiles/Common/2. CystAbnormality.mfsh#30/n"
+  }
+},
+{
+  "defineFragmentItem" : {
+    "fragmentName" : "ObservedChangesFragment",
+    "fragmentType" : "Observation.Components.Fragment",
+    "itemName" : "ObservedChangesFragment",
+    "path" : "component:obsChanges",
+    "traceMsg" : "Include/ObservationMacros/Observation.Component.ObservedChangesFragment.minc#45/nProfiles/Common/2. CystAbnormality.mfsh#30/n"
+  }
+},
+{
+  "implementFragment" : {
+    "className" : "CystAbnormality",
+    "fragmentName" : "ObservedChangesFragment",
+    "traceMsg" : "Include/ObservationMacros/Observation.Component.ObservedChangesFragment.minc#46/nProfiles/Common/2. CystAbnormality.mfsh#30/n"
+  }
+},
+{
+  "defineFragment" : {
     "fragmentName" : "ShapeFragment",
     "traceMsg" : "Include/ObservationMacros/1. Observation.Component.ShapeFragment.minc#52/nProfiles/Common/2. CystAbnormality.mfsh#32/n"
   }
