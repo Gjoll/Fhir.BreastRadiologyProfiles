@@ -20,7 +20,7 @@ Description: """
   #  This slice contains the optional component that refines the cyst type.
   #  The value of this component is a codeable concept chosen from the rde1577-type valueset.
   #  """,
-  #  "ObservationComponentSliceCodesCS#abnormalityCystType")
+  #  "RadLexCDE#RDE1577")
   #apply Observation.Component.SetConcept("cystType", "1..1", "rde1577-type")
 
   #apply Observation.Device.Zero()

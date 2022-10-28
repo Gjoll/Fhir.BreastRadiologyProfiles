@@ -43,7 +43,7 @@ Description: """
 * component[cystType].code ^definition = """
     This code identifies the Cyst Type component.
     """
-* component[cystType].code = ObservationComponentSliceCodesCS#abnormalityCystType
+* component[cystType].code = RadLexCDE#RDE1577
 * component[cystType].value[x] 1..1
 * component[cystType].value[x] only CodeableConcept
 * component[cystType].value[x] from rde1577-type

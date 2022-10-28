@@ -4,11 +4,6 @@ Title: "Component Slice Codes CodeSystem"
 Description: "Component Slice Codes code system"
 * insert CodeSystem_Common
 
-* #abnormalityCystType "Component code for 'Cyst Type' slice"
-    """
-    Code to identify the component slice CystAbnormalityType.
-    """
-
 * #abnormalityDuctType "Component code for 'Duct Type' slice"
     """
     Code to identify the component slice DuctAbnormalityType.
@@ -67,11 +62,6 @@ Description: "Component Slice Codes code system"
 * #correspondsWith "Component code for 'Corresponds With' slice"
     """
     Code to identify the component slice CorrespondsWith.
-    """
-
-* #density "Component code for 'density' slice"
-    """
-    Code to identify the component slice Density.
     """
 
 * #prevDemBy "Component code for 'Previously Demonstrated By' slice"
