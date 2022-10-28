@@ -157,7 +157,6 @@ groups:
       - CodeSystem/AbnormalityFibroadenomaTypeCS   # ^CodeSystem/AbnormalityFibroadenomaTypeCS$
       - CodeSystem/ForeignObjectAbnormalityTypeCS   # ^CodeSystem/ForeignObjectAbnormalityTypeCS$
       - CodeSystem/LymphNodeAbnormalityTypeCS   # ^CodeSystem/LymphNodeAbnormalityTypeCS$
-      - CodeSystem/MarginCS   # ^CodeSystem/MarginCS$
       - CodeSystem/MassAbnormalityTypeCS   # ^CodeSystem/MassAbnormalityTypeCS$
       - CodeSystem/ObservationCodesCS   # ^CodeSystem/ObservationCodesCS$
       - CodeSystem/ObservedChangesCS   # ^CodeSystem/ObservedChangesCS$
@@ -190,7 +189,6 @@ groups:
       - ValueSet/LateralityVS   # ^ValueSet/LateralityVS$
       - ValueSet/LymphNodeAbnormalityTypeVS   # ^ValueSet/LymphNodeAbnormalityTypeVS$
       - ValueSet/MammographyAssessmentFindingVS   # ^ValueSet/MammographyAssessmentFindingVS$
-      - ValueSet/MarginVS   # ^ValueSet/MarginVS$
       - ValueSet/MassAbnormalityTypeVS   # ^ValueSet/MassAbnormalityTypeVS$
       - ValueSet/NotPreviouslySeenVS   # ^ValueSet/NotPreviouslySeenVS$
       - ValueSet/ObservedChangesVS   # ^ValueSet/ObservedChangesVS$

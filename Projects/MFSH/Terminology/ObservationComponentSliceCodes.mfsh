@@ -69,11 +69,6 @@ Description: "Component Slice Codes code system"
     Code to identify the component slice Previously Demonstrated By.
     """
 
-* #margin "Component code for 'Margin' slice"
-    """
-    Code to identify the component slice Margin.
-    """
-
 * #notPreviouslySeen "Component code for 'Not Previously Seen' slice"
     """
     Code to identify the component slice Not Previously Seen.

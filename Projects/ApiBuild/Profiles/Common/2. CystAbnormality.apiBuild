@@ -21,6 +21,28 @@
   }
 },
 {
+  "defineFragment" : {
+    "fragmentName" : "MarginFragment",
+    "traceMsg" : "Include/ObservationMacros/1. Observation.Component.MarginFragment.minc#52/nProfiles/Common/2. CystAbnormality.mfsh#34/n"
+  }
+},
+{
+  "defineFragmentItem" : {
+    "fragmentName" : "MarginFragment",
+    "fragmentType" : "Observation.Components.Fragment",
+    "itemName" : "MarginFragment",
+    "path" : "component:margin",
+    "traceMsg" : "Include/ObservationMacros/1. Observation.Component.MarginFragment.minc#52/nProfiles/Common/2. CystAbnormality.mfsh#34/n"
+  }
+},
+{
+  "implementFragment" : {
+    "className" : "CystAbnormality",
+    "fragmentName" : "MarginFragment",
+    "traceMsg" : "Include/ObservationMacros/1. Observation.Component.MarginFragment.minc#53/nProfiles/Common/2. CystAbnormality.mfsh#34/n"
+  }
+},
+{
   "defineClass" : {
     "className" : "CystAbnormality",
     "classType" : "DomainResource",

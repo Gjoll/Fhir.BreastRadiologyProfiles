@@ -15,11 +15,11 @@
   #apply Observation.Component.Add("margin", "0..1", "Margin", "Margin",
   #  """
   #  This slice contains the optional component that define the margin of the abnormality.
-  #  The value of this component is a codeable concept chosen from the MarginVS valueset.
+  #  The value of this component is a codeable concept chosen from the "RDE1579 Margin" valueset.
   #  """,
-  #  "ObservationComponentSliceCodesCS#margin")
+  #  "RadLexCDE#RDE1579")
   #
-  #apply Observation.Component.SetConcept("margin", "1..1", "MarginVS")
+  #apply Observation.Component.SetConcept("margin", "1..1", "rde1579-margin")
 
 
   #if Frags

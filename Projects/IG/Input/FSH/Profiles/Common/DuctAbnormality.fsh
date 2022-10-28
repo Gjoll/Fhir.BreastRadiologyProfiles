@@ -130,17 +130,17 @@ Description: """
     """
 * component[margin] ^definition = """
     This slice contains the optional component that define the margin of the abnormality.
-    The value of this component is a codeable concept chosen from the MarginVS valueset.
+    The value of this component is a codeable concept chosen from the "RDE1579 Margin" valueset.
     """
 * component[margin].code 1..1
 * component[margin].code ^short = "Margin component code."
 * component[margin].code ^definition = """
     This code identifies the Margin component.
     """
-* component[margin].code = ObservationComponentSliceCodesCS#margin
+* component[margin].code = RadLexCDE#RDE1579
 * component[margin].value[x] 1..1
 * component[margin].value[x] only CodeableConcept
-* component[margin].value[x] from MarginVS
+* component[margin].value[x] from rde1579-margin
 
   // Define Orientation Slice
 * component contains orientation 0..1

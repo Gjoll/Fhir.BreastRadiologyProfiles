@@ -204,12 +204,12 @@
 </g>
 <g>
 <g transform="translate(682.53 138.75)">
-<a href="ValueSet-MarginVS.html" target="_top">
-<rect class="valueSet" x="0" y="0" width="85.18" height="26.25" rx="3.75" ry="3.75" />
+<a href="ValueSet-rde1579-margin.html" target="_top">
+<rect class="valueSet" x="0" y="0" width="143.81" height="26.25" rx="3.75" ry="3.75" />
 </a>
-<a href="ValueSet-MarginVS.html" target="_top">
+<a href="ValueSet-rde1579-margin.html" target="_top">
 <title />
-<text x="5.62" y="18.75" text-anchor="left" class="valueSet">MarginVS</text>
+<text x="5.62" y="18.75" text-anchor="left" class="valueSet">RDE1579_Margin</text>
 </a>
 </g>
 </g>

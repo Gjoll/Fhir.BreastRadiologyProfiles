@@ -49,25 +49,10 @@
   }
 },
 {
-  "defineFragment" : {
-    "fragmentName" : "MarginFragment",
-    "traceMsg" : "Include/ObservationMacros/Observation.Component.MarginFragment.minc#52/nProfiles/Common/DensityAbnormality.mfsh#27/n"
-  }
-},
-{
-  "defineFragmentItem" : {
-    "fragmentName" : "MarginFragment",
-    "fragmentType" : "Observation.Components.Fragment",
-    "itemName" : "MarginFragment",
-    "path" : "component:margin",
-    "traceMsg" : "Include/ObservationMacros/Observation.Component.MarginFragment.minc#52/nProfiles/Common/DensityAbnormality.mfsh#27/n"
-  }
-},
-{
   "implementFragment" : {
     "className" : "DensityAbnormality",
     "fragmentName" : "MarginFragment",
-    "traceMsg" : "Include/ObservationMacros/Observation.Component.MarginFragment.minc#53/nProfiles/Common/DensityAbnormality.mfsh#27/n"
+    "traceMsg" : "Include/ObservationMacros/1. Observation.Component.MarginFragment.minc#53/nProfiles/Common/DensityAbnormality.mfsh#27/n"
   }
 },
 {
