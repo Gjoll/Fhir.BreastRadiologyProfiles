@@ -6,7 +6,4 @@ Description: """
 * ^date = 2022-10-18
 * ^status = #draft
 * insert ACRValueSetCommon
-* RadLexCDE#LowerInner
-* RadLexCDE#LowerOuter
-* RadLexCDE#UpperInner
-* RadLexCDE#UpperOuter
+* include codes from system RadLexCDE where concept is-a #RDE1563

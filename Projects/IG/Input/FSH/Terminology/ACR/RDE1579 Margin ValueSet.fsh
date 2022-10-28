@@ -6,15 +6,4 @@ Description: """
 * ^date = 2022-10-25
 * ^status = #draft
 * insert ACRValueSetCommon
-* RadLexCDE#Angular
-* RadLexCDE#Circumscribed
-* RadLexCDE#Indistinct
-* RadLexCDE#IntraductalExtension
-* RadLexCDE#Irregular
-* RadLexCDE#Lobulated
-* RadLexCDE#Macrolobulated
-* RadLexCDE#Microlobulated
-* RadLexCDE#NonCircumscribed
-* RadLexCDE#Obscured
-* RadLexCDE#Smooth
-* RadLexCDE#Spiculated
+* include codes from system RadLexCDE where concept is-a #RDE1579

@@ -6,6 +6,4 @@ Description: """
 * ^date = 2022-10-27
 * ^status = #draft
 * insert ACRValueSetCommon
-* RadLexCDE#Nipple
-* RadLexCDE#ChestWall
-* RadLexCDE#SkinStructure
+* include codes from system RadLexCDE where concept is-a #RDE1560

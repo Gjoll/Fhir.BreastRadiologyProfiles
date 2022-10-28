@@ -6,11 +6,4 @@ Description: """
 * ^date = 2022-10-18
 * ^status = #draft
 * insert ACRValueSetCommon
-* RadLexCDE#Axilla
-* RadLexCDE#AxillaryTail
-* RadLexCDE#AxillaOne
-* RadLexCDE#AxillaTwo
-* RadLexCDE#AxillaThree
-* RadLexCDE#InframammaryFold
-* RadLexCDE#InSkin
-* RadLexCDE#CentralToNipple
+* include codes from system RadLexCDE where concept is-a #RDE1564

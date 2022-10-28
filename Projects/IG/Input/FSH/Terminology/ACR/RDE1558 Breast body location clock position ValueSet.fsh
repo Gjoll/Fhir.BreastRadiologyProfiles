@@ -6,15 +6,4 @@ Description: """
 * ^date = 2022-10-27
 * ^status = #draft
 * insert ACRValueSetCommon
-* RadLexCDE#OneOclockPosition
-* RadLexCDE#TwoOclockPosition
-* RadLexCDE#ThreeOclockPosition
-* RadLexCDE#FourOclockPosition
-* RadLexCDE#FiveOclockPosition
-* RadLexCDE#SixOclockPosition
-* RadLexCDE#SevenOclockPosition
-* RadLexCDE#EightOclockPosition
-* RadLexCDE#NineOclockPosition
-* RadLexCDE#TenOclockPosition
-* RadLexCDE#ElevenOclockPosition
-* RadLexCDE#TwelveOclockPosition
+* include codes from system RadLexCDE where concept is-a #RDE1558
