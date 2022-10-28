@@ -100,11 +100,6 @@ Description: "Component Slice Codes code system"
     Code to identify the component slice ObservedFeatureType.
     """
 
-* #orientation "Component code for 'Orientation' slice"
-    """
-    Code to identify the component slice Orientation.
-    """
-
 * #calcificationType "Component code for 'Calcification Type' slice"
     """
     Code to identify the component slice MGCalcificationType.

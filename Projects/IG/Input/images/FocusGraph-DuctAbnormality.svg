@@ -341,12 +341,12 @@
 </g>
 <g>
 <g transform="translate(712.77 375)">
-<a href="ValueSet-OrientationVS.html" target="_top">
-<rect class="valueSet" x="0" y="0" width="115.43" height="26.25" rx="3.75" ry="3.75" />
+<a href="ValueSet-rde1580-orientation.html" target="_top">
+<rect class="valueSet" x="0" y="0" width="174.05" height="26.25" rx="3.75" ry="3.75" />
 </a>
-<a href="ValueSet-OrientationVS.html" target="_top">
+<a href="ValueSet-rde1580-orientation.html" target="_top">
 <title />
-<text x="5.62" y="18.75" text-anchor="left" class="valueSet">OrientationVS</text>
+<text x="5.62" y="18.75" text-anchor="left" class="valueSet">RDE1580_Orientation</text>
 </a>
 </g>
 </g>

@@ -56,25 +56,10 @@
   }
 },
 {
-  "defineFragment" : {
-    "fragmentName" : "OrientationFragment",
-    "traceMsg" : "Include/ObservationMacros/Observation.Component.OrientationFragment.minc#52/nProfiles/Common/DensityAbnormality.mfsh#28/n"
-  }
-},
-{
-  "defineFragmentItem" : {
-    "fragmentName" : "OrientationFragment",
-    "fragmentType" : "Observation.Components.Fragment",
-    "itemName" : "OrientationFragment",
-    "path" : "component:orientation",
-    "traceMsg" : "Include/ObservationMacros/Observation.Component.OrientationFragment.minc#52/nProfiles/Common/DensityAbnormality.mfsh#28/n"
-  }
-},
-{
   "implementFragment" : {
     "className" : "DensityAbnormality",
     "fragmentName" : "OrientationFragment",
-    "traceMsg" : "Include/ObservationMacros/Observation.Component.OrientationFragment.minc#53/nProfiles/Common/DensityAbnormality.mfsh#28/n"
+    "traceMsg" : "Include/ObservationMacros/1. Observation.Component.OrientationFragment.minc#53/nProfiles/Common/DensityAbnormality.mfsh#28/n"
   }
 },
 {

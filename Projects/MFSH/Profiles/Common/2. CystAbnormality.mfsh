@@ -32,7 +32,7 @@ Description: """
   #apply Observation.Component.ShapeFragment()
   //$#apply Observation.Component.DensityFragment()
   #apply Observation.Component.MarginFragment()
-  //$#apply Observation.Component.OrientationFragment()
+  #apply Observation.Component.OrientationFragment()
   //$#apply Observation.Component.ObservedCountFragment()
   //$#apply Observation.Component.ObservedDistributionFragment()
   //$#apply Observation.Component.ObservedSizeFragment()

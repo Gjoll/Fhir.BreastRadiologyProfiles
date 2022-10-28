@@ -14,11 +14,11 @@
   #apply Observation.Component.Add("orientation", "0..1", "Orientation", "Orientation",
   #  """
   #  This slice contains the optional component that define the orientation of the abnormality.
-  #  The value of this component is a codeable concept chosen from the OrientationVS valueset.
+  #  The value of this component is a codeable concept chosen from the "RDE1580 Orientation" valueset.
   #  """,
-  #  "ObservationComponentSliceCodesCS#orientation")
+  #  "RadLexCDE#RDE1580")
   #
-  #apply Observation.Component.SetConcept("orientation", "1..1", "OrientationVS")
+  #apply Observation.Component.SetConcept("orientation", "1..1", "rde1580-orientation")
 
 
 
