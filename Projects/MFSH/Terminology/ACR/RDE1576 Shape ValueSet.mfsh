@@ -1,4 +1,4 @@
-ValueSet: RDE1576
+ValueSet: RDE1576_Shape
 Title: "Shape"
 Description: """
     ACR Common Data Element (CDE) {element.Id} value set"

@@ -1,4 +1,4 @@
-ValueSet: RDE1563
+ValueSet: RDE1563_QuadrantOfBreast
 Title: "Quadrant of breast"
 Description: """
     ACR Common Data Element (CDE) {element.Id} value set"

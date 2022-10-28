@@ -1,4 +1,4 @@
-ValueSet: RDE1577
+ValueSet: RDE1577_Type
 Title: "Type"
 Description: """
     ACR Common Data Element (CDE) {element.Id} value set"

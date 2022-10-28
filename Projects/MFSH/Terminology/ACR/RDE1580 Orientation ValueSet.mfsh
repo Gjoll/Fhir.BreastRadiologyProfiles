@@ -1,4 +1,4 @@
-ValueSet: RDE1580
+ValueSet: RDE1580_Orientation
 Title: "Orientation"
 Description: """
     ACR Common Data Element (CDE) {element.Id} value set"

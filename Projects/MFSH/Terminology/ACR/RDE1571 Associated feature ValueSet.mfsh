@@ -1,4 +1,4 @@
-ValueSet: RDE1571
+ValueSet: RDE1571_AssociatedFeature
 Title: "Associated feature"
 Description: """
     ACR Common Data Element (CDE) {element.Id} value set"

@@ -1,4 +1,4 @@
-ValueSet: RDE1578
+ValueSet: RDE1578_Density
 Title: "Density"
 Description: """
     ACR Common Data Element (CDE) {element.Id} value set"
