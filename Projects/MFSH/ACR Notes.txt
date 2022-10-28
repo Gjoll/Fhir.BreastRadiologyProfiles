@@ -1,0 +1,14 @@
+Cyst Notes
+
+The CDR defines RDE1575 (cyst), which has 4 possible values (present, absent...)
+
+In fhir...
+I am using the code RDE1575 as the code that identifies the observation as a cyst observation.
+I then am adding a component that defines the presence codes (absent...). To identify the component, I use the same code (RDE1575).
+THis means that I am using Code1575 for two different things. Their purpose is defined clearly in context, but it feels wrong to
+use the same code in both places.
+
+Would it make sense to make RDE1575 have no values, and add a new code that has the four presence items in it. This could also be reused 
+in all the other abnormalities.
+
+Should "RDE1577 Type" be renamed to "RDE1577 Cyst Type"

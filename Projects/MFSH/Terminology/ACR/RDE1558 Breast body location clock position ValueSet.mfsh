@@ -1,5 +1,6 @@
 ValueSet: RDE1558_BreastBodyLocationClockPosition
-Title: "Breast body location clock position"
+Id: rde1558-breast-body-location-clock-position
+Title: "RDE1558 Breast body location clock position"
 Description: """
     Clockpositionsoftheabnormalityobserved
     """
@@ -7,3 +8,19 @@ Description: """
 * ^status = #draft
 * insert ACRValueSetCommon
 * include codes from system RadLexCDE where concept is-a #RDE1558
+
+
+
+  #// -----------------------------------------
+  #// IG Macros
+  #// -----------------------------------------
+  #use IG
+    #apply GroupMemberValueSet("CommonCodesVS", "%Id%")
+  #end
+
+  #// -----------------------------------------
+  #// ValueSet API Macros
+  #// -----------------------------------------
+  #use ApiBuild
+    #apply DefineValueSet()
+  #end

@@ -1,5 +1,6 @@
 ValueSet: RDE1576_Shape
-Title: "Shape"
+Id: rde1576-shape
+Title: "RDE1576 Shape"
 Description: """
     ACR Common Data Element (CDE) {element.Id} value set"
     """
@@ -7,3 +8,19 @@ Description: """
 * ^status = #draft
 * insert ACRValueSetCommon
 * include codes from system RadLexCDE where concept is-a #RDE1576
+
+
+
+  #// -----------------------------------------
+  #// IG Macros
+  #// -----------------------------------------
+  #use IG
+    #apply GroupMemberValueSet("CommonCodesVS", "%Id%")
+  #end
+
+  #// -----------------------------------------
+  #// ValueSet API Macros
+  #// -----------------------------------------
+  #use ApiBuild
+    #apply DefineValueSet()
+  #end

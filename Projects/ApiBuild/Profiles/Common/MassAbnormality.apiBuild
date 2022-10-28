@@ -23,14 +23,14 @@
   "implementFragment" : {
     "className" : "MassAbnormality",
     "fragmentName" : "ShapeFragment",
-    "traceMsg" : "Include/ObservationMacros/Observation.Component.ShapeFragment.minc#53/nProfiles/Common/MassAbnormality.mfsh#25/n"
+    "traceMsg" : "Include/ObservationMacros/1. Observation.Component.ShapeFragment.minc#53/nProfiles/Common/MassAbnormality.mfsh#25/n"
   }
 },
 {
   "implementFragment" : {
     "className" : "MassAbnormality",
     "fragmentName" : "DensityFragment",
-    "traceMsg" : "Include/ObservationMacros/Observation.Component.DensityFragment.minc#52/nProfiles/Common/MassAbnormality.mfsh#26/n"
+    "traceMsg" : "Include/ObservationMacros/1. Observation.Component.DensityFragment.minc#52/nProfiles/Common/MassAbnormality.mfsh#26/n"
   }
 },
 {

@@ -1,5 +1,6 @@
-ValueSet: RDE1558
-Title: "Breast body location clock position"
+ValueSet: RDE1558_BreastBodyLocationClockPosition
+Id: rde1558-breast-body-location-clock-position
+Title: "RDE1558 Breast body location clock position"
 Description: """
     Clockpositionsoftheabnormalityobserved
     """

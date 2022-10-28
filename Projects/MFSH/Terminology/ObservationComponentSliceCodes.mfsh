@@ -120,11 +120,6 @@ Description: "Component Slice Codes code system"
     Code to identify the component slice Orientation.
     """
 
-* #shape "Component code for 'Shape' slice"
-    """
-    Code to identify the component slice Shape.
-    """
-
 * #calcificationType "Component code for 'Calcification Type' slice"
     """
     Code to identify the component slice MGCalcificationType.

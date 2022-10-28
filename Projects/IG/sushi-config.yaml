@@ -152,12 +152,10 @@ groups:
       - CodeSystem/CompositionSectionSliceCodesCS   # ^CodeSystem/CompositionSectionSliceCodesCS$
       - CodeSystem/ConsistentWithQualifierCS   # ^CodeSystem/ConsistentWithQualifierCS$
       - CodeSystem/CorrespondsWithCS   # ^CodeSystem/CorrespondsWithCS$
-      - CodeSystem/CystAbnormalityTypeCS   # ^CodeSystem/CystAbnormalityTypeCS$
       - CodeSystem/DensityAbnormalityTypeCS   # ^CodeSystem/DensityAbnormalityTypeCS$
       - CodeSystem/DuctAbnormalityTypeCS   # ^CodeSystem/DuctAbnormalityTypeCS$
       - CodeSystem/AbnormalityFibroadenomaTypeCS   # ^CodeSystem/AbnormalityFibroadenomaTypeCS$
       - CodeSystem/ForeignObjectAbnormalityTypeCS   # ^CodeSystem/ForeignObjectAbnormalityTypeCS$
-      - CodeSystem/LesionDensityCS   # ^CodeSystem/LesionDensityCS$
       - CodeSystem/LymphNodeAbnormalityTypeCS   # ^CodeSystem/LymphNodeAbnormalityTypeCS$
       - CodeSystem/MarginCS   # ^CodeSystem/MarginCS$
       - CodeSystem/MassAbnormalityTypeCS   # ^CodeSystem/MassAbnormalityTypeCS$
@@ -185,13 +183,11 @@ groups:
       - ValueSet/ConsistentWithQualifierVS   # ^ValueSet/ConsistentWithQualifierVS$
       - ValueSet/ConsistentWithVS   # ^ValueSet/ConsistentWithVS$
       - ValueSet/CorrespondsWithVS   # ^ValueSet/CorrespondsWithVS$
-      - ValueSet/CystAbnormalityTypeVS   # ^ValueSet/CystAbnormalityTypeVS$
       - ValueSet/DensityAbnormalityTypeVS   # ^ValueSet/DensityAbnormalityTypeVS$
       - ValueSet/DuctAbnormalityTypeVS   # ^ValueSet/DuctAbnormalityTypeVS$
       - ValueSet/FibroAdenomaAbnormalityTypeVS   # ^ValueSet/FibroAdenomaAbnormalityTypeVS$
       - ValueSet/ForeignObjectAbnormalityTypeVS   # ^ValueSet/ForeignObjectAbnormalityTypeVS$
       - ValueSet/LateralityVS   # ^ValueSet/LateralityVS$
-      - ValueSet/LesionDensityVS   # ^ValueSet/LesionDensityVS$
       - ValueSet/LymphNodeAbnormalityTypeVS   # ^ValueSet/LymphNodeAbnormalityTypeVS$
       - ValueSet/MammographyAssessmentFindingVS   # ^ValueSet/MammographyAssessmentFindingVS$
       - ValueSet/MarginVS   # ^ValueSet/MarginVS$
@@ -200,6 +196,21 @@ groups:
       - ValueSet/ObservedChangesVS   # ^ValueSet/ObservedChangesVS$
       - ValueSet/OrientationVS   # ^ValueSet/OrientationVS$
       - ValueSet/PreviouslyDemonstratedByVS   # ^ValueSet/PreviouslyDemonstratedByVS$
+      - ValueSet/rde1557-body-side   # ^ValueSet/rde1557-body-side$
+      - ValueSet/rde1558-breast-body-location-clock-position   # ^ValueSet/rde1558-breast-body-location-clock-position$
+      - ValueSet/rde1559-breast-body-location-depth   # ^ValueSet/rde1559-breast-body-location-depth$
+      - ValueSet/rde1560-breast-body-landmark   # ^ValueSet/rde1560-breast-body-landmark$
+      - ValueSet/rde1562-laterality-from-landmark   # ^ValueSet/rde1562-laterality-from-landmark$
+      - ValueSet/rde1563-quadrant-of-breast   # ^ValueSet/rde1563-quadrant-of-breast$
+      - ValueSet/rde1564-region-of-breast   # ^ValueSet/rde1564-region-of-breast$
+      - ValueSet/rde1568-observed-distribution   # ^ValueSet/rde1568-observed-distribution$
+      - ValueSet/rde1571-associated-feature   # ^ValueSet/rde1571-associated-feature$
+      - ValueSet/rde1575-cyst   # ^ValueSet/rde1575-cyst$
+      - ValueSet/rde1576-shape   # ^ValueSet/rde1576-shape$
+      - ValueSet/rde1577-type   # ^ValueSet/rde1577-type$
+      - ValueSet/rde1578-density   # ^ValueSet/rde1578-density$
+      - ValueSet/rde1579-margin   # ^ValueSet/rde1579-margin$
+      - ValueSet/rde1580-orientation   # ^ValueSet/rde1580-orientation$
       - ValueSet/ServiceRecommendationsVS   # ^ValueSet/ServiceRecommendationsVS$
       - ValueSet/ShapeVS   # ^ValueSet/ShapeVS$
 #ISBuilderGroups End

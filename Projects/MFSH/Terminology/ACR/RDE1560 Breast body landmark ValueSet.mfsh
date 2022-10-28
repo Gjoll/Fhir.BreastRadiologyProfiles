@@ -1,5 +1,6 @@
 ValueSet: RDE1560_BreastBodyLandmark
-Title: "Breast body landmark"
+Id: rde1560-breast-body-landmark
+Title: "RDE1560 Breast body landmark"
 Description: """
     Breastlandmarkvalueset
     """
@@ -7,3 +8,19 @@ Description: """
 * ^status = #draft
 * insert ACRValueSetCommon
 * include codes from system RadLexCDE where concept is-a #RDE1560
+
+
+
+  #// -----------------------------------------
+  #// IG Macros
+  #// -----------------------------------------
+  #use IG
+    #apply GroupMemberValueSet("CommonCodesVS", "%Id%")
+  #end
+
+  #// -----------------------------------------
+  #// ValueSet API Macros
+  #// -----------------------------------------
+  #use ApiBuild
+    #apply DefineValueSet()
+  #end

@@ -1,5 +1,6 @@
 ValueSet: RDE1562_LateralityFromLandmark
-Title: "Laterality from landmark"
+Id: rde1562-laterality-from-landmark
+Title: "RDE1562 Laterality from landmark"
 Description: """
     ACR Common Data Element (CDE) {element.Id} value set"
     """
@@ -7,3 +8,19 @@ Description: """
 * ^status = #draft
 * insert ACRValueSetCommon
 * include codes from system RadLexCDE where concept is-a #RDE1562
+
+
+
+  #// -----------------------------------------
+  #// IG Macros
+  #// -----------------------------------------
+  #use IG
+    #apply GroupMemberValueSet("CommonCodesVS", "%Id%")
+  #end
+
+  #// -----------------------------------------
+  #// ValueSet API Macros
+  #// -----------------------------------------
+  #use ApiBuild
+    #apply DefineValueSet()
+  #end

@@ -23,14 +23,14 @@
   "implementFragment" : {
     "className" : "FatNecrosisAbnormality",
     "fragmentName" : "ShapeFragment",
-    "traceMsg" : "Include/ObservationMacros/Observation.Component.ShapeFragment.minc#53/nProfiles/Common/FatNecrosisAbnormality.mfsh#16/n"
+    "traceMsg" : "Include/ObservationMacros/1. Observation.Component.ShapeFragment.minc#53/nProfiles/Common/FatNecrosisAbnormality.mfsh#16/n"
   }
 },
 {
   "implementFragment" : {
     "className" : "FatNecrosisAbnormality",
     "fragmentName" : "DensityFragment",
-    "traceMsg" : "Include/ObservationMacros/Observation.Component.DensityFragment.minc#52/nProfiles/Common/FatNecrosisAbnormality.mfsh#17/n"
+    "traceMsg" : "Include/ObservationMacros/1. Observation.Component.DensityFragment.minc#52/nProfiles/Common/FatNecrosisAbnormality.mfsh#17/n"
   }
 },
 {

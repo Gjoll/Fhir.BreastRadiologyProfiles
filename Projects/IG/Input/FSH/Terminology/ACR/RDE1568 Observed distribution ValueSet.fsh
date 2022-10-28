@@ -1,5 +1,6 @@
-ValueSet: RDE1568
-Title: "Observed distribution"
+ValueSet: RDE1568_ObservedDistribution
+Id: rde1568-observed-distribution
+Title: "RDE1568 Observed distribution"
 Description: """
     ACR Common Data Element (CDE) {element.Id} value set"
     """

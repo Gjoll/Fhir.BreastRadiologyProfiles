@@ -1,5 +1,6 @@
 ValueSet: RDE1571_AssociatedFeature
-Title: "Associated feature"
+Id: rde1571-associated-feature
+Title: "RDE1571 Associated feature"
 Description: """
     ACR Common Data Element (CDE) {element.Id} value set"
     """
@@ -7,3 +8,19 @@ Description: """
 * ^status = #draft
 * insert ACRValueSetCommon
 * include codes from system RadLexCDE where concept is-a #RDE1571
+
+
+
+  #// -----------------------------------------
+  #// IG Macros
+  #// -----------------------------------------
+  #use IG
+    #apply GroupMemberValueSet("CommonCodesVS", "%Id%")
+  #end
+
+  #// -----------------------------------------
+  #// ValueSet API Macros
+  #// -----------------------------------------
+  #use ApiBuild
+    #apply DefineValueSet()
+  #end

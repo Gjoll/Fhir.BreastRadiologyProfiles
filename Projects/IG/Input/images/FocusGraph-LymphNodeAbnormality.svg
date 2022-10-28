@@ -152,12 +152,12 @@
 </g>
 <g>
 <g transform="translate(746.66 71.25)">
-<a href="ValueSet-LesionDensityVS.html" target="_top">
-<rect class="valueSet" x="0" y="0" width="138.33" height="26.25" rx="3.75" ry="3.75" />
+<a href="ValueSet-rde1578-density.html" target="_top">
+<rect class="valueSet" x="0" y="0" width="148.4" height="26.25" rx="3.75" ry="3.75" />
 </a>
-<a href="ValueSet-LesionDensityVS.html" target="_top">
+<a href="ValueSet-rde1578-density.html" target="_top">
 <title />
-<text x="5.62" y="18.75" text-anchor="left" class="valueSet">LesionDensityVS</text>
+<text x="5.62" y="18.75" text-anchor="left" class="valueSet">RDE1578_Density</text>
 </a>
 </g>
 </g>
@@ -397,12 +397,12 @@
 </g>
 <g>
 <g transform="translate(739.36 461.25)">
-<a href="ValueSet-ShapeVS.html" target="_top">
-<rect class="valueSet" x="0" y="0" width="82.47" height="26.25" rx="3.75" ry="3.75" />
+<a href="ValueSet-rde1576-shape.html" target="_top">
+<rect class="valueSet" x="0" y="0" width="141.09" height="26.25" rx="3.75" ry="3.75" />
 </a>
-<a href="ValueSet-ShapeVS.html" target="_top">
+<a href="ValueSet-rde1576-shape.html" target="_top">
 <title />
-<text x="5.62" y="18.75" text-anchor="left" class="valueSet">ShapeVS</text>
+<text x="5.62" y="18.75" text-anchor="left" class="valueSet">RDE1576_Shape</text>
 </a>
 </g>
 </g>

@@ -1,5 +1,6 @@
-ValueSet: RDE1560
-Title: "Breast body landmark"
+ValueSet: RDE1560_BreastBodyLandmark
+Id: rde1560-breast-body-landmark
+Title: "RDE1560 Breast body landmark"
 Description: """
     Breastlandmarkvalueset
     """

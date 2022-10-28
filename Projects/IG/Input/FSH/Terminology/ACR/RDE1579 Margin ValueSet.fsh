@@ -1,5 +1,6 @@
-ValueSet: RDE1579
-Title: "Margin"
+ValueSet: RDE1579_Margin
+Id: rde1579-margin
+Title: "RDE1579 Margin"
 Description: """
     ACR Common Data Element (CDE) {element.Id} value set"
     """

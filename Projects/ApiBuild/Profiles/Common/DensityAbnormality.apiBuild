@@ -23,14 +23,44 @@
   "implementFragment" : {
     "className" : "DensityAbnormality",
     "fragmentName" : "ShapeFragment",
-    "traceMsg" : "Include/ObservationMacros/Observation.Component.ShapeFragment.minc#53/nProfiles/Common/DensityAbnormality.mfsh#25/n"
+    "traceMsg" : "Include/ObservationMacros/1. Observation.Component.ShapeFragment.minc#53/nProfiles/Common/DensityAbnormality.mfsh#25/n"
+  }
+},
+{
+  "defineFragment" : {
+    "fragmentName" : "DensityFragment",
+    "traceMsg" : "Include/ObservationMacros/1. Observation.Component.DensityFragment.minc#51/nProfiles/Common/DensityAbnormality.mfsh#26/n"
+  }
+},
+{
+  "defineFragmentItem" : {
+    "fragmentName" : "DensityFragment",
+    "fragmentType" : "Observation.Components.Fragment",
+    "itemName" : "DensityFragment",
+    "path" : "component:density",
+    "traceMsg" : "Include/ObservationMacros/1. Observation.Component.DensityFragment.minc#51/nProfiles/Common/DensityAbnormality.mfsh#26/n"
   }
 },
 {
   "implementFragment" : {
     "className" : "DensityAbnormality",
     "fragmentName" : "DensityFragment",
-    "traceMsg" : "Include/ObservationMacros/Observation.Component.DensityFragment.minc#52/nProfiles/Common/DensityAbnormality.mfsh#26/n"
+    "traceMsg" : "Include/ObservationMacros/1. Observation.Component.DensityFragment.minc#52/nProfiles/Common/DensityAbnormality.mfsh#26/n"
+  }
+},
+{
+  "defineFragment" : {
+    "fragmentName" : "MarginFragment",
+    "traceMsg" : "Include/ObservationMacros/Observation.Component.MarginFragment.minc#52/nProfiles/Common/DensityAbnormality.mfsh#27/n"
+  }
+},
+{
+  "defineFragmentItem" : {
+    "fragmentName" : "MarginFragment",
+    "fragmentType" : "Observation.Components.Fragment",
+    "itemName" : "MarginFragment",
+    "path" : "component:margin",
+    "traceMsg" : "Include/ObservationMacros/Observation.Component.MarginFragment.minc#52/nProfiles/Common/DensityAbnormality.mfsh#27/n"
   }
 },
 {
@@ -38,6 +68,21 @@
     "className" : "DensityAbnormality",
     "fragmentName" : "MarginFragment",
     "traceMsg" : "Include/ObservationMacros/Observation.Component.MarginFragment.minc#53/nProfiles/Common/DensityAbnormality.mfsh#27/n"
+  }
+},
+{
+  "defineFragment" : {
+    "fragmentName" : "OrientationFragment",
+    "traceMsg" : "Include/ObservationMacros/Observation.Component.OrientationFragment.minc#52/nProfiles/Common/DensityAbnormality.mfsh#28/n"
+  }
+},
+{
+  "defineFragmentItem" : {
+    "fragmentName" : "OrientationFragment",
+    "fragmentType" : "Observation.Components.Fragment",
+    "itemName" : "OrientationFragment",
+    "path" : "component:orientation",
+    "traceMsg" : "Include/ObservationMacros/Observation.Component.OrientationFragment.minc#52/nProfiles/Common/DensityAbnormality.mfsh#28/n"
   }
 },
 {

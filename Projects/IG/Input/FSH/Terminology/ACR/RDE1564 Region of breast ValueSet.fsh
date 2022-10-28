@@ -1,5 +1,6 @@
-ValueSet: RDE1564
-Title: "Region of breast"
+ValueSet: RDE1564_RegionOfBreast
+Id: rde1564-region-of-breast
+Title: "RDE1564 Region of breast"
 Description: """
     ACR Common Data Element (CDE) {element.Id} value set"
     """

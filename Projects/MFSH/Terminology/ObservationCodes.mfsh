@@ -4,11 +4,6 @@ Title: "Observation Codes CodeSystem"
 Description: "Observation Codes code system"
 * insert CodeSystem_Common
 
-* #abnormalityCyst "Abnormality Cyst observation"
-    """
-    Observation.code to identify a AbnormalityCyst observation.
-    """
-
 * #abnormalityFibroadenomaObservation "Abnormality Fibroadenoma observation"
     """
     Observation.code to identify a Fibroadenoma observation.

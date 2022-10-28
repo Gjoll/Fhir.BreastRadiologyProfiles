@@ -1,5 +1,6 @@
-ValueSet: RDE1562
-Title: "Laterality from landmark"
+ValueSet: RDE1562_LateralityFromLandmark
+Id: rde1562-laterality-from-landmark
+Title: "RDE1562 Laterality from landmark"
 Description: """
     ACR Common Data Element (CDE) {element.Id} value set"
     """

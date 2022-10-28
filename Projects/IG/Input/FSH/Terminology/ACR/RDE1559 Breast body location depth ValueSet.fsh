@@ -1,5 +1,6 @@
-ValueSet: RDE1559
-Title: "Breast body location depth"
+ValueSet: RDE1559_BreastBodyLocationDepth
+Id: rde1559-breast-body-location-depth
+Title: "RDE1559 Breast body location depth"
 Description: """
     AnteriordepthistheoutermostdepthclosesttothenippleofthebreastMiddledepthinbetweentheanteriorandposteriorportionofthebreastPosteriordepthclosesttothechestwallofthebreast
     """

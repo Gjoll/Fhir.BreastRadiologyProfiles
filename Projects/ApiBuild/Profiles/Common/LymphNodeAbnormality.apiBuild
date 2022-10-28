@@ -23,14 +23,14 @@
   "implementFragment" : {
     "className" : "LymphNodeAbnormality",
     "fragmentName" : "ShapeFragment",
-    "traceMsg" : "Include/ObservationMacros/Observation.Component.ShapeFragment.minc#53/nProfiles/Common/LymphNodeAbnormality.mfsh#25/n"
+    "traceMsg" : "Include/ObservationMacros/1. Observation.Component.ShapeFragment.minc#53/nProfiles/Common/LymphNodeAbnormality.mfsh#25/n"
   }
 },
 {
   "implementFragment" : {
     "className" : "LymphNodeAbnormality",
     "fragmentName" : "DensityFragment",
-    "traceMsg" : "Include/ObservationMacros/Observation.Component.DensityFragment.minc#52/nProfiles/Common/LymphNodeAbnormality.mfsh#26/n"
+    "traceMsg" : "Include/ObservationMacros/1. Observation.Component.DensityFragment.minc#52/nProfiles/Common/LymphNodeAbnormality.mfsh#26/n"
   }
 },
 {
@@ -94,6 +94,21 @@
     "className" : "LymphNodeAbnormality",
     "fragmentName" : "AssociatedFeatureFragment",
     "traceMsg" : "Include/ObservationMacros/Observation.HasMember.AssociatedFeatureFragment.minc#46/nProfiles/Common/LymphNodeAbnormality.mfsh#36/n"
+  }
+},
+{
+  "defineFragment" : {
+    "fragmentName" : "TumorSatelliteFragment",
+    "traceMsg" : "Include/ObservationMacros/Observation.HasMember.TumorSatelliteFragment.minc#45/nProfiles/Common/LymphNodeAbnormality.mfsh#37/n"
+  }
+},
+{
+  "defineFragmentItem" : {
+    "fragmentName" : "TumorSatelliteFragment",
+    "fragmentType" : "Observation.HasMember.Fragment",
+    "itemName" : "TumorSatelliteFragment",
+    "path" : "tumorSatellite",
+    "traceMsg" : "Include/ObservationMacros/Observation.HasMember.TumorSatelliteFragment.minc#45/nProfiles/Common/LymphNodeAbnormality.mfsh#37/n"
   }
 },
 {

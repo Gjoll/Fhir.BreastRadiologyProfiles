@@ -1,5 +1,6 @@
-ValueSet: RDE1575
-Title: "Cyst"
+ValueSet: RDE1575_Cyst
+Id: rde1575-cyst
+Title: "RDE1575 Cyst"
 Description: """
     Cystabnormalityobservationonmammography
     """

@@ -17,9 +17,9 @@
   #  This slice contains the optional component that define the shape of the abnormality.
   #  The value of this component is a codeable concept chosen from the ShapeVS valueset.
   #  """,
-  #  "ObservationComponentSliceCodesCS#shape")
+  #  "RadLexCDE#RDE1576")
   #
-  #apply Observation.Component.SetConcept("shape", "1..1", "ShapeVS")
+  #apply Observation.Component.SetConcept("shape", "1..1", "rde1576-shape")
 
 
   #if Frags

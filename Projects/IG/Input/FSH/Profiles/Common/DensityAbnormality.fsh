@@ -97,10 +97,10 @@ Description: """
 * component[shape].code ^definition = """
     This code identifies the Shape component.
     """
-* component[shape].code = ObservationComponentSliceCodesCS#shape
+* component[shape].code = RadLexCDE#RDE1576
 * component[shape].value[x] 1..1
 * component[shape].value[x] only CodeableConcept
-* component[shape].value[x] from ShapeVS
+* component[shape].value[x] from rde1576-shape
 
   // Define Density Slice
 * component contains density 0..1
@@ -110,17 +110,17 @@ Description: """
     """
 * component[density] ^definition = """
     This slice contains the optional component that define the density of the abnormality.
-    The value of this component is a codeable concept chosen from the LesionRadiographicDensityVS valueset.
+    The value of this component is a codeable concept chosen from the RDE1578 Density valueset.
     """
 * component[density].code 1..1
 * component[density].code ^short = "Density component code."
 * component[density].code ^definition = """
     This code identifies the Density component.
     """
-* component[density].code = ObservationComponentSliceCodesCS#density
+* component[density].code = RadLexCDE#RDE1578
 * component[density].value[x] 0..1
 * component[density].value[x] only CodeableConcept
-* component[density].value[x] from LesionDensityVS
+* component[density].value[x] from rde1578-density
 
 
   // Define Margin Slice

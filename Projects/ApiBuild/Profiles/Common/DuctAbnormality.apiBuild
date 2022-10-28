@@ -23,14 +23,14 @@
   "implementFragment" : {
     "className" : "DuctAbnormality",
     "fragmentName" : "ShapeFragment",
-    "traceMsg" : "Include/ObservationMacros/Observation.Component.ShapeFragment.minc#53/nProfiles/Common/DuctAbnormality.mfsh#25/n"
+    "traceMsg" : "Include/ObservationMacros/1. Observation.Component.ShapeFragment.minc#53/nProfiles/Common/DuctAbnormality.mfsh#25/n"
   }
 },
 {
   "implementFragment" : {
     "className" : "DuctAbnormality",
     "fragmentName" : "DensityFragment",
-    "traceMsg" : "Include/ObservationMacros/Observation.Component.DensityFragment.minc#52/nProfiles/Common/DuctAbnormality.mfsh#26/n"
+    "traceMsg" : "Include/ObservationMacros/1. Observation.Component.DensityFragment.minc#52/nProfiles/Common/DuctAbnormality.mfsh#26/n"
   }
 },
 {

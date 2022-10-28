@@ -1,5 +1,6 @@
 ValueSet: RDE1568_ObservedDistribution
-Title: "Observed distribution"
+Id: rde1568-observed-distribution
+Title: "RDE1568 Observed distribution"
 Description: """
     ACR Common Data Element (CDE) {element.Id} value set"
     """
@@ -7,3 +8,19 @@ Description: """
 * ^status = #draft
 * insert ACRValueSetCommon
 * include codes from system RadLexCDE where concept is-a #RDE1568
+
+
+
+  #// -----------------------------------------
+  #// IG Macros
+  #// -----------------------------------------
+  #use IG
+    #apply GroupMemberValueSet("CommonCodesVS", "%Id%")
+  #end
+
+  #// -----------------------------------------
+  #// ValueSet API Macros
+  #// -----------------------------------------
+  #use ApiBuild
+    #apply DefineValueSet()
+  #end

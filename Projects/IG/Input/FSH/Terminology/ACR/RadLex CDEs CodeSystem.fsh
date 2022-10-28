@@ -12,19 +12,19 @@ Description: "ACR Common Data Element (CDE) code system"
   """
   * #Present "present"
     """
-    Present
+    present
     """
   * #Absent "absent"
     """
-    Absent
+    absent
     """
   * #Indeterminate "indeterminate"
     """
-    Indeterminate
+    indeterminate
     """
   * #Unknown "unknown"
     """
-    Unknown
+    unknown
     """
 
 
@@ -35,15 +35,15 @@ Description: "ACR Common Data Element (CDE) code system"
   """
   * #Right "right"
     """
-    Right
+    right
     """
   * #Left "left"
     """
-    Left
+    left
     """
   * #Bilateral "bilateral"
     """
-    Bilateral
+    bilateral
     """
 
 
@@ -54,51 +54,51 @@ Description: "ACR Common Data Element (CDE) code system"
   """
   * #OneOclockPosition "one o'clock position"
     """
-    OneOclockPosition
+    one o'clock position
     """
   * #TwoOclockPosition "two o'clock position"
     """
-    TwoOclockPosition
+    two o'clock position
     """
   * #ThreeOclockPosition "three o'clock position"
     """
-    ThreeOclockPosition
+    three o'clock position
     """
   * #FourOclockPosition "four o'clock position"
     """
-    FourOclockPosition
+    four o'clock position
     """
   * #FiveOclockPosition "five o'clock position"
     """
-    FiveOclockPosition
+    five o'clock position
     """
   * #SixOclockPosition "six o'clock position"
     """
-    SixOclockPosition
+    six o'clock position
     """
   * #SevenOclockPosition "seven o'clock position"
     """
-    SevenOclockPosition
+    seven o'clock position
     """
   * #EightOclockPosition "eight o'clock position"
     """
-    EightOclockPosition
+    eight o'clock position
     """
   * #NineOclockPosition "nine o'clock position"
     """
-    NineOclockPosition
+    nine o'clock position
     """
   * #TenOclockPosition "ten o'clock position"
     """
-    TenOclockPosition
+    ten o'clock position
     """
   * #ElevenOclockPosition "eleven o'clock position"
     """
-    ElevenOclockPosition
+    eleven o'clock position
     """
   * #TwelveOclockPosition "twelve o'clock position"
     """
-    TwelveOclockPosition
+    twelve o'clock position
     """
 
 
@@ -109,15 +109,15 @@ Description: "ACR Common Data Element (CDE) code system"
   """
   * #Anterior "anterior"
     """
-    Anterior
+    anterior
     """
   * #Middle "middle"
     """
-    Middle
+    middle
     """
   * #Posterior "posterior"
     """
-    Posterior
+    posterior
     """
 
 
@@ -128,15 +128,15 @@ Description: "ACR Common Data Element (CDE) code system"
   """
   * #Nipple "nipple"
     """
-    Nipple
+    nipple
     """
   * #ChestWall "chest wall"
     """
-    ChestWall
+    chest wall
     """
   * #SkinStructure "skin structure"
     """
-    SkinStructure
+    skin structure
     """
 
 
@@ -154,19 +154,19 @@ Description: "ACR Common Data Element (CDE) code system"
   """
   * #RightAndLeft "right and left"
     """
-    RightAndLeft
+    right and left
     """
   * #Midline "midline"
     """
-    Midline
+    midline
     """
   * #StructureOfRightHalfOfBody "structure of right half of body"
     """
-    StructureOfRightHalfOfBody
+    structure of right half of body
     """
   * #StructureOfLeftHalfOfBody "structure of left half of body"
     """
-    StructureOfLeftHalfOfBody
+    structure of left half of body
     """
 
 
@@ -177,19 +177,19 @@ Description: "ACR Common Data Element (CDE) code system"
   """
   * #LowerInner "lower inner"
     """
-    LowerInner
+    lower inner
     """
   * #LowerOuter "lower outer"
     """
-    LowerOuter
+    lower outer
     """
   * #UpperInner "upper inner"
     """
-    UpperInner
+    upper inner
     """
   * #UpperOuter "upper outer"
     """
-    UpperOuter
+    upper outer
     """
 
 
@@ -206,7 +206,7 @@ Description: "ACR Common Data Element (CDE) code system"
     """
   * #AxillaryTail "axillary tail"
     """
-    AxillaryTail
+    axillary tail
     """
   * #AxillaOne "axilla one"
     """
@@ -249,19 +249,19 @@ Description: "ACR Common Data Element (CDE) code system"
   """
   * #IrregularShaped "irregular shaped"
     """
-    IrregularShaped
+    irregular shaped
     """
   * #LobularShaped "lobular shaped"
     """
-    LobularShaped
+    lobular shaped
     """
   * #OvalShaped "oval shaped"
     """
-    OvalShaped
+    oval shaped
     """
   * #RoundShaped "round shaped"
     """
-    RoundShaped
+    round shaped
     """
 
 
@@ -313,7 +313,7 @@ Description: "ACR Common Data Element (CDE) code system"
     """
   * #Cyst "cyst"
     """
-    Cyst
+    cyst
     """
 
 
@@ -331,19 +331,19 @@ Description: "ACR Common Data Element (CDE) code system"
   """
   * #Equal "equal"
     """
-    Equal
+    equal
     """
   * #FatContaining "fat containing"
     """
-    FatContaining
+    fat containing
     """
   * #High "high"
     """
-    High
+    high
     """
   * #Low "low"
     """
-    Low
+    low
     """
 
 
@@ -433,19 +433,19 @@ Description: "ACR Common Data Element (CDE) code system"
   """
   * #ParallelToSkin "parallel to skin"
     """
-    ParallelToSkin
+    parallel to skin
     """
   * #PerpendicularToSkin "perpendicular to skin"
     """
-    PerpendicularToSkin
+    perpendicular to skin
     """
   * #TallerThanWide "taller than wide"
     """
-    TallerThanWide
+    taller than wide
     """
   * #WiderThanTall "wider than tall"
     """
-    WiderThanTall
+    wider than tall
     """
 
 
@@ -456,31 +456,31 @@ Description: "ACR Common Data Element (CDE) code system"
   """
   * #FineLinearBranching "fine, linear, branching"
     """
-    FineLinearBranching
+    fine, linear, branching
     """
   * #Clustered "clustered"
     """
-    Clustered
+    clustered
     """
   * #Diffuse "diffuse"
     """
-    Diffuse
+    diffuse
     """
   * #Grouped "grouped"
     """
-    Grouped
+    grouped
     """
   * #Linear "linear"
     """
-    Linear
+    linear
     """
   * #Regional "regional"
     """
-    Regional
+    regional
     """
   * #Segmental "segmental"
     """
-    Segmental
+    segmental
     """
 
 

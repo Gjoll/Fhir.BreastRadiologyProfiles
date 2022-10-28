@@ -1,6 +1,6 @@
 {
   "defineValueSet" : {
     "valueSetName" : "BreastAssessmentCategoryVS",
-    "traceMsg" : "Terminology/3a.  BreastAssessmentCategory.mfsh#32/n"
+    "traceMsg" : "Terminology/BreastAssessmentCategory.mfsh#32/n"
   }
 },

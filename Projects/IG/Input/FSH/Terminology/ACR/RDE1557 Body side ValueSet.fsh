@@ -1,5 +1,6 @@
-ValueSet: RDE1557
-Title: "Body side"
+ValueSet: RDE1557_BodySide
+Id: rde1557-body-side
+Title: "RDE1557 Body side"
 Description: """
     Breastlateralityofabnormalityobserved
     """
