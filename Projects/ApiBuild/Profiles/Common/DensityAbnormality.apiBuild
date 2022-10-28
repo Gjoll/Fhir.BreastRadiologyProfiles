@@ -27,21 +27,6 @@
   }
 },
 {
-  "defineFragment" : {
-    "fragmentName" : "DensityFragment",
-    "traceMsg" : "Include/ObservationMacros/1. Observation.Component.DensityFragment.minc#51/nProfiles/Common/DensityAbnormality.mfsh#26/n"
-  }
-},
-{
-  "defineFragmentItem" : {
-    "fragmentName" : "DensityFragment",
-    "fragmentType" : "Observation.Components.Fragment",
-    "itemName" : "DensityFragment",
-    "path" : "component:density",
-    "traceMsg" : "Include/ObservationMacros/1. Observation.Component.DensityFragment.minc#51/nProfiles/Common/DensityAbnormality.mfsh#26/n"
-  }
-},
-{
   "implementFragment" : {
     "className" : "DensityAbnormality",
     "fragmentName" : "DensityFragment",
@@ -73,7 +58,7 @@
   "implementFragment" : {
     "className" : "DensityAbnormality",
     "fragmentName" : "ObservedCountFragment",
-    "traceMsg" : "Include/ObservationMacros/Observation.Component.ObservedCountFragment.minc#56/nProfiles/Common/DensityAbnormality.mfsh#30/n"
+    "traceMsg" : "Include/ObservationMacros/1. Observation.Component.ObservedCountFragment.minc#56/nProfiles/Common/DensityAbnormality.mfsh#30/n"
   }
 },
 {

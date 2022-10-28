@@ -22,6 +22,28 @@
 },
 {
   "defineFragment" : {
+    "fragmentName" : "DensityFragment",
+    "traceMsg" : "Include/ObservationMacros/1. Observation.Component.DensityFragment.minc#51/nProfiles/Common/2. CystAbnormality.mfsh#33/n"
+  }
+},
+{
+  "defineFragmentItem" : {
+    "fragmentName" : "DensityFragment",
+    "fragmentType" : "Observation.Components.Fragment",
+    "itemName" : "DensityFragment",
+    "path" : "component:density",
+    "traceMsg" : "Include/ObservationMacros/1. Observation.Component.DensityFragment.minc#51/nProfiles/Common/2. CystAbnormality.mfsh#33/n"
+  }
+},
+{
+  "implementFragment" : {
+    "className" : "CystAbnormality",
+    "fragmentName" : "DensityFragment",
+    "traceMsg" : "Include/ObservationMacros/1. Observation.Component.DensityFragment.minc#52/nProfiles/Common/2. CystAbnormality.mfsh#33/n"
+  }
+},
+{
+  "defineFragment" : {
     "fragmentName" : "MarginFragment",
     "traceMsg" : "Include/ObservationMacros/1. Observation.Component.MarginFragment.minc#52/nProfiles/Common/2. CystAbnormality.mfsh#34/n"
   }
@@ -62,6 +84,28 @@
     "className" : "CystAbnormality",
     "fragmentName" : "OrientationFragment",
     "traceMsg" : "Include/ObservationMacros/1. Observation.Component.OrientationFragment.minc#53/nProfiles/Common/2. CystAbnormality.mfsh#35/n"
+  }
+},
+{
+  "defineFragment" : {
+    "fragmentName" : "ObservedCountFragment",
+    "traceMsg" : "Include/ObservationMacros/1. Observation.Component.ObservedCountFragment.minc#55/nProfiles/Common/2. CystAbnormality.mfsh#36/n"
+  }
+},
+{
+  "defineFragmentItem" : {
+    "fragmentName" : "ObservedCountFragment",
+    "fragmentType" : "Observation.Components.Fragment",
+    "itemName" : "ObservedCountFragment",
+    "path" : "component:observedCount",
+    "traceMsg" : "Include/ObservationMacros/1. Observation.Component.ObservedCountFragment.minc#55/nProfiles/Common/2. CystAbnormality.mfsh#36/n"
+  }
+},
+{
+  "implementFragment" : {
+    "className" : "CystAbnormality",
+    "fragmentName" : "ObservedCountFragment",
+    "traceMsg" : "Include/ObservationMacros/1. Observation.Component.ObservedCountFragment.minc#56/nProfiles/Common/2. CystAbnormality.mfsh#36/n"
   }
 },
 {

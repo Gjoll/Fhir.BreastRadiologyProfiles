@@ -6,25 +6,10 @@
   }
 },
 {
-  "defineFragment" : {
-    "fragmentName" : "ObservedCountFragment",
-    "traceMsg" : "Include/ObservationMacros/Observation.Component.ObservedCountFragment.minc#55/nProfiles/Common/AssociatedFeature.mfsh#34/n"
-  }
-},
-{
-  "defineFragmentItem" : {
-    "fragmentName" : "ObservedCountFragment",
-    "fragmentType" : "Observation.Components.Fragment",
-    "itemName" : "ObservedCountFragment",
-    "path" : "component:observedCount",
-    "traceMsg" : "Include/ObservationMacros/Observation.Component.ObservedCountFragment.minc#55/nProfiles/Common/AssociatedFeature.mfsh#34/n"
-  }
-},
-{
   "implementFragment" : {
     "className" : "AssociatedFeature",
     "fragmentName" : "ObservedCountFragment",
-    "traceMsg" : "Include/ObservationMacros/Observation.Component.ObservedCountFragment.minc#56/nProfiles/Common/AssociatedFeature.mfsh#34/n"
+    "traceMsg" : "Include/ObservationMacros/1. Observation.Component.ObservedCountFragment.minc#56/nProfiles/Common/AssociatedFeature.mfsh#34/n"
   }
 },
 {

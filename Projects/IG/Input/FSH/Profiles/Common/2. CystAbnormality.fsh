@@ -93,7 +93,26 @@ Description: """
 * component[shape].value[x] 1..1
 * component[shape].value[x] only CodeableConcept
 * component[shape].value[x] from rde1576-shape
-  //$#apply Observation.Component.DensityFragment()
+
+  // Define Density Slice
+* component contains density 0..1
+* component[density] ^short = "Density component."
+* component[density] ^comment = """
+    This is one component of a group of components that are part of the observation.
+    """
+* component[density] ^definition = """
+    This slice contains the optional component that define the density of the abnormality.
+    The value of this component is a codeable concept chosen from the RDE1578 Density valueset.
+    """
+* component[density].code 1..1
+* component[density].code ^short = "Density component code."
+* component[density].code ^definition = """
+    This code identifies the Density component.
+    """
+* component[density].code = RadLexCDE#RDE1578
+* component[density].value[x] 0..1
+* component[density].value[x] only CodeableConcept
+* component[density].value[x] from rde1578-density
 
 
   // Define Margin Slice
@@ -135,7 +154,29 @@ Description: """
 * component[orientation].value[x] 1..1
 * component[orientation].value[x] only CodeableConcept
 * component[orientation].value[x] from rde1580-orientation
-  //$#apply Observation.Component.ObservedCountFragment()
+* component contains observedCount 0..1
+* component[observedCount] ^short = "Observed Count component. component."
+* component[observedCount] ^comment = """
+    This is one component of a group of components that are part of the observation.
+    """
+* component[observedCount] ^definition = """
+      This component slice contains the number of items observed.
+    This can be a quantity (i.e. 5), or a range (1 to 5).
+    
+    If the lower bound of the range is set but not the upper bound,
+    then it means {lower bound} or more.
+    
+    If the lower bound of the range is not set but the upper bound is,
+    then it means {upper bound} or less.
+    """
+* component[observedCount].code 1..1
+* component[observedCount].code ^short = "Observed Count component. component code."
+* component[observedCount].code ^definition = """
+    This code identifies the Observed Count component. component.
+    """
+* component[observedCount].code = RadLexCDE#RDE1567
+* component[observedCount].value[x] 1..1
+* component[observedCount].value[x] only Quantity or Range
   //$#apply Observation.Component.ObservedDistributionFragment()
   //$#apply Observation.Component.ObservedSizeFragment()
   //$#apply Observation.Component.NotPreviouslySeenFragment()

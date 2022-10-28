@@ -21,7 +21,7 @@
   #   If the lower bound of the range is not set but the upper bound is,
   #   then it means {upper bound} or less.
   #   """,
-  #   "ObservationComponentSliceCodesCS#obsCount")
+  #   "RadLexCDE#RDE1567")
   #
 * component[observedCount].value[x] 1..1
 * component[observedCount].value[x] only Quantity or Range
