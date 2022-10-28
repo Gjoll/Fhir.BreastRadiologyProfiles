@@ -226,6 +226,50 @@
   }
 },
 {
+  "defineFragment" : {
+    "fragmentName" : "ConsistentWithFragment",
+    "traceMsg" : "Include/ObservationMacros/Observation.HasMember.ConsistentWithFragment.minc#45/nProfiles/Common/2. CystAbnormality.mfsh#44/n"
+  }
+},
+{
+  "defineFragmentItem" : {
+    "fragmentName" : "ConsistentWithFragment",
+    "fragmentType" : "Observation.HasMember.Fragment",
+    "itemName" : "ConsistentWithFragment",
+    "path" : "consistentWith",
+    "traceMsg" : "Include/ObservationMacros/Observation.HasMember.ConsistentWithFragment.minc#45/nProfiles/Common/2. CystAbnormality.mfsh#44/n"
+  }
+},
+{
+  "implementFragment" : {
+    "className" : "CystAbnormality",
+    "fragmentName" : "ConsistentWithFragment",
+    "traceMsg" : "Include/ObservationMacros/Observation.HasMember.ConsistentWithFragment.minc#46/nProfiles/Common/2. CystAbnormality.mfsh#44/n"
+  }
+},
+{
+  "defineFragment" : {
+    "fragmentName" : "TumorSatelliteFragment",
+    "traceMsg" : "Include/ObservationMacros/Observation.HasMember.TumorSatelliteFragment.minc#45/nProfiles/Common/2. CystAbnormality.mfsh#45/n"
+  }
+},
+{
+  "defineFragmentItem" : {
+    "fragmentName" : "TumorSatelliteFragment",
+    "fragmentType" : "Observation.HasMember.Fragment",
+    "itemName" : "TumorSatelliteFragment",
+    "path" : "tumorSatellite",
+    "traceMsg" : "Include/ObservationMacros/Observation.HasMember.TumorSatelliteFragment.minc#45/nProfiles/Common/2. CystAbnormality.mfsh#45/n"
+  }
+},
+{
+  "implementFragment" : {
+    "className" : "CystAbnormality",
+    "fragmentName" : "TumorSatelliteFragment",
+    "traceMsg" : "Include/ObservationMacros/Observation.HasMember.TumorSatelliteFragment.minc#46/nProfiles/Common/2. CystAbnormality.mfsh#45/n"
+  }
+},
+{
   "defineClass" : {
     "className" : "CystAbnormality",
     "classType" : "DomainResource",

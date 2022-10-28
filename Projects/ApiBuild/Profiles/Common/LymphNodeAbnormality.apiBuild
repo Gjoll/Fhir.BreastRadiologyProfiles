@@ -97,21 +97,6 @@
   }
 },
 {
-  "defineFragment" : {
-    "fragmentName" : "TumorSatelliteFragment",
-    "traceMsg" : "Include/ObservationMacros/Observation.HasMember.TumorSatelliteFragment.minc#45/nProfiles/Common/LymphNodeAbnormality.mfsh#37/n"
-  }
-},
-{
-  "defineFragmentItem" : {
-    "fragmentName" : "TumorSatelliteFragment",
-    "fragmentType" : "Observation.HasMember.Fragment",
-    "itemName" : "TumorSatelliteFragment",
-    "path" : "tumorSatellite",
-    "traceMsg" : "Include/ObservationMacros/Observation.HasMember.TumorSatelliteFragment.minc#45/nProfiles/Common/LymphNodeAbnormality.mfsh#37/n"
-  }
-},
-{
   "implementFragment" : {
     "className" : "LymphNodeAbnormality",
     "fragmentName" : "TumorSatelliteFragment",

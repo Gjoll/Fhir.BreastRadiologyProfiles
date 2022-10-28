@@ -78,21 +78,6 @@
   }
 },
 {
-  "defineFragment" : {
-    "fragmentName" : "ConsistentWithFragment",
-    "traceMsg" : "Include/ObservationMacros/Observation.HasMember.ConsistentWithFragment.minc#45/nProfiles/Common/ArchitecturalDistortionAbnormality.mfsh#21/n"
-  }
-},
-{
-  "defineFragmentItem" : {
-    "fragmentName" : "ConsistentWithFragment",
-    "fragmentType" : "Observation.HasMember.Fragment",
-    "itemName" : "ConsistentWithFragment",
-    "path" : "consistentWith",
-    "traceMsg" : "Include/ObservationMacros/Observation.HasMember.ConsistentWithFragment.minc#45/nProfiles/Common/ArchitecturalDistortionAbnormality.mfsh#21/n"
-  }
-},
-{
   "implementFragment" : {
     "className" : "ArchitecturalDistortionAbnormality",
     "fragmentName" : "ConsistentWithFragment",

@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <?xml-stylesheet type="text/css" href="FocusGraph.css" ?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="1018.74" height="221.25">
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="1018.74" height="255">
 <defs>
 <marker id="arrowStart" markerWidth="3.75" markerHeight="3.75" markerUnits="px" refX="1.88" refY="1.88">
 <circle class="connector" cx="1.88" cy="1.88" r="1.88" />
@@ -12,6 +12,15 @@
 </defs>
 <g>
 <g transform="translate(3.75 3.75)">
+<a href="StructureDefinition-CystAbnormality.html" target="_top">
+<rect class="profile" x="0" y="0" width="45.79" height="26.25" rx="3.75" ry="3.75" />
+</a>
+<a href="StructureDefinition-CystAbnormality.html" target="_top">
+<title />
+<text x="5.62" y="18.75" text-anchor="left" class="profile">Cyst</text>
+</a>
+</g>
+<g transform="translate(3.75 37.5)">
 <a href="StructureDefinition-LymphNodeAbnormality.html" target="_top">
 <rect class="profile" x="0" y="0" width="106.26" height="26.25" rx="3.75" ry="3.75" />
 </a>
@@ -20,7 +29,7 @@
 <text x="5.62" y="18.75" text-anchor="left" class="profile">Lymph Node</text>
 </a>
 </g>
-<g transform="translate(3.75 37.5)">
+<g transform="translate(3.75 71.25)">
 <a href="StructureDefinition-MassAbnormality.html" target="_top">
 <rect class="profile" x="0" y="0" width="52.21" height="26.25" rx="3.75" ry="3.75" />
 </a>
@@ -29,7 +38,7 @@
 <text x="5.62" y="18.75" text-anchor="left" class="profile">Mass</text>
 </a>
 </g>
-<g transform="translate(3.75 71.25)">
+<g transform="translate(3.75 105)">
 <a href="StructureDefinition-SkinLesionAbnormality.html" target="_top">
 <rect class="profile" x="0" y="0" width="98.04" height="26.25" rx="3.75" ry="3.75" />
 </a>
@@ -40,10 +49,11 @@
 </g>
 <line class="connector" marker-end="url(#arrowEnd)" x1="140.01" y1="16.88" x2="200.01" y2="16.88" />
 <text x="143.76" y="13.12" text-anchor="right" class="lhsText">0..1</text>
-<line class="connector" marker-start="url(#arrowStart)" x1="110.01" y1="16.88" x2="140.01" y2="16.88" />
-<line class="connector" marker-start="url(#arrowStart)" x1="55.96" y1="50.62" x2="140.01" y2="50.62" />
-<line class="connector" marker-start="url(#arrowStart)" x1="101.79" y1="84.38" x2="140.01" y2="84.38" />
-<line class="connector" x1="140.01" y1="16.88" x2="140.01" y2="84.38" />
+<line class="connector" marker-start="url(#arrowStart)" x1="49.54" y1="16.88" x2="140.01" y2="16.88" />
+<line class="connector" marker-start="url(#arrowStart)" x1="110.01" y1="50.62" x2="140.01" y2="50.62" />
+<line class="connector" marker-start="url(#arrowStart)" x1="55.96" y1="84.38" x2="140.01" y2="84.38" />
+<line class="connector" marker-start="url(#arrowStart)" x1="101.79" y1="118.12" x2="140.01" y2="118.12" />
+<line class="connector" x1="140.01" y1="16.88" x2="140.01" y2="118.12" />
 </g>
 <g>
 <g transform="translate(200.01 3.75)">
@@ -128,7 +138,7 @@
 </g>
 </g>
 <g>
-<g transform="translate(3.75 180)">
+<g transform="translate(3.75 213.75)">
 <a target="_top">
 <rect class="focus" x="0" y="0" width="57.72" height="26.25" rx="3.75" ry="3.75" />
 </a>
@@ -137,7 +147,7 @@
 <text x="5.62" y="18.75" text-anchor="left" class="focus">Focus</text>
 </a>
 </g>
-<g transform="translate(68.97 180)">
+<g transform="translate(68.97 213.75)">
 <a target="_top">
 <rect class="profile" x="0" y="0" width="143.81" height="26.25" rx="3.75" ry="3.75" />
 </a>
@@ -146,7 +156,7 @@
 <text x="5.62" y="18.75" text-anchor="left" class="profile">Profiled Resource</text>
 </a>
 </g>
-<g transform="translate(220.28 180)">
+<g transform="translate(220.28 213.75)">
 <a target="_top">
 <rect class="fhir" x="0" y="0" width="125.5" height="26.25" rx="3.75" ry="3.75" />
 </a>
@@ -155,7 +165,7 @@
 <text x="5.62" y="18.75" text-anchor="left" class="fhir">Base Resource</text>
 </a>
 </g>
-<g transform="translate(353.27 180)">
+<g transform="translate(353.27 213.75)">
 <a target="_top">
 <rect class="element" x="0" y="0" width="148.39" height="26.25" rx="3.75" ry="3.75" />
 </a>
@@ -164,7 +174,7 @@
 <text x="5.62" y="18.75" text-anchor="left" class="element">Resource Element</text>
 </a>
 </g>
-<g transform="translate(509.16 180)">
+<g transform="translate(509.16 213.75)">
 <a target="_top">
 <rect class="value" x="0" y="0" width="54.98" height="26.25" rx="3.75" ry="3.75" />
 </a>

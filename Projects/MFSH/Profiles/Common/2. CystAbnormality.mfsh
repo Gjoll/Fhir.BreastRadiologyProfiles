@@ -41,8 +41,8 @@ Description: """
   #apply Observation.Component.PreviouslyDemonstratedByFragment()
 
   #apply Observation.HasMember.AssociatedFeatureFragment()
-  //$#apply Observation.HasMember.ConsistentWithFragment()
-  //$#apply Observation.HasMember.TumorSatelliteFragment()
+  #apply Observation.HasMember.ConsistentWithFragment()
+  #apply Observation.HasMember.TumorSatelliteFragment()
 
 
 
