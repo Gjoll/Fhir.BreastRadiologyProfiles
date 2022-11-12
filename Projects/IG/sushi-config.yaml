@@ -146,7 +146,6 @@ groups:
       - CodeSystem/AsymmetryAbnormalityTypeCS   # ^CodeSystem/AsymmetryAbnormalityTypeCS$
       - CodeSystem/BreastBodyLocationDepthCS   # ^CodeSystem/BreastBodyLocationDepthCS$
       - CodeSystem/BreastBodyLocationRegionCS   # ^CodeSystem/BreastBodyLocationRegionCS$
-      - CodeSystem/BreastCompositionCS   # ^CodeSystem/BreastCompositionCS$
       - CodeSystem/CalcificationTypeCS   # ^CodeSystem/CalcificationTypeCS$
       - CodeSystem/ObservationComponentSliceCodesCS   # ^CodeSystem/ObservationComponentSliceCodesCS$
       - CodeSystem/CompositionSectionSliceCodesCS   # ^CodeSystem/CompositionSectionSliceCodesCS$
@@ -170,7 +169,6 @@ groups:
       - ValueSet/AsymmetryAbnormalityTypeVS   # ^ValueSet/AsymmetryAbnormalityTypeVS$
       - ValueSet/BreastBodyLocationDepthVS   # ^ValueSet/BreastBodyLocationDepthVS$
       - ValueSet/BreastBodyLocationRegionVS   # ^ValueSet/BreastBodyLocationRegionVS$
-      - ValueSet/BreastCompositionVS   # ^ValueSet/BreastCompositionVS$
       - ValueSet/BreastImagingReportTypesVS   # ^ValueSet/BreastImagingReportTypesVS$
       - ValueSet/BreastLateralityVS   # ^ValueSet/BreastLateralityVS$
       - ValueSet/BreastQuadrantVS   # ^ValueSet/BreastQuadrantVS$

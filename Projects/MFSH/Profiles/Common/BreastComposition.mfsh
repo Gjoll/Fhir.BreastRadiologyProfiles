@@ -5,8 +5,8 @@ Description: """
     Breast Composition
     """
 
-  #apply Resource.Fix("1", "code", "ObservationCodesCS#breastCompositionObservation", "Code")
-  #apply Resource.Bind("1", "1..1", "value[x]", "BreastCompositionVS", "Value")
+  #apply Resource.Fix("1", "code", "RadLexCDE#RDE1587", "Code")
+  #apply Resource.Bind("1", "1..1", "value[x]", "rde1587-breast-composition-category", "Value")
 * value[x] only CodeableConcept
 
   #apply Observation.LeafFragment()
