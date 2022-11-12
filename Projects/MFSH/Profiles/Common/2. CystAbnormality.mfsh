@@ -5,7 +5,7 @@ Description: """
   Cyst abnormality observation.
   """
 
-  #apply Resource.Fix("1", "code", "RadLexCDE#RDE1575", "Code")
+  #apply Resource.Fix("1", "code", "RadLexCDE#RDES243", "Code")
 
   #apply Observation.Component.Add("cystPresence", "1..1", "Cyst Presence", "Cyst Presence",
   #  """

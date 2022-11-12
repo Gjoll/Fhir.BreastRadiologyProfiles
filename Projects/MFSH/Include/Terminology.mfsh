@@ -16,12 +16,14 @@ ACR common ruleset.
 RuleSet: ACRValueSetCommon
 * ^experimental = true
 * ^copyright = """
-	ACR Copyright here.
-    """
+    This value set includes content from ACR RadElement, 
+    which is Copyright© 2022, Radiological Society of North America. ALL RIGHTS RESERVED. 
+	"""
 
 RuleSet: ACRCodeSystemCommon
 * ^experimental = true
 * ^caseSensitive = false
 * ^copyright = """
-	ACR Copyright here.
-    """
+    This value set includes content from ACR RadElement, 
+    which is Copyright© 2022, Radiological Society of North America. ALL RIGHTS RESERVED. 
+	"""

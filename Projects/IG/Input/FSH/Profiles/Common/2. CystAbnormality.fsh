@@ -4,7 +4,7 @@ Title: "Cyst Abnormality"
 Description: """
   Cyst abnormality observation.
   """
-* code = RadLexCDE#RDE1575
+* code = RadLexCDE#RDES243
 * code 1..1
 * component ^slicing.discriminator.type = #pattern
 * component ^slicing.discriminator.path = "code"
