@@ -1,0 +1,51 @@
+{
+  "defineFragment" : {
+    "fragmentName" : "BreastBodyLocationRequiredFragment",
+    "traceMsg" : "Include/ObservationMacros/Observation.BreastBodyLocationRequiredFragment.minc#50/nProfiles/Common/2. AssociatedFeature.mfsh#32/n"
+  }
+},
+{
+  "defineFragmentItem" : {
+    "fragmentName" : "BreastBodyLocationRequiredFragment",
+    "fragmentType" : "Custom",
+    "itemName" : "BreastBodyLocationRequiredFragment",
+    "path" : "",
+    "traceMsg" : "Include/ObservationMacros/Observation.BreastBodyLocationRequiredFragment.minc#50/nProfiles/Common/2. AssociatedFeature.mfsh#32/n"
+  }
+},
+{
+  "implementFragment" : {
+    "className" : "AssociatedFeature",
+    "fragmentName" : "BreastBodyLocationRequiredFragment",
+    "traceMsg" : "Include/ObservationMacros/Observation.BreastBodyLocationRequiredFragment.minc#51/nProfiles/Common/2. AssociatedFeature.mfsh#32/n"
+  }
+},
+{
+  "defineFragment" : {
+    "fragmentName" : "ObservedCountFragment",
+    "traceMsg" : "Include/ObservationMacros/1. Observation.Component.ObservedCountFragment.minc#55/nProfiles/Common/2. AssociatedFeature.mfsh#34/n"
+  }
+},
+{
+  "defineFragmentItem" : {
+    "fragmentName" : "ObservedCountFragment",
+    "fragmentType" : "Observation.Components.Fragment",
+    "itemName" : "ObservedCountFragment",
+    "path" : "component:observedCount",
+    "traceMsg" : "Include/ObservationMacros/1. Observation.Component.ObservedCountFragment.minc#55/nProfiles/Common/2. AssociatedFeature.mfsh#34/n"
+  }
+},
+{
+  "implementFragment" : {
+    "className" : "AssociatedFeature",
+    "fragmentName" : "ObservedCountFragment",
+    "traceMsg" : "Include/ObservationMacros/1. Observation.Component.ObservedCountFragment.minc#56/nProfiles/Common/2. AssociatedFeature.mfsh#34/n"
+  }
+},
+{
+  "defineClass" : {
+    "className" : "AssociatedFeature",
+    "classType" : "DomainResource",
+    "traceMsg" : "Profiles/Common/2. AssociatedFeature.mfsh#67/n"
+  }
+},

@@ -74,11 +74,6 @@ Description: "Observation Codes code system"
     Observation.code to identify an BreastComposition observation.
     """
 
-* #breastAssessmentCategoryObservation "Breast assessment category observation"
-    """
-    Observation.code to identify an BreastAssessmentCategory observation.
-    """
-
 * #findingsLeftBreastObservation "Findings Left Breast observation"
     """
     Observation.code to identify a SectionFindingsLeftBreast observation.

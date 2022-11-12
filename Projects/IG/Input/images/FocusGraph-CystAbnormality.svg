@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <?xml-stylesheet type="text/css" href="FocusGraph.css" ?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="1068.89" height="746.25">
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="1068.89" height="780">
 <defs>
 <marker id="arrowStart" markerWidth="3.75" markerHeight="3.75" markerUnits="px" refX="1.88" refY="1.88">
 <circle class="connector" cx="1.88" cy="1.88" r="1.88" />
@@ -445,16 +445,29 @@
 </a>
 </g>
 <line class="connector" marker-end="url(#arrowEnd)" x1="464.71" y1="541.88" x2="524.71" y2="541.88" />
-<text x="468.46" y="538.12" text-anchor="right" class="lhsText">0..*</text>
+<text x="468.46" y="538.12" text-anchor="right" class="lhsText">0..1</text>
 <line class="connector" marker-end="url(#arrowEnd)" x1="464.71" y1="575.62" x2="524.71" y2="575.62" />
 <text x="468.46" y="571.88" text-anchor="right" class="lhsText">0..*</text>
 <line class="connector" marker-end="url(#arrowEnd)" x1="464.71" y1="609.38" x2="524.71" y2="609.38" />
-<text x="468.46" y="605.62" text-anchor="right" class="lhsText">0..1</text>
+<text x="468.46" y="605.62" text-anchor="right" class="lhsText">0..*</text>
+<line class="connector" marker-end="url(#arrowEnd)" x1="464.71" y1="643.12" x2="524.71" y2="643.12" />
+<text x="468.46" y="639.38" text-anchor="right" class="lhsText">0..1</text>
 <line class="connector" marker-start="url(#arrowStart)" x1="434.71" y1="541.88" x2="464.71" y2="541.88" />
-<line class="connector" x1="464.71" y1="541.88" x2="464.71" y2="609.38" />
+<line class="connector" x1="464.71" y1="541.88" x2="464.71" y2="643.12" />
 </g>
 <g>
 <g transform="translate(524.71 528.75)">
+<a href="StructureDefinition-BreastAssessmentCategory.html" target="_top">
+<rect class="profile" x="0" y="0" width="226.23" height="26.25" rx="3.75" ry="3.75" />
+</a>
+<a href="StructureDefinition-BreastAssessmentCategory.html" target="_top">
+<title />
+<text x="5.62" y="18.75" text-anchor="left" class="profile">Breast Assessment Category</text>
+</a>
+</g>
+</g>
+<g>
+<g transform="translate(524.71 562.5)">
 <a href="StructureDefinition-AssociatedFeature.html" target="_top">
 <rect class="profile" x="0" y="0" width="154.82" height="26.25" rx="3.75" ry="3.75" />
 </a>
@@ -465,7 +478,7 @@
 </g>
 </g>
 <g>
-<g transform="translate(524.71 562.5)">
+<g transform="translate(524.71 596.25)">
 <a href="StructureDefinition-ConsistentWith.html" target="_top">
 <rect class="profile" x="0" y="0" width="128.23" height="26.25" rx="3.75" ry="3.75" />
 </a>
@@ -476,7 +489,7 @@
 </g>
 </g>
 <g>
-<g transform="translate(524.71 596.25)">
+<g transform="translate(524.71 630)">
 <a href="StructureDefinition-TumorSatellite.html" target="_top">
 <rect class="profile" x="0" y="0" width="123.65" height="26.25" rx="3.75" ry="3.75" />
 </a>
@@ -487,7 +500,7 @@
 </g>
 </g>
 <g>
-<g transform="translate(3.75 705)">
+<g transform="translate(3.75 738.75)">
 <a target="_top">
 <rect class="focus" x="0" y="0" width="57.72" height="26.25" rx="3.75" ry="3.75" />
 </a>
@@ -496,7 +509,7 @@
 <text x="5.62" y="18.75" text-anchor="left" class="focus">Focus</text>
 </a>
 </g>
-<g transform="translate(68.97 705)">
+<g transform="translate(68.97 738.75)">
 <a target="_top">
 <rect class="profile" x="0" y="0" width="143.81" height="26.25" rx="3.75" ry="3.75" />
 </a>
@@ -505,7 +518,7 @@
 <text x="5.62" y="18.75" text-anchor="left" class="profile">Profiled Resource</text>
 </a>
 </g>
-<g transform="translate(220.28 705)">
+<g transform="translate(220.28 738.75)">
 <a target="_top">
 <rect class="element" x="0" y="0" width="148.39" height="26.25" rx="3.75" ry="3.75" />
 </a>
@@ -514,7 +527,7 @@
 <text x="5.62" y="18.75" text-anchor="left" class="element">Resource Element</text>
 </a>
 </g>
-<g transform="translate(376.16 705)">
+<g transform="translate(376.16 738.75)">
 <a target="_top">
 <rect class="valueSet" x="0" y="0" width="79.72" height="26.25" rx="3.75" ry="3.75" />
 </a>
@@ -523,7 +536,7 @@
 <text x="5.62" y="18.75" text-anchor="left" class="valueSet">ValueSet</text>
 </a>
 </g>
-<g transform="translate(463.38 705)">
+<g transform="translate(463.38 738.75)">
 <a target="_top">
 <rect class="value" x="0" y="0" width="54.98" height="26.25" rx="3.75" ry="3.75" />
 </a>

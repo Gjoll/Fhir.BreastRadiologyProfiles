@@ -22,6 +22,28 @@
 },
 {
   "defineFragment" : {
+    "fragmentName" : "BiRadAssessmentCategoryFragment",
+    "traceMsg" : "Include/ObservationMacros/Observation.HasMember.BiRadAssessmentCategoryFragment.minc#44/nProfiles/Common/2. CystAbnormality.mfsh#31/n"
+  }
+},
+{
+  "defineFragmentItem" : {
+    "fragmentName" : "BiRadAssessmentCategoryFragment",
+    "fragmentType" : "Observation.HasMember.Fragment",
+    "itemName" : "BiRadAssessmentCategoryFragment",
+    "path" : "biRadAssessmentCategory",
+    "traceMsg" : "Include/ObservationMacros/Observation.HasMember.BiRadAssessmentCategoryFragment.minc#44/nProfiles/Common/2. CystAbnormality.mfsh#31/n"
+  }
+},
+{
+  "implementFragment" : {
+    "className" : "CystAbnormality",
+    "fragmentName" : "BiRadAssessmentCategoryFragment",
+    "traceMsg" : "Include/ObservationMacros/Observation.HasMember.BiRadAssessmentCategoryFragment.minc#45/nProfiles/Common/2. CystAbnormality.mfsh#31/n"
+  }
+},
+{
+  "defineFragment" : {
     "fragmentName" : "ShapeFragment",
     "traceMsg" : "Include/ObservationMacros/1. Observation.Component.ShapeFragment.minc#52/nProfiles/Common/2. CystAbnormality.mfsh#32/n"
   }

@@ -13,21 +13,6 @@
   }
 },
 {
-  "defineFragment" : {
-    "fragmentName" : "BiRadAssessmentCategoryFragment",
-    "traceMsg" : "Include/ObservationMacros/Observation.HasMember.BiRadAssessmentCategoryFragment.minc#44/nProfiles/Common/ArchitecturalDistortionAbnormality.mfsh#15/n"
-  }
-},
-{
-  "defineFragmentItem" : {
-    "fragmentName" : "BiRadAssessmentCategoryFragment",
-    "fragmentType" : "Observation.HasMember.Fragment",
-    "itemName" : "BiRadAssessmentCategoryFragment",
-    "path" : "biRadAssessmentCategory",
-    "traceMsg" : "Include/ObservationMacros/Observation.HasMember.BiRadAssessmentCategoryFragment.minc#44/nProfiles/Common/ArchitecturalDistortionAbnormality.mfsh#15/n"
-  }
-},
-{
   "implementFragment" : {
     "className" : "ArchitecturalDistortionAbnormality",
     "fragmentName" : "BiRadAssessmentCategoryFragment",
