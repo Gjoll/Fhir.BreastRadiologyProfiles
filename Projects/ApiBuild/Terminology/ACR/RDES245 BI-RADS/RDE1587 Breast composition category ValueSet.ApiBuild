@@ -1,0 +1,6 @@
+{
+  "defineValueSet" : {
+    "valueSetName" : "rde1587-breast-composition-category",
+    "traceMsg" : "Terminology/ACR/RDES245 BI-RADS/RDE1587 Breast composition category ValueSet.mfsh#25/n"
+  }
+},

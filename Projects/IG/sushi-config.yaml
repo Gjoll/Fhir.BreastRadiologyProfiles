@@ -209,6 +209,11 @@ groups:
       - ValueSet/rde1578-density   # ^ValueSet/rde1578-density$
       - ValueSet/rde1579-margin   # ^ValueSet/rde1579-margin$
       - ValueSet/rde1580-orientation   # ^ValueSet/rde1580-orientation$
+      - ValueSet/rde1586-assessment-category   # ^ValueSet/rde1586-assessment-category$
+      - ValueSet/rde1587-breast-composition-category   # ^ValueSet/rde1587-breast-composition-category$
+      - ValueSet/rde1588-breast-laterality   # ^ValueSet/rde1588-breast-laterality$
+      - ValueSet/rde1589-implants   # ^ValueSet/rde1589-implants$
+      - ValueSet/rde1590-mastectomy   # ^ValueSet/rde1590-mastectomy$
       - ValueSet/ServiceRecommendationsVS   # ^ValueSet/ServiceRecommendationsVS$
       - ValueSet/ShapeVS   # ^ValueSet/ShapeVS$
 #ISBuilderGroups End
